@@ -23,7 +23,6 @@ function validate(p) {
   if (!p.name || p.name.length > LIMITS.name) return "Please enter your name.";
   if (!p.phone || p.phone.length > LIMITS.phone || !/\d{7,}/.test(p.phone.replace(/\D/g, ""))) return "Please enter a phone number we can reach you at.";
   if (!p.email || p.email.length > LIMITS.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(p.email)) return "Please enter a valid email address.";
-  if (!p.consent) return "Please check the consent box so we can contact you.";
   for (const k of Object.keys(LIMITS)) if ((p[k] || "").length > LIMITS[k]) return "One of the fields is too long.";
   return null;
 }
@@ -66,7 +65,7 @@ export async function onRequestPost(context) {
   const ts = await verifyTurnstile(field(form, "cf-turnstile-response"), env.TURNSTILE_SECRET_KEY, ip);
   if (!ts.ok) return text("We could not verify that you are human. Please reload the page and try again.", 403);
 
-  const payload = { hub_id: HUB_ID, consent: field(form, "consent") === "yes" };
+  const payload = { hub_id: HUB_ID };
   for (const k of Object.keys(LIMITS)) payload[k] = field(form, k);
   const err = validate(payload);
   if (err) return text(err, 400);

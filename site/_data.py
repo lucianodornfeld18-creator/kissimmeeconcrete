@@ -39,11 +39,6 @@ BUSINESS = {
         "the Polk County ridge from Davenport to Lake Wales. Insured, free on-site estimates, written "
         "workmanship warranty."
     ),
-    "consent": (
-        "By sending this form you agree that Kissimmee Concrete may contact you by phone, text or "
-        "email about your project. Standard message rates may apply; reply STOP to end texts. We do "
-        "not sell your information."
-    ),
     "service_area_short": "Kissimmee, St. Cloud, Celebration, Poinciana, Buenaventura Lakes, Harmony, Four Corners, ChampionsGate, Reunion, Davenport, Haines City and the Polk County ridge (about 40 miles around Kissimmee)",
     "hours": "Mon–Fri 7:30 a.m.–6 p.m., Sat 8 a.m.–1 p.m.",
 }

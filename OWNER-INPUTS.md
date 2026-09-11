@@ -13,6 +13,8 @@ Atualizado em 2026-09-11. Tudo abaixo bloqueia **publicação** ou **precisão**
 | `{{FICTITIOUS_NAME_STATUS}}` | **pendente** | "Kissimmee Concrete" registrado como nome fictício (DBA) na Sunbiz? **Recomendo registrar.** Sem DBA o nome público não pode se apresentar como empresa, e existe um concorrente usando "Kissimmee Concrete" como nome de exibição em `kissimmeeconcrete.net`. O DBA também protege o nome. |
 | `{{INSURANCE_PROOF}}` | **pendente** | Seguradora, nº de apólice, limites e vigência. O site diz "Insured" em vários lugares; preciso da COI para manter a palavra. Se não houver apólice ativa, removo a palavra do site inteiro em uma rodada. |
 
+> Nota (2026-09-11): a pedido seu, a caixa de consentimento do formulário foi removida. O site não registra mais autorização escrita para ligar ou mandar SMS, o que enfraquece a defesa sob o TCPA se alguém reclamar. Uma linha curta do tipo "Ao enviar, você concorda em ser contatado sobre este orçamento" restauraria a proteção sem o parágrafo longo; é só pedir.
+
 > Nota (2026-09-11): a pedido seu, toda a explicação sobre licenciamento na Flórida foi removida do site. Ele apenas não exibe número de licença, sem justificar o motivo. O guia de verificação de contratante agora trata de seguro, Sunbiz, referências, contrato e especificação.
 
 Sunbiz respondeu 403 às consultas automatizadas nesta sessão; a verificação tem de ser manual em `search.sunbiz.org`.

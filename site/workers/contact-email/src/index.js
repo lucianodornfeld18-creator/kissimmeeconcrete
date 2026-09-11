@@ -27,7 +27,7 @@ export default {
       `\nProject notes:\n${p.message || "(none)"}\n\n` +
       `--- attribution ---\n` + line("Page", p.page_url) + line("Referrer", p.referrer) + line("utm_source", p.utm_source) + line("utm_medium", p.utm_medium) +
       line("utm_campaign", p.utm_campaign) + line("utm_term", p.utm_term) + line("utm_content", p.utm_content) + line("gclid", p.gclid) +
-      line("Consent to call/text/email", p.consent ? "yes" : "no") + line("Submitted (client)", p.client_ts) + line("Submitted (server)", p.server_ts) + line("Country", p.country);
+      line("Submitted (client)", p.client_ts) + line("Submitted (server)", p.server_ts) + line("Country", p.country);
 
     const msg = createMimeMessage();
     msg.setSender({ name: FROM_NAME, addr: FROM });

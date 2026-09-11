@@ -149,7 +149,6 @@ def lead_form(heading="Request a free on-site estimate", city_default=None, serv
   <div class="field"><label for="f-msg">Project notes (size, current surface, HOA, anything else)</label><textarea id="f-msg" name="message" maxlength="3000"></textarea></div>
   <div class="hp" aria-hidden="true"><label for="f-company">Company</label><input id="f-company" type="text" name="company" tabindex="-1" autocomplete="off"></div>
   {hidden}
-  <p class="consent"><label style="font-weight:400"><input type="checkbox" name="consent" value="yes" required> {esc(BUSINESS["consent"])} See our <a href="/privacy/">privacy policy</a>.</label></p>
   {turnstile}
   <button class="btn btn-primary" type="submit">Send my request</button>
   <p class="note" style="margin:10px 0 0">We reply during business hours, {esc(BUSINESS["hours"])}. Estimates are free and in writing.</p>

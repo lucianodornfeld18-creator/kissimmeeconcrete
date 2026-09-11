@@ -69,7 +69,7 @@ Pages: 154 · hard failures: 0
 | /concrete/slabs/ | 1571 | none | none |
 | /concrete/slabs/st-cloud/ | 1402 | none | none |
 | /concrete/stamped/ | 1569 | none | none |
-| /contact/ | 707 | none | none |
+| /contact/ | 666 | none | none |
 | /data-and-methods/ | 810 | none | none |
 | /editorial-standards/ | 753 | none | fact density 0.80 per 150 words (target >= 1) |
 | /faq/concrete/ | 1123 | none | none |
@@ -99,7 +99,7 @@ Pages: 154 · hard failures: 0
 | /hoa/poinciana-apv/ | 903 | none | none |
 | /hoa/solivita/ | 826 | none | none |
 | /hoa/solterra/ | 964 | none | none |
-| / | 3392 | none | none |
+| / | 3351 | none | none |
 | /pavers/artificial-turf/ | 1416 | none | none |
 | /pavers/driveways/buenaventura-lakes/ | 1247 | none | none |
 | /pavers/driveways/celebration/ | 1407 | none | none |
@@ -146,7 +146,7 @@ Pages: 154 · hard failures: 0
 | /pricing/ | 1713 | none | none |
 | /pricing/kissimmee-concrete-cost-index/ | 1883 | none | none |
 | /pricing/pavers/ | 1816 | none | none |
-| /privacy/ | 529 | none | fact density 0.00 per 150 words (target >= 1) |
+| /privacy/ | 522 | none | fact density 0.00 per 150 words (target >= 1) |
 | /terms/ | 477 | none | fact density 0.00 per 150 words (target >= 1) |
 | /thank-you/ | 120 | none | none |
 | /tools/ask-the-estimator/ | 737 | none | none |

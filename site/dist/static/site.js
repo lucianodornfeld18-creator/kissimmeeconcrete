@@ -41,8 +41,6 @@
     } catch (e) {}
     f.addEventListener("focusin", function () { if (!started) { started = true; track("form_start", { page: location.pathname }); } });
     f.addEventListener("submit", function (e) {
-      var consent = f.querySelector('[name="consent"]');
-      if (consent && !consent.checked) { e.preventDefault(); alert("Please check the consent box so we can contact you about your estimate."); consent.focus(); track("form_error", { reason: "consent" }); return; }
       var file = f.querySelector('input[type="file"]');
       if (file && file.files && file.files[0] && file.files[0].size > 6 * 1024 * 1024) { e.preventDefault(); alert("Please attach a photo under 6 MB."); track("form_error", { reason: "file_size" }); return; }
       track("form_submit", { page: location.pathname, service: (f.querySelector('[name="service"]') || {}).value || "", city: (f.querySelector('[name="city"]') || {}).value || "" });
