@@ -188,7 +188,7 @@ GUIDES = {
     "rust-stains-irrigation-well-water": {"name": "Rust Stains From Well-Water Irrigation: Identify, Remove, Prevent", "route": "/guides/rust-stains-irrigation-well-water/"},
     "driveway-widening-rules-osceola": {"name": "Driveway Widening Rules: Osceola County, Kissimmee and St. Cloud", "route": "/guides/driveway-widening-rules-osceola/"},
     "rainy-season-concrete-scheduling": {"name": "Pouring Concrete in the Rainy Season: How We Schedule Around Afternoon Storms", "route": "/guides/rainy-season-concrete-scheduling/"},
-    "how-to-verify-a-concrete-contractor-florida": {"name": "How to Verify a Concrete or Paver Contractor in Florida When There Is No License to Check", "route": "/guides/how-to-verify-a-concrete-contractor-florida/"},
+    "how-to-verify-a-concrete-contractor-florida": {"name": "How to Check a Concrete or Paver Contractor Before You Sign", "route": "/guides/how-to-verify-a-concrete-contractor-florida/"},
     "vacation-rental-owner-hardscape-guide": {"name": "Pool Decks and Driveways for Vacation Rental Owners in Four Corners, ChampionsGate and Reunion", "route": "/guides/vacation-rental-owner-hardscape-guide/"},
     "tree-roots-driveways-central-florida": {"name": "Live Oak Roots and Driveways: What Lifts a Slab and What to Do", "route": "/guides/tree-roots-driveways-central-florida/"},
     "paver-base-flatwoods-vs-ridge": {"name": "Paver Base on Flatwoods Sand vs. Ridge Sand: Osceola and Polk Are Not the Same", "route": "/guides/paver-base-flatwoods-vs-ridge/"},
@@ -246,7 +246,6 @@ COST_INDEX = [
 ]
 
 SOURCES = {
-    "fs489117": ("Florida Statutes s. 489.117(4)(a)", "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499/0489/Sections/0489.117.html"),
     "osceola-22-50-6": ("Osceola County Code of Ordinances §22-50.6", "https://library.municode.com/fl/osceola_county/codes/code_of_ordinances"),
     "osceola-faq": ("Osceola County Building Office Frequent Questions", "https://www.osceola.org/Doing-Business/Building-and-Permits/Permit-Information/Building-Office-Frequent-Questions"),
     "osceola-permits": ("Osceola County Permit Center", "https://permits.osceola.org/"),

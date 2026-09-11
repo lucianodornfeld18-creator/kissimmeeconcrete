@@ -12,7 +12,7 @@ def page(key, title, desc, body, faqs, sources, h1=None):
 
 
 def index():
-    body = sec("Guides written for Osceola County and the Polk ridge", cap("Fourteen guides on the questions that come up on estimates here: why slabs crack on this sand, rust from well water, driveway widening rules, pouring in the rainy season, verifying a contractor when there is no license to check, vacation-rental scheduling, oak roots, ridge sand versus flatwoods sand, the 1980s Buenaventura Lakes driveways, septic drainfields, polymeric sand, curing in heat, pool-deck surface temperatures and the new $7,500 permit exemption."), eyebrow="Guides")
+    body = sec("Guides written for Osceola County and the Polk ridge", cap("Fourteen guides on the questions that come up on estimates here: why slabs crack on this sand, rust from well water, driveway widening rules, pouring in the rainy season, checking a contractor before you sign, vacation-rental scheduling, oak roots, ridge sand versus flatwoods sand, the 1980s Buenaventura Lakes driveways, septic drainfields, polymeric sand, curing in heat, pool-deck surface temperatures and the new $7,500 permit exemption."), eyebrow="Guides")
     body += sec("All guides", cards([(GUIDES[k]["name"], "", GUIDES[k]["route"], "Read the guide") for k in GUIDE_ORDER], cols=2))
     return {"route": "/guides/", "title": "Concrete & Paver Guides for Kissimmee and Osceola County", "meta_description": "Local guides on cracking, rust stains, driveway widening rules, rainy-season scheduling, contractor verification, vacation rentals, oak roots, ridge vs. flatwoods sand, BVL driveways, septic, polymeric sand, curing, deck heat and HB 803.", "h1": "Guides", "breadcrumbs": [("Home", "/"), ("Guides", None)], "body_html": body, "kind": "page", "nav_active": "/guides/", "no_cta": True}
 
@@ -214,31 +214,34 @@ def rainy():
 
 
 def verify():
-    body = sec("There is no license to check. Here is what to check instead.",
-        cap("Florida issues no state contractor license for concrete flatwork, pavers or stucco; those trades are not among the categories in s. 489.105, and s. 489.117(4)(a) lists 'driveway or tennis court installation', 'decorative stone, tile, marble, granite, or terrazzo installation' and 'stuccoing' among job scopes for which a local government may not require a license, a preemption that took full effect July 1, 2023. So 'licensed' on a driveway contractor's truck either refers to a license for other work or means nothing. Check five things that do exist: insurance, the legal entity, references, the written contract, and the spec."),
+    body = sec("What to check before you sign",
+        cap("Five things settle whether a contractor is worth hiring for flatwork or pavers, and all five can be checked in an afternoon: the insurance certificate, the legal entity behind the name, two or three finished jobs you can drive past, the written contract, and whether the specification matches the load the surface will carry. A quote that is cheap because it leaves out base, steel or drainage is the one that comes back."),
         eyebrow="Guide")
     body += sec("The five checks", steps([
-        "<strong>Insurance certificate.</strong> Ask for a certificate of insurance showing general liability and workers' compensation (or a valid exemption), with the agent's contact. Call the agent to confirm it is current. HOAs like Solterra can require the certificate to name the association.",
-        "<strong>Legal entity.</strong> Ask for the exact business name and check it on Sunbiz (search.sunbiz.org): active status, filing date, principal address, registered agent. A fictitious name (DBA) should be registered too. If the name on the contract, the truck and Sunbiz do not match, ask why.",
-        "<strong>References and addresses.</strong> Two or three jobs of the same type from the last two years, with addresses you can drive past. Look at the apron seam, the joints and the edges, not the middle of the slab.",
-        "<strong>The written contract.</strong> Scope, thickness, PSI, reinforcement and how it is held, base depth and compaction, joint layout, drainage, what happens to the old surface, permit and HOA responsibility, exclusions, schedule, payment terms, and the workmanship warranty in words. Full payment up front is a red flag; a deposit for materials and permits is normal.",
-        "<strong>The spec against the load.</strong> Four inches with fiber and edge steel for cars; six with a grid for boats and RVs; 6 inches of base under pavers; a concrete apron at the street. A quote that says 'four inches with mesh' and nothing about base is describing a different job.",
+        "<strong>Insurance certificate.</strong> Ask for a certificate of insurance showing general liability and workers' compensation or a valid exemption, with the agent's contact on it. Call the agent and confirm it is in force for the dates of your job. Several associations, Solterra among them, can require the certificate to name the association.",
+        "<strong>Legal entity.</strong> Ask for the exact business name and check it on Sunbiz at search.sunbiz.org: active status, filing date, principal address, registered agent. A fictitious name should be registered too. If the name on the contract, the truck and Sunbiz do not match, ask why before you sign anything.",
+        "<strong>References and addresses.</strong> Two or three jobs of the same type finished more than two years ago, with addresses you can drive past. New work always looks good. Look at the apron seam, the joints and the edges rather than the middle of the slab, because that is where age shows first.",
+        "<strong>The written contract.</strong> Scope, thickness, mix strength, reinforcement and how it is held in position, base depth and compaction, joint layout, drainage, what happens to the old surface, permit and association responsibility, exclusions, schedule, payment terms, and the workmanship warranty in words. Full payment up front is a red flag; a deposit covering materials and permit fees is normal.",
+        "<strong>The specification against the load.</strong> Four inches with fibre and edge steel for cars, six with a grid for boats and RVs, six inches of base under pavers, and a concrete apron where the drive meets the street. A quote that says four inches with mesh and nothing about base is describing a different job from the one beside it.",
     ]))
-    body += sec("What a license does and does not tell you", f"<p>A contractor who holds a Florida building, residential or general contractor license (verifiable at myfloridalicense.com) is licensed for structures; that license is real and relevant if the job includes footings, a retaining wall over 4 feet, a pool shell or a room addition, and s. 489.119(5)(b) requires the number in that contractor's advertising. It says nothing about how the contractor compacts base. For flatwork and pavers, the checks above are the whole story. Our own position is on the <a href=\"/about/\">About page</a>: we state the entity, insurance and warranty in every proposal and we do not claim a license we do not need.</p>", cls="alt")
-    body += sec("Signs of trouble", "<ul><li>No street address or Sunbiz record for the name on the quote.</li><li>'Licensed and insured' with no certificate and no number when asked.</li><li>Price far below the range for the spec, with base or steel missing from the description.</li><li>Cash discount for skipping the permit.</li><li>Pressure to sign today; a crew 'in the area with leftover material'.</li><li>No written warranty, or a warranty that is a phone number.</li></ul>")
-    body += sec("Tools for the comparison", f"<p>The {tool('project-brief')} fixes the spec so every bidder quotes the same job; the {tool('concrete-paver-calculator')} gives the planning range; the <a href=\"/pricing/\">cost guides</a> explain the ranges. Permit responsibility by office: <a href=\"/permits/\">permits hub</a>.</p>", cls="alt")
-    body += sec("The five-minute verification anyone can do",
+    body += sec("Why the specification is the part that decides the price",
+        f"""<p>Two quotes for the same driveway can differ by thirty percent for reasons that are invisible once the job is finished. One includes proof-rolling the subgrade, digging out soft pockets, four to six inches of compacted base in lifts, fibre in the mix and steel at the edges. The other includes a skim of sand and a vibrating plate. At twelve months they look identical. On Osceola's fine sand, at year five they do not.</p>
+<p>So the most useful thing you can do with three quotes is make them describe the same job. The {tool('project-brief')} writes that specification onto one page you can hand to every bidder, and the questions printed at the bottom of it are the ones whose answers tell you the most about who you are talking to. What we put in writing on our own jobs is on the <a href=\"/about/\">About page</a>.</p>""",
+        cls="alt")
+    body += sec("Signs of trouble", "<ul><li>No street address and no Sunbiz record for the name on the quote.</li><li>A certificate of insurance that never arrives, or arrives as a photo rather than from the agent.</li><li>A price far below the range for the specification, with base or steel missing from the description.</li><li>A cash discount for skipping the permit.</li><li>Pressure to sign today, or a crew that happens to be in the area with leftover material.</li><li>No written warranty, or a warranty that is a phone number.</li></ul>")
+    body += sec("Tools for the comparison", f"<p>The {tool('project-brief')} fixes the specification so every bidder quotes the same job; the {tool('concrete-paver-calculator')} gives the planning range; the <a href=\"/pricing/\">cost guides</a> explain where the ranges come from. Permit responsibility by office is on the <a href=\"/permits/\">permits hub</a>.</p>", cls="alt")
+    body += sec("The five-minute version",
         steps([
-            "Search the business name on Sunbiz, the Florida Division of Corporations site. You want an active entity, a registered agent, and a name that matches the one on the proposal. A contractor who cannot be found there is either brand new or trading under a name nobody registered.",
-            "Ask for the certificate of insurance and read the dates and the limits. It should name the insurer, the policy period covering your job, general liability, and workers' compensation or a valid exemption. Ask for it to be sent by the agent, not forwarded as a photo.",
-            "Check the DBPR license lookup only for the trades that need one. Concrete flatwork, pavers and stucco will not appear there, and that is expected under s. 489.117(4)(a); a pool, a structural wall or a room addition will.",
-            "Ask which office will issue the permit for your address and listen for a specific answer. Someone who works here daily will say 'Osceola County driveway permit' or 'the city's EnerGov application' without hesitating.",
-            "Ask for two addresses of jobs finished more than two years ago in your area, and drive past them. New work looks good; two-year-old work tells you about the base.",
+            "Search the business name on Sunbiz, the Florida Division of Corporations site. You want an active entity, a registered agent, and a name that matches the proposal. A contractor who cannot be found there is either brand new or trading under a name nobody registered.",
+            "Ask for the certificate of insurance and read the dates and the limits. It should name the insurer and a policy period that covers your job. Ask for it to be sent by the agent.",
+            "Ask which office will issue the permit for your address and listen for a specific answer. Someone who works here daily will say the Osceola County driveway permit or the city's EnerGov application without hesitating.",
+            "Ask what goes under the slab and how it will be compacted. The answer should include a depth, a material and the word lifts.",
+            "Ask for two addresses of jobs finished more than two years ago nearby, and drive past them.",
         ]))
     body += sec("What the contract should contain",
         table(["Item", "Why it matters"], [
-            ("Legal entity name and address", "It is who you would sue and who the insurance covers"),
-            ("Scope with dimensions", "Square footage, thickness, PSI, reinforcement, base depth, joint layout, finish"),
+            ("Legal entity name and address", "It is who you are contracting with and who the insurance covers"),
+            ("Scope with dimensions", "Square footage, thickness, mix strength, reinforcement, base depth, joint layout, finish"),
             ("Drainage and slope", "The most common source of disputes here; it should be stated, not assumed"),
             ("Who pulls the permit and who pays the fee", "Under Florida law the owner signs the application and often the notice of commencement"),
             ("Notice of commencement responsibility", "Required in Osceola County for jobs of $5,000 or more and recorded before the first inspection"),
@@ -249,20 +252,17 @@ def verify():
             ("Cure and use restrictions", "When you can walk, park and load the slab"),
         ]), cls="alt")
     body += sec("Red flags we hear about from homeowners",
-        f"""<p>The pattern is consistent. A door knock offering leftover material from a job down the street. A price quoted per job with no dimensions. A deposit of half or more before anything is delivered. A refusal to put thickness and PSI in writing. A promise that the slab will never crack. A company name that changes between the truck, the invoice and the bank deposit instruction. A quote that is forty percent below three others, which usually means 2½ inches of concrete on raw sand and no permit.</p>
+        f"""<p>The pattern is consistent. A door knock offering leftover material from a job down the street. A price quoted per job with no dimensions. A deposit of half or more before anything is delivered. A refusal to put thickness and mix strength in writing. A promise that the slab will never crack. A company name that changes between the truck, the invoice and the bank deposit instruction. A quote forty percent below three others, which usually means two and a half inches of concrete on raw sand and no permit.</p>
 <p>None of these is illegal on its own, and plenty of good crews are small and informal. But each one removes a piece of your recourse, and on a driveway you will live with for twenty-five years the recourse is the point. The counterweight is simple: a written scope, an insurance certificate from the agent, a permit number, and a payment schedule that keeps you slightly ahead of the work.</p>""")
     faqs = [
-        faq("Do concrete contractors need a license in Florida?", "No state license exists for flatwork, pavers or stucco, and since July 1, 2023 local governments may not require one for driveway or decorative stone and paver work (s. 489.117(4)(a)). Structural work (footings, walls over 4 ft, pools) needs a state-licensed contractor."),
-        faq("How do I verify a contractor's insurance?", "Ask for the certificate and call the agent listed on it to confirm it is in force."),
-        faq("How do I check a business on Sunbiz?", "Search the exact name at search.sunbiz.org; confirm it is active and note the filing date and principal address."),
-        faq("Is a deposit normal?", "A deposit for materials and permit fees at signing is normal; full payment up front is not."),
-        faq("Are you licensed?", "For flatwork and pavers there is no license to hold; we are insured and put the entity name, certificate and warranty in every proposal."),
-        faq("Is it legal for an unlicensed person to pour my driveway in Florida?", "Yes for flatwork, pavers and stucco, because no state license category covers them and local licensing is preempted. It is not legal for structural work, pools or additions, which do require a licensed contractor."),
+        faq("How do I verify a contractor's insurance?", "Ask for the certificate and call the agent listed on it to confirm it is in force for the dates of your job. A forwarded photo is not a verification."),
+        faq("How do I check a business on Sunbiz?", "Search the exact name at search.sunbiz.org, confirm it is active, and note the filing date and the principal address. Check that it matches the name on the contract."),
+        faq("Is a deposit normal?", "A deposit covering materials and permit fees at signing is normal. Full payment up front is not, and neither is a large deposit with no milestones attached to the rest."),
         faq("What if the contractor has no workers compensation?", "Florida allows officer exemptions for small entities. Ask to see the exemption certificate rather than taking silence for an answer, and understand that an injury on your property without coverage can reach your homeowners policy."),
         faq("Should I pay cash for a discount?", "A discount for cash is common and legal. Paying in cash without a written contract, a receipt and a permit is where people lose their recourse."),
+        faq("How many quotes should I get?", "Three, priced against the same written specification. Three quotes for three different jobs tell you nothing, which is the whole reason the project brief tool exists."),
     ]
-    return page("how-to-verify-a-concrete-contractor-florida", "How to Verify a Concrete Contractor in Florida (No License)", "Florida does not license concrete flatwork, pavers or stucco and s. 489.117(4)(a) bars local licenses. Five checks that do exist: insurance certificate, Sunbiz entity, references, the written contract, and the spec against the load. Red flags.", body, faqs, ["fs489117", "sunbiz", "dbpr"])
-
+    return page("how-to-verify-a-concrete-contractor-florida", "How to Check a Concrete or Paver Contractor Before You Sign", "Five checks that settle whether a concrete or paver contractor is worth hiring in Central Florida: the insurance certificate, the Sunbiz entity, references you can drive past, the written contract, and the specification against the load.", body, faqs, ["sunbiz"])
 
 def str_guide():
     body = sec("Hardscape for vacation-rental owners in Four Corners, ChampionsGate, Reunion and Windsor Hills",
@@ -691,7 +691,7 @@ def hb803():
             ("Driveway or apron in the public right-of-way", "No", "A driveway permit is a right-of-way approval, not a building permit"),
             ("Slab supporting a structure, a screen room or a roof", "No", "Structural"),
             ("Any work in a FEMA special flood hazard area", "No", "Explicitly excluded by the bill"),
-            ("Electrical for outdoor lighting, gas to a summer kitchen", "No", "Excluded trades, and they need a licensed contractor"),
+            ("Electrical for outdoor lighting, gas to a summer kitchen", "No", "Excluded trades, handled by the specialists who cover them"),
             ("Pool deck tied into the pool structure", "No", "Structural connection"),
             ("Resurfacing, sealing or a repair in the same footprint", "Not needed", "Maintenance was never a permitted activity here"),
         ], caption="Read against the bill as passed and effective 2026-07-01; local implementation is still settling, which is why we confirm with the office for every job."), cls="alt")

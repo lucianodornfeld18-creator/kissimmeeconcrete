@@ -94,7 +94,7 @@ SECTIONS["/faq/"] = sec(
     "The five questions we are asked before any others",
     """<p><strong>What will it cost?</strong> Ranges for every service are published on this site with the method behind them, because a contractor who will not put a range in public is usually relying on you having nothing to compare against. Your number comes from a site visit.</p>
 <p><strong>Do I need a permit?</strong> It depends which side of a municipal line your address is on, and in this county that is genuinely hard to tell from the street. The finder resolves it, and each jurisdiction page quotes the rule with its source.</p>
-<p><strong>Are you licensed?</strong> Florida does not license concrete flatwork, pavers or stucco, and since 2023 counties and cities may not require a local licence for driveway installation or decorative stone and paver work either. So there is no number to show. Insurance, entity registration and a written contract are what can be checked, and the guide explains how.</p>
+<p><strong>How do I know you are any good?</strong> Ask for the insurance certificate from the agent, check the business name on Sunbiz, and drive past two jobs we finished more than two years ago. Then compare our written specification with the other quotes you have. The guide walks through all four.</p>
 <p><strong>How long will it take?</strong> Two to three days on site for a typical driveway, three to five for pavers, plus permit and association time in front of it and cure time behind it.</p>
 <p><strong>When can I use it?</strong> Foot traffic in a day or two, cars at seven days, boats and RVs at twenty-eight. Pavers are usable as soon as the joints are sanded and compacted.</p>""",
     eyebrow="Start here") + sec(

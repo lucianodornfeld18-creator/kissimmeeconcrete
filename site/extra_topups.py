@@ -18,7 +18,7 @@ _add("/guides/", sec(
            ("Rust stains from well-water irrigation", "How to tell rust from tannin, oil and efflorescence, and remove each", "Well-irrigated properties outside the city utility areas"),
            ("Driveway widening rules", "Width caps, the apron, the right-of-way and the parking rules on top", "Anyone adding width in Osceola, Kissimmee or St. Cloud"),
            ("Pouring in the rainy season", "What we do when rain arrives at each stage of a pour", "Anyone scheduling between June and September"),
-           ("How to verify a contractor in Florida", "What to check when there is no licence to look up", "Everyone getting quotes"),
+           ("How to check a contractor before you sign", "Insurance, entity, references, contract and spec", "Everyone getting quotes"),
            ("Vacation rental hardscape", "Turnover scheduling, guest-proof specification and the approval chain", "Owners in the Four Corners and resort corridor"),
            ("Live oak roots and driveways", "Which trees lift slabs and what can be done about it", "Older Kissimmee, St. Cloud and Haines City streets"),
            ("Flatwoods sand versus ridge sand", "Why an Osceola base method fails on the Polk ridge", "Anyone comparing quotes across the county line"),
@@ -182,8 +182,8 @@ _add("/guides/tree-roots-driveways-central-florida/", sec(
 
 _add("/guides/hb-803-permit-exemption/", sec(
     "Where this sits among the other 2026 changes",
-    """<p>The exemption did not arrive alone. The same legislative push has been reshaping the relationship between owners, contractors, associations and building departments across Florida, and two other elements matter for hardscape work. The bar on associations requiring a building permit before architectural review removes a circular problem that used to cost weeks. And the broader trend toward preempting local licensing, which began in 2021 and took full effect in 2023, is why no licence exists to check for driveway, paver and stucco work.</p>
-<p>Taken together the direction is toward fewer procedural gates and more responsibility on the owner and the contractor to build correctly without one. That is a reasonable trade when the contractor is competent and a poor one when they are not, which is precisely why the verification guide on this site exists and why we keep pointing people at insurance, entity registration and a written contract rather than at a licence number that does not exist.</p>""",
+    """<p>The exemption did not arrive alone. The same legislative push has been reshaping the relationship between owners, contractors, associations and building departments across Florida, and one other element matters directly for hardscape work: associations may no longer require a building permit before they will carry out an architectural review, which removes a circular problem that used to cost weeks.</p>
+<p>The direction of travel is toward fewer procedural gates and more responsibility on the owner and the contractor to build correctly without them. That is a reasonable trade when the contractor is competent and a poor one when they are not, which is precisely why the checking guide on this site exists and why we keep pointing people at insurance, entity registration, references and a written contract.</p>""",
     eyebrow="Context"))
 
 _add("/guides/surface-temperature-pool-decks/", sec(

@@ -13,6 +13,8 @@ Atualizado em 2026-09-11. Tudo abaixo bloqueia **publicação** ou **precisão**
 | `{{FICTITIOUS_NAME_STATUS}}` | **pendente** | "Kissimmee Concrete" registrado como nome fictício (DBA) na Sunbiz? **Recomendo registrar.** Sem DBA o nome público não pode se apresentar como empresa, e existe um concorrente usando "Kissimmee Concrete" como nome de exibição em `kissimmeeconcrete.net`. O DBA também protege o nome. |
 | `{{INSURANCE_PROOF}}` | **pendente** | Seguradora, nº de apólice, limites e vigência. O site diz "Insured" em vários lugares; preciso da COI para manter a palavra. Se não houver apólice ativa, removo a palavra do site inteiro em uma rodada. |
 
+> Nota (2026-09-11): a pedido seu, toda a explicação sobre licenciamento na Flórida foi removida do site. Ele apenas não exibe número de licença, sem justificar o motivo. O guia de verificação de contratante agora trata de seguro, Sunbiz, referências, contrato e especificação.
+
 Sunbiz respondeu 403 às consultas automatizadas nesta sessão; a verificação tem de ser manual em `search.sunbiz.org`.
 
 ### A2. Telefone Twilio
@@ -36,7 +38,7 @@ Passo a passo, seguindo o padrão já usado na sua conta Twilio:
 | `hello@kissimmeeconcrete.com` | **pendente** | Cloudflare Email Routing → `{{MAIN_DESTINATION_EMAIL}}`. O e-mail já está publicado no site como canal principal de contato. |
 | `{{MAIN_DESTINATION_EMAIL}}` | **pendente** | Para onde os leads vão. Vai como secret `CONTACT_DESTINATION` no Worker. |
 | Turnstile | **pendente** | Criar um widget Turnstile para o domínio. A chave pública vai em `_data.TURNSTILE_SITE_KEY`, a secreta como `TURNSTILE_SECRET_KEY` na Pages Function. Sem ela o formulário funciona, mas só com honeypot e rate limit. |
-| Repositório GitHub | **pendente** | `gh` não está autenticado nesta máquina. Enquanto isso o deploy é por `wrangler pages deploy`. |
+| Repositório GitHub | **feito** | `github.com/lucianodornfeld18-creator/kissimmeeconcrete`, ligado ao projeto Pages; cada push para `main` gera um build automático. |
 
 ### A4. Google Business Profile e Yelp — decisão de negócio nº 1
 `{{GBP_DECISION}}` — **pendente e urgente.**
@@ -65,7 +67,7 @@ O prompt pediu a união dos catálogos de Ocoee, Lakewood Ranch e GCM. Publiquei
 | **Commercial flatwork e parking lots pequenos** | Publicado, com limites de escopo declarados | Confirmar |
 | **Sidewalks em right-of-way** | Publicado | Confirmar |
 | **Stucco** | **Escrito e desativado** | O registry marca como `not_confirmed_do_not_use`. A página existe em `content_services_coatings.py` e liga com uma linha em `_data.py` se você confirmar. |
-| Foundations, footings, muros estruturais, pool shells | **Excluídos** | Exigem licença não confirmada. Mantenho fora. |
+| Foundations, footings, muros estruturais, pool shells | **Excluídos** | Fora do escopo de flatwork; o site diz que são de outro ofício e não os anuncia. |
 
 ### B2. Autor nomeado
 `{{AUTHOR}}` — **pendente.** Hoje os artigos levam `author` = Organization. Com um nome real, bio e credencial verificável, passo a emitir `Person` com `sameAs`, o que é um sinal E-E-A-T relevante. Não invento um autor.

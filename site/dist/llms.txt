@@ -5,7 +5,7 @@
 Website: https://kissimmeeconcrete.com
 Email: hello@kissimmeeconcrete.com
 Service area: Kissimmee, St. Cloud, Celebration, Poinciana, Buenaventura Lakes, Harmony, Four Corners, ChampionsGate, Reunion, Davenport, Haines City and the Polk County ridge (about 40 miles around Kissimmee).
-Facts we publish with sources: Osceola County driveway width rule (§22-50.6, 24 ft max, permit required), City of Kissimmee driveway/sidewalk permit process, St. Cloud paver rule (refer to Public Works), Polk County slab/driveway permit rules and the Concrete Driveway Paver Release Form, Florida s. 489.117(4)(a) (no state or local license for driveway, paver or stucco work), NOAA 1991-2020 normals for Kissimmee 2 (June-September average 15-18 rain days a month), USDA soils (Smyrna, Myakka, Immokalee, Basinger fine sands in Osceola; Candler sand on the Polk ridge).
+Facts we publish with sources: Osceola County driveway width rule (§22-50.6, 24 ft max, permit required), City of Kissimmee driveway/sidewalk permit process, St. Cloud paver rule (refer to Public Works), Polk County slab/driveway permit rules and the Concrete Driveway Paver Release Form, NOAA 1991-2020 normals for Kissimmee 2 (June-September average 15-18 rain days a month), USDA soils (Smyrna, Myakka, Immokalee, Basinger fine sands in Osceola; Candler sand on the Polk ridge).
 Cost Index: Q3 2026 release, planning ranges only, machine-readable at https://kissimmeeconcrete.com/api/cost-index.json (CC BY 4.0).
 
 ## Services
@@ -69,7 +69,7 @@ Cost Index: Q3 2026 release, planning ranges only, machine-readable at https://k
 - [Rust Stains From Well-Water Irrigation: Identify, Remove, Prevent](https://kissimmeeconcrete.com/guides/rust-stains-irrigation-well-water/)
 - [Driveway Widening Rules: Osceola County, Kissimmee and St. Cloud](https://kissimmeeconcrete.com/guides/driveway-widening-rules-osceola/)
 - [Pouring Concrete in the Rainy Season: How We Schedule Around Afternoon Storms](https://kissimmeeconcrete.com/guides/rainy-season-concrete-scheduling/)
-- [How to Verify a Concrete or Paver Contractor in Florida When There Is No License to Check](https://kissimmeeconcrete.com/guides/how-to-verify-a-concrete-contractor-florida/)
+- [How to Check a Concrete or Paver Contractor Before You Sign](https://kissimmeeconcrete.com/guides/how-to-verify-a-concrete-contractor-florida/)
 - [Pool Decks and Driveways for Vacation Rental Owners in Four Corners, ChampionsGate and Reunion](https://kissimmeeconcrete.com/guides/vacation-rental-owner-hardscape-guide/)
 - [Live Oak Roots and Driveways: What Lifts a Slab and What to Do](https://kissimmeeconcrete.com/guides/tree-roots-driveways-central-florida/)
 - [Paver Base on Flatwoods Sand vs. Ridge Sand: Osceola and Polk Are Not the Same](https://kissimmeeconcrete.com/guides/paver-base-flatwoods-vs-ridge/)

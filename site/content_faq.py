@@ -20,12 +20,11 @@ def hub():
     faqs = [
         faq("How much does a concrete driveway cost in Kissimmee?", f"{cost_range('concrete-driveway-broom')} installed for a 4-inch broom finish in the {R} index; a two-car driveway is roughly $4,100 to $6,500 before removal. Full breakdown on the <a href=\"/pricing/concrete/\">concrete cost guide</a>."),
         faq("Do I need a permit for a driveway?", "Yes in every jurisdiction here: Kissimmee's Engineering application, Osceola's county driveway permit (24-ft max), St. Cloud's Building Department, Polk's right-of-way rule, Orange's general rule. <a href=\"/permits/\">Permits hub</a>."),
-        faq("Are you licensed?", "Florida does not license concrete flatwork, pavers or stucco at the state level, and s. 489.117(4)(a) bars local licenses for driveway and paver work. We are insured and put the entity name, insurance and warranty in every proposal. <a href=\"/guides/how-to-verify-a-concrete-contractor-florida/\">How to verify a contractor</a>."),
         faq("Pavers or concrete?", "Concrete costs less; pavers can be lifted and relaid and suit HOA palettes. <a href=\"/compare/concrete-vs-pavers/\">The comparison</a> and <a href=\"/tools/concrete-vs-pavers/\">the decision tool</a>."),
         faq("Can you pour in the rainy season?", "Yes, with first-light starts; June through September average 14 to 18 rain days a month at the Kissimmee 2 station. <a href=\"/tools/pour-calendar/\">Pour Calendar</a>."),
         faq("Does my HOA have to approve it?", "Every planned community here requires written approval before work; APV, Solivita, Celebration, Bellalago and Solterra rules are quoted on the <a href=\"/hoa/\">HOA pages</a>."),
     ]
-    return {"route": "/faq/", "title": "Concrete Questions Kissimmee Homeowners Ask (Answered)", "meta_description": "Short answers to the questions Kissimmee, St. Cloud and Osceola County homeowners ask about concrete and pavers: cost, permits, licenses, pavers vs. concrete, rainy-season pours, HOA approval, with links to full answers.", "h1": "Frequently asked questions", "breadcrumbs": [("Home", "/"), ("FAQ", None)], "body_html": body, "faqs": faqs, "kind": "faq", "sources": ["fs489117", "noaa"]}
+    return {"route": "/faq/", "title": "Concrete Questions Kissimmee Homeowners Ask (Answered)", "meta_description": "Short answers to the questions Kissimmee, St. Cloud and Osceola County homeowners ask about concrete and pavers: cost, permits, licenses, pavers vs. concrete, rainy-season pours, HOA approval, with links to full answers.", "h1": "Frequently asked questions", "breadcrumbs": [("Home", "/"), ("FAQ", None)], "body_html": body, "faqs": faqs, "kind": "faq", "sources": ["noaa"]}
 
 
 def concrete():
@@ -78,7 +77,6 @@ def pavers():
 
 def permits_hoa():
     faqs = [
-        faq("Do you need a license to pour concrete in Florida?", f"No state license exists for concrete flatwork, pavers or stucco, and s. 489.117(4)(a) bars counties and cities from requiring a local license for driveway installation or decorative stone and paver work (since July 1, 2023). Verify insurance, Sunbiz registration and references instead. {guide('how-to-verify-a-concrete-contractor-florida')}."),
         faq("Who pulls the permit, the contractor or the homeowner?", "We do, as the contractor of record; Osceola's FAQ says any owner, licensed contractor or authorized agent may bring in the application but only the applicant signs. You sign the application and, at $5,000 or more in Osceola, the Notice of Commencement."),
         faq("Do I need a permit for a driveway in Osceola County?", f"Yes: §22-50.6 requires a county driveway permit for construction or widening and caps width at 24 feet. {juris('osceola-county')}."),
         faq("Do I need a permit for a patio in St. Cloud?", f"Yes; patios and decks are on the city's permit list. {juris('city-of-st-cloud')}."),
@@ -95,7 +93,7 @@ def permits_hoa():
     ]
     body = sec("Permit and HOA questions", cap("Fourteen questions about licenses, permits by office, HOA approval and the new $7,500 exemption, answered short with the quoted source linked."), eyebrow="FAQ")
     body += sec("Related", related(['<a href="/permits/">Permits hub</a>', '<a href="/hoa/">HOA / ARC hub</a>', tool("permit-finder"), tool("hoa-packet-checklist")]), cls="alt")
-    return {"route": "/faq/permits-hoa/", "title": "Permits & HOA FAQ – Licenses, Approvals, HB 803 (Osceola & Polk)", "meta_description": "Permit and HOA questions for Kissimmee, St. Cloud, Osceola and Polk: no license for flatwork under s. 489.117, who pulls the permit, driveway and patio rules by office, HOA approval and violations, HB 803's $7,500 exemption.", "h1": "Permits and HOA FAQ", "breadcrumbs": [("Home", "/"), ("FAQ", "/faq/"), ("Permits & HOA", None)], "body_html": body, "faqs": faqs, "kind": "faq", "sources": ["fs489117", "osceola-22-50-6", "osceola-faq", "stcloud-permits", "polk-faq", "apv", "hb803"]}
+    return {"route": "/faq/permits-hoa/", "title": "Permits & HOA FAQ – Approvals and HB 803 (Osceola & Polk)", "meta_description": "Permit and HOA questions for Kissimmee, St. Cloud, Osceola and Polk: who pulls the permit, driveway and patio rules office by office, HOA approval timelines and what a board can require, and HB 803's $7,500 exemption.", "h1": "Permits and HOA FAQ", "breadcrumbs": [("Home", "/"), ("FAQ", "/faq/"), ("Permits & HOA", None)], "body_html": body, "faqs": faqs, "kind": "faq", "sources": ["osceola-22-50-6", "osceola-faq", "stcloud-permits", "polk-faq", "apv", "hb803"]}
 
 
 def cost():

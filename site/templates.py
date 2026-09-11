@@ -13,7 +13,7 @@ Page dict contract (built by content_*.py modules):
   "service_key": "concrete-driveways",  # optional: appends gallery + Service schema
   "city_key": "st-cloud",               # optional (cityservice / city pages)
   "faqs": [{"q": "…", "a": "<p>…</p>"}],# optional: rendered + FAQPage schema
-  "sources": ["fs489117", ("Label","https://…")],  # optional: rendered sources list
+  "sources": [("Label","https://…")],  # optional: rendered sources list
   "schema": [ {...} ],                  # optional extra JSON-LD
   "noindex": False, "is_home": False, "nav_active": "/concrete/",
   "changelog": ["2026-09-10 — first published"],
@@ -151,7 +151,7 @@ def footer_html():
     <div>
       <h2>Areas</h2><ul>{areas}<li><a href="/areas/">All areas &amp; counties</a></li></ul>
       <h2 style="margin-top:18px">Contact</h2>
-      <ul>{phone}<li><a href="mailto:{EMAIL}">{EMAIL}</a></li><li><a href="/contact/">Request an estimate</a></li><li><a href="/pricing/">Pricing &amp; cost index</a></li><li><a href="/permits/">Permits</a></li><li><a href="/tools/">Tools</a></li><li><a href="/faq/">FAQ</a></li></ul>
+      <ul>{phone}<li><a href="mailto:{EMAIL}">{EMAIL}</a></li><li><a href="/contact/">Request an estimate</a></li><li><a href="/about/">About us</a></li><li><a href="/warranty/">Warranty</a></li><li><a href="/pricing/">Pricing &amp; cost index</a></li><li><a href="/permits/">Permits</a></li><li><a href="/tools/">Tools</a></li><li><a href="/faq/">FAQ</a></li></ul>
     </div>
   </div>
   <div class="wrap footer-bottom">

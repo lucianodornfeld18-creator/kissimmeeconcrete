@@ -13,7 +13,7 @@ def get_pages():
       <h1>Concrete and paver contractor for Kissimmee, St. Cloud and the 40 miles around them</h1>
       <p class="lede">Driveways, patios, pool decks, slabs and walkways in poured concrete. Paver driveways, travertine and marble pool decks, walkways, sealing and repair. Built on Osceola's wet flatwoods sand and Polk's dry ridge sand by a crew that knows which one your lot sits on, which office issues your permit, and what your HOA will ask for.</p>
       <div class="cta-row"><a class="btn btn-primary" href="/contact/">Request a free estimate</a><a class="btn btn-outline" href="/pricing/">See current price ranges</a></div>
-      <p class="small" style="color:#D8D5CC;margin-top:14px">Insured. Free on-site estimates with a written proposal. Workmanship warranty in writing. No license number is shown because Florida does not license driveway, paver or stucco work at the state or local level (s. 489.117(4)(a)); we explain what to check instead <a href="/guides/how-to-verify-a-concrete-contractor-florida/" style="color:#fff">here</a>.</p>
+      <p class="small" style="color:#D8D5CC;margin-top:14px">Insured. Free on-site estimates with a written proposal. Workmanship warranty in writing. Every quote states thickness, mix, reinforcement, base depth and drainage, so you can compare it line by line with anyone else's.</p>
     </div>
     <div>{lead_form(heading="Free estimate in two business days", compact=True)}</div>
   </div>
@@ -112,7 +112,7 @@ def get_pages():
 
     faqs = [
         faq("Do you serve both Kissimmee and St. Cloud?", "Yes. Kissimmee and St. Cloud are the two cities we estimate in most, and they have different permit offices: Kissimmee's Engineering Division handles driveway and sidewalk applications on EnerGov, while St. Cloud's Building Department covers patios and decks and sends driveway pavers to Public Works. Between them, unincorporated Osceola County follows §22-50.6 for driveways."),
-        faq("Are you licensed?", "Florida does not issue a state contractor license for concrete flatwork, pavers or stucco, and since July 1, 2023, counties and cities may not require a local license for driveway installation, decorative stone or paver work either (s. 489.117(4)(a), Florida Statutes). Anyone advertising a license for this work should be able to show you the number and the category. What you can and should check is insurance, Sunbiz registration and a written contract; we lay that out in our contractor-verification guide."),
+        faq("What should I check before hiring anyone for this work?", "Insurance, in the form of a certificate sent by the agent rather than a photo. The exact business name, checked on Sunbiz. Two or three addresses of jobs finished more than two years ago that you can drive past. And a written contract that states thickness, mix, reinforcement, base depth, joint layout and drainage. Our guide walks through all four."),
         faq("How soon can you come out?", "We schedule site visits within two business days in Kissimmee, St. Cloud, Celebration, Poinciana and Buenaventura Lakes, and within three for the Polk ridge and the Four Corners resort communities. Spring is our busiest season: Google Trends for the Orlando market shows paver interest peaking in April and May every year, so book early if you want a pool deck done before summer."),
         faq("Do you pour in the rainy season?", "Yes, with an early start. June through September average 14 to 18 rain days a month at the Kissimmee 2 station, almost all of it afternoon storms. Forms and base are prepared the day before, trucks arrive at first light, and the slab is finished and covered before the storms build. If the morning forecast shows more than a 60 percent chance of rain before 2 p.m., we move the pour."),
         faq("Concrete or pavers for a driveway?", "Concrete costs less up front ($8.50 to $13.50 per square foot for a broom finish in our current index) and gives a clean, uniform look. Pavers cost more ($14 to $22 for standard concrete pavers) but can be lifted and relaid after settling or a utility repair, and many HOAs on the Osceola and Polk resort corridor prefer them. Our decision tool walks through use, budget, HOA, heat and resale in eight questions."),
@@ -136,5 +136,5 @@ def get_pages():
         "kind": "home",
         "is_home": True,
         "nav_active": "/",
-        "sources": ["osceola-22-50-6", "kissimmee-driveway", "stcloud-permits", "polk-faq", "fs489117", "noaa", "sda", "edr", "hb803"],
+        "sources": ["osceola-22-50-6", "kissimmee-driveway", "stcloud-permits", "polk-faq", "noaa", "sda", "edr", "hb803"],
     }]

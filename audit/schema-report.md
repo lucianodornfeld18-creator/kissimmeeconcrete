@@ -20,7 +20,7 @@ Pages: 154 · hard: 0 · warnings: 1
 
 | KB | Route |
 |---|---|
-| 70 | / |
+| 69 | / |
 | 52 | /pavers/driveways/ |
 | 45 | /pavers/patios/ |
 | 45 | /pavers/pool-decks/ |
