@@ -1,0 +1,9 @@
+{
+  "name": "kissimmeeconcrete-contact",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "mimetext": "^3.0.27"
+  }
+}

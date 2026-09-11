@@ -1,0 +1,847 @@
+Mercado,Corredor,Padrão,Keyword,Média mensal,Concorrência,Índice concorrência,CPC baixo,CPC alto,Observação
+Orlando,Grande Orlando,core,orlando concrete,500,High,84,5.78,26.7,Dado Google Ads
+Orlando,Grande Orlando,contractor,orlando concrete contractor,500,Medium,37,5.4,26.43,Dado Google Ads
+Orlando,Grande Orlando,company,orlando concrete company,500,High,84,4.61,19.36,Dado Google Ads
+Orlando,Grande Orlando,driveway,orlando concrete driveway,50,High,69,8.67,16.77,Dado Google Ads
+Orlando,Grande Orlando,repair,orlando concrete repair,50,Medium,50,12,56.49,Dado Google Ads
+Orlando,Grande Orlando,patio,orlando concrete patio,50,Medium,43,—,—,Dado Google Ads
+Leesburg,Grande Orlando,core,leesburg concrete,500,Low,8,3.59,16.38,Dado Google Ads
+Leesburg,Grande Orlando,reverse_core,concrete leesburg,50,Medium,48,—,—,Dado Google Ads
+Leesburg,Grande Orlando,contractor,leesburg concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Leesburg,Grande Orlando,reverse_contractor,concrete contractor leesburg,—,—,—,—,—,Sem volume mensurável no plano
+Leesburg,Grande Orlando,company,leesburg concrete company,500,Low,8,3.59,16.38,Dado Google Ads
+Leesburg,Grande Orlando,driveway,leesburg concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Leesburg,Grande Orlando,driveway_reverse,concrete driveway leesburg,—,—,—,—,—,Sem volume mensurável no plano
+Leesburg,Grande Orlando,repair,leesburg concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Leesburg,Grande Orlando,patio,leesburg concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Ocala,Ocala / Marion,core,ocala concrete,500,Medium,51,4,16.96,Dado Google Ads
+Ocala,Ocala / Marion,contractor,ocala concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Ocala,Ocala / Marion,company,ocala concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Ocala,Ocala / Marion,driveway,ocala concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Ocala,Ocala / Marion,driveway_reverse,concrete driveway ocala,—,—,—,—,—,Sem volume mensurável no plano
+Ocala,Ocala / Marion,repair,ocala concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Ocala,Ocala / Marion,patio,ocala concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Orange County FL,Regional,core,orange county concrete,50,Low,5,—,—,Dado Google Ads
+Orange County FL,Regional,contractor,orange county concrete contractor,50,—,—,—,—,Dado Google Ads
+Orange County FL,Regional,company,orange county concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Orange County FL,Regional,driveway,orange county concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Orange County FL,Regional,driveway_reverse,concrete driveway orange county,50,Low,0,—,—,Dado Google Ads
+Orange County FL,Regional,repair,orange county concrete repair,50,Low,14,—,—,Dado Google Ads
+Orange County FL,Regional,patio,orange county concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Lake County FL,Regional,core,lake county concrete,50,Low,17,—,—,Dado Google Ads
+Lake County FL,Regional,reverse_core,concrete lake county,—,—,—,—,—,Sem volume mensurável no plano
+Lake County FL,Regional,contractor,lake county concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Lake County FL,Regional,contractors,lake county concrete contractors,50,Medium,38,—,—,Dado Google Ads
+Lake County FL,Regional,reverse_contractor,concrete contractor lake county,—,—,—,—,—,Sem volume mensurável no plano
+Lake County FL,Regional,company,lake county concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Lake County FL,Regional,driveway,lake county concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Lake County FL,Regional,driveway_reverse,concrete driveway lake county,—,—,—,—,—,Sem volume mensurável no plano
+Lake County FL,Regional,repair,lake county concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Lake County FL,Regional,patio,lake county concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Boca Raton,Palm Beach,core,boca raton concrete,50,High,86,—,—,Dado Google Ads
+Boca Raton,Palm Beach,reverse_core,concrete boca raton,50,High,79,12,44.4,Dado Google Ads
+Boca Raton,Palm Beach,contractor,boca raton concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Boca Raton,Palm Beach,reverse_contractor,concrete contractor boca raton,50,Medium,40,4,9.44,Dado Google Ads
+Boca Raton,Palm Beach,company,boca raton concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Boca Raton,Palm Beach,driveway,boca raton concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Boca Raton,Palm Beach,driveway_reverse,concrete driveway boca raton,50,High,79,—,—,Dado Google Ads
+Boca Raton,Palm Beach,repair,boca raton concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Boca Raton,Palm Beach,patio,boca raton concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota,Suncoast,core,sarasota concrete,50,High,97,4,13.68,Dado Google Ads
+Sarasota,Suncoast,contractor,sarasota concrete contractor,50,Medium,63,4.51,22.6,Dado Google Ads
+Sarasota,Suncoast,company,sarasota concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota,Suncoast,driveway,sarasota concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota,Suncoast,repair,sarasota concrete repair,50,Medium,53,—,—,Dado Google Ads
+Sarasota,Suncoast,patio,sarasota concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+North Port,Suncoast,core,north port concrete,50,Low,31,—,—,Dado Google Ads
+North Port,Suncoast,reverse_core,concrete north port,—,—,—,—,—,Sem volume mensurável no plano
+North Port,Suncoast,contractor,north port concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+North Port,Suncoast,contractors,north port concrete contractors,50,High,100,—,—,Dado Google Ads
+North Port,Suncoast,reverse_contractor,concrete contractor north port,—,—,—,—,—,Sem volume mensurável no plano
+North Port,Suncoast,company,north port concrete company,—,—,—,—,—,Sem volume mensurável no plano
+North Port,Suncoast,driveway,north port concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+North Port,Suncoast,driveway_reverse,concrete driveway north port,—,—,—,—,—,Sem volume mensurável no plano
+North Port,Suncoast,repair,north port concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+North Port,Suncoast,patio,north port concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Wellington,Palm Beach,core,wellington concrete,50,Medium,43,—,—,Dado Google Ads
+Wellington,Palm Beach,contractor,wellington concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Wellington,Palm Beach,reverse_contractor,concrete contractor wellington,—,—,—,—,—,Sem volume mensurável no plano
+Wellington,Palm Beach,company,wellington concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Wellington,Palm Beach,driveway,wellington concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Wellington,Palm Beach,driveway_reverse,concrete driveway wellington,50,High,86,—,—,Dado Google Ads
+Wellington,Palm Beach,repair,wellington concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Wellington,Palm Beach,patio,wellington concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach County,Regional,core,palm beach county concrete,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach County,Regional,reverse_core,concrete palm beach county,50,—,—,—,—,Dado Google Ads
+Palm Beach County,Regional,contractor,palm beach county concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach County,Regional,contractors,palm beach county concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach County,Regional,reverse_contractor,concrete contractor palm beach county,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach County,Regional,company,palm beach county concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach County,Regional,driveway,palm beach county concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach County,Regional,driveway_reverse,concrete driveway palm beach county,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach County,Regional,repair,palm beach county concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach County,Regional,patio,palm beach county concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Clermont,Grande Orlando,core,clermont concrete,50,Low,10,—,—,Dado Google Ads
+Clermont,Grande Orlando,reverse_core,concrete clermont,50,Medium,55,7.85,19.14,Dado Google Ads
+Clermont,Grande Orlando,contractor,clermont concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Clermont,Grande Orlando,contractors,clermont concrete contractors,50,—,—,—,—,Dado Google Ads
+Clermont,Grande Orlando,reverse_contractor,concrete contractor clermont,—,—,—,—,—,Sem volume mensurável no plano
+Clermont,Grande Orlando,company,clermont concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Clermont,Grande Orlando,driveway,clermont concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Clermont,Grande Orlando,driveway_reverse,concrete driveway clermont,—,—,—,—,—,Sem volume mensurável no plano
+Clermont,Grande Orlando,repair,clermont concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Clermont,Grande Orlando,patio,clermont concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Venice,Suncoast,core,venice concrete,50,Medium,52,—,—,Dado Google Ads
+Venice,Suncoast,reverse_core,concrete venice,—,—,—,—,—,Sem volume mensurável no plano
+Venice,Suncoast,contractor,venice concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Venice,Suncoast,contractors,venice concrete contractors,50,High,78,—,—,Dado Google Ads
+Venice,Suncoast,reverse_contractor,concrete contractor venice,—,—,—,—,—,Sem volume mensurável no plano
+Venice,Suncoast,company,venice concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Venice,Suncoast,driveway,venice concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Venice,Suncoast,driveway_reverse,concrete driveway venice,—,—,—,—,—,Sem volume mensurável no plano
+Venice,Suncoast,repair,venice concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Venice,Suncoast,patio,venice concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Marion County FL,Regional,core,marion county concrete,50,—,—,—,—,Dado Google Ads
+Marion County FL,Regional,reverse_core,concrete marion county,—,—,—,—,—,Sem volume mensurável no plano
+Marion County FL,Regional,contractor,marion county concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Marion County FL,Regional,contractors,marion county concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Marion County FL,Regional,reverse_contractor,concrete contractor marion county,—,—,—,—,—,Sem volume mensurável no plano
+Marion County FL,Regional,company,marion county concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Marion County FL,Regional,driveway,marion county concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Marion County FL,Regional,driveway_reverse,concrete driveway marion county,—,—,—,—,—,Sem volume mensurável no plano
+Marion County FL,Regional,repair,marion county concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Marion County FL,Regional,patio,marion county concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Tavares,Grande Orlando,core,tavares concrete,50,—,—,—,—,Dado Google Ads
+Tavares,Grande Orlando,reverse_core,concrete tavares,—,—,—,—,—,Sem volume mensurável no plano
+Tavares,Grande Orlando,contractor,tavares concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Tavares,Grande Orlando,contractors,tavares concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Tavares,Grande Orlando,reverse_contractor,concrete contractor tavares,—,—,—,—,—,Sem volume mensurável no plano
+Tavares,Grande Orlando,company,tavares concrete company,50,—,—,—,—,Dado Google Ads
+Tavares,Grande Orlando,driveway,tavares concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Tavares,Grande Orlando,driveway_reverse,concrete driveway tavares,—,—,—,—,—,Sem volume mensurável no plano
+Tavares,Grande Orlando,repair,tavares concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Tavares,Grande Orlando,patio,tavares concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+West Palm Beach,Palm Beach,core,west palm beach concrete,—,—,—,—,—,Sem volume mensurável no plano
+West Palm Beach,Palm Beach,contractor,west palm beach concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+West Palm Beach,Palm Beach,company,west palm beach concrete company,—,—,—,—,—,Sem volume mensurável no plano
+West Palm Beach,Palm Beach,driveway,west palm beach concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+West Palm Beach,Palm Beach,driveway_reverse,concrete driveway west palm beach,50,High,71,—,—,Dado Google Ads
+West Palm Beach,Palm Beach,repair,west palm beach concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+West Palm Beach,Palm Beach,patio,west palm beach concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Lakeland,Polk / I-4,core,lakeland concrete,50,Low,10,—,—,Dado Google Ads
+Lakeland,Polk / I-4,reverse_core,concrete lakeland,50,High,98,8.33,20.35,Dado Google Ads
+Lakeland,Polk / I-4,contractor,lakeland concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Lakeland,Polk / I-4,reverse_contractor,concrete contractor lakeland,—,—,—,—,—,Sem volume mensurável no plano
+Lakeland,Polk / I-4,company,lakeland concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Lakeland,Polk / I-4,driveway,lakeland concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Lakeland,Polk / I-4,driveway_reverse,concrete driveway lakeland,—,—,—,—,—,Sem volume mensurável no plano
+Lakeland,Polk / I-4,repair,lakeland concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Lakeland,Polk / I-4,patio,lakeland concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Kissimmee,Grande Orlando,core,kissimmee concrete,—,—,—,—,—,Sem volume mensurável no plano
+Kissimmee,Grande Orlando,reverse_core,concrete kissimmee,50,High,77,6.21,14.14,Dado Google Ads
+Kissimmee,Grande Orlando,contractor,kissimmee concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Kissimmee,Grande Orlando,reverse_contractor,concrete contractor kissimmee,—,—,—,—,—,Sem volume mensurável no plano
+Kissimmee,Grande Orlando,company,kissimmee concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Kissimmee,Grande Orlando,driveway,kissimmee concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Kissimmee,Grande Orlando,driveway_reverse,concrete driveway kissimmee,—,—,—,—,—,Sem volume mensurável no plano
+Kissimmee,Grande Orlando,repair,kissimmee concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Kissimmee,Grande Orlando,patio,kissimmee concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+St Cloud,Grande Orlando,core,st cloud concrete,50,Medium,43,—,—,Dado Google Ads
+St Cloud,Grande Orlando,reverse_core,concrete st cloud,—,—,—,—,—,Sem volume mensurável no plano
+St Cloud,Grande Orlando,contractor,st cloud concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+St Cloud,Grande Orlando,reverse_contractor,concrete contractor st cloud,—,—,—,—,—,Sem volume mensurável no plano
+St Cloud,Grande Orlando,company,st cloud concrete company,—,—,—,—,—,Sem volume mensurável no plano
+St Cloud,Grande Orlando,driveway,st cloud concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+St Cloud,Grande Orlando,driveway_reverse,concrete driveway st cloud,—,—,—,—,—,Sem volume mensurável no plano
+St Cloud,Grande Orlando,repair,st cloud concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+St Cloud,Grande Orlando,patio,st cloud concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Delray Beach,Palm Beach,core,delray beach concrete,—,—,—,—,—,Sem volume mensurável no plano
+Delray Beach,Palm Beach,reverse_core,concrete delray beach,50,Medium,45,—,—,Dado Google Ads
+Delray Beach,Palm Beach,contractor,delray beach concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Delray Beach,Palm Beach,contractors,delray beach concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Delray Beach,Palm Beach,reverse_contractor,concrete contractor delray beach,—,—,—,—,—,Sem volume mensurável no plano
+Delray Beach,Palm Beach,company,delray beach concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Delray Beach,Palm Beach,driveway,delray beach concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Delray Beach,Palm Beach,driveway_reverse,concrete driveway delray beach,—,—,—,—,—,Sem volume mensurável no plano
+Delray Beach,Palm Beach,repair,delray beach concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Delray Beach,Palm Beach,patio,delray beach concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Sanford,Grande Orlando,core,sanford concrete,50,High,100,—,—,Dado Google Ads
+Sanford,Grande Orlando,reverse_core,concrete sanford,—,—,—,—,—,Sem volume mensurável no plano
+Sanford,Grande Orlando,contractor,sanford concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Sanford,Grande Orlando,reverse_contractor,concrete contractor sanford,—,—,—,—,—,Sem volume mensurável no plano
+Sanford,Grande Orlando,company,sanford concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Sanford,Grande Orlando,driveway,sanford concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Sanford,Grande Orlando,driveway_reverse,concrete driveway sanford,—,—,—,—,—,Sem volume mensurável no plano
+Sanford,Grande Orlando,repair,sanford concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Sanford,Grande Orlando,patio,sanford concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Apopka,Grande Orlando,core,apopka concrete,—,—,—,—,—,Sem volume mensurável no plano
+Apopka,Grande Orlando,reverse_core,concrete apopka,—,—,—,—,—,Sem volume mensurável no plano
+Apopka,Grande Orlando,contractor,apopka concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Apopka,Grande Orlando,contractors,apopka concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Apopka,Grande Orlando,reverse_contractor,concrete contractor apopka,50,Low,0,—,—,Dado Google Ads
+Apopka,Grande Orlando,company,apopka concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Apopka,Grande Orlando,driveway,apopka concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Apopka,Grande Orlando,driveway_reverse,concrete driveway apopka,—,—,—,—,—,Sem volume mensurável no plano
+Apopka,Grande Orlando,repair,apopka concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Apopka,Grande Orlando,patio,apopka concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Jupiter,Palm Beach,core,jupiter concrete,50,High,95,7.5,16.83,Dado Google Ads
+Jupiter,Palm Beach,reverse_core,concrete jupiter,—,—,—,—,—,Sem volume mensurável no plano
+Jupiter,Palm Beach,contractor,jupiter concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Jupiter,Palm Beach,contractors,jupiter concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Jupiter,Palm Beach,reverse_contractor,concrete contractor jupiter,—,—,—,—,—,Sem volume mensurável no plano
+Jupiter,Palm Beach,company,jupiter concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Jupiter,Palm Beach,driveway,jupiter concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Jupiter,Palm Beach,driveway_reverse,concrete driveway jupiter,—,—,—,—,—,Sem volume mensurável no plano
+Jupiter,Palm Beach,repair,jupiter concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Jupiter,Palm Beach,patio,jupiter concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Port Charlotte,Suncoast,core,port charlotte concrete,50,Low,22,—,—,Dado Google Ads
+Port Charlotte,Suncoast,reverse_core,concrete port charlotte,50,High,92,3.51,12,Dado Google Ads
+Port Charlotte,Suncoast,contractor,port charlotte concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Port Charlotte,Suncoast,contractors,port charlotte concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Port Charlotte,Suncoast,reverse_contractor,concrete contractor port charlotte,—,—,—,—,—,Sem volume mensurável no plano
+Port Charlotte,Suncoast,company,port charlotte concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Port Charlotte,Suncoast,driveway,port charlotte concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Port Charlotte,Suncoast,driveway_reverse,concrete driveway port charlotte,—,—,—,—,—,Sem volume mensurável no plano
+Port Charlotte,Suncoast,repair,port charlotte concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Port Charlotte,Suncoast,patio,port charlotte concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Bradenton,Suncoast,core,bradenton concrete,50,High,82,—,—,Dado Google Ads
+Bradenton,Suncoast,contractor,bradenton concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Bradenton,Suncoast,contractors,bradenton concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Bradenton,Suncoast,reverse_contractor,concrete contractor bradenton,—,—,—,—,—,Sem volume mensurável no plano
+Bradenton,Suncoast,company,bradenton concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Bradenton,Suncoast,driveway,bradenton concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Bradenton,Suncoast,driveway_reverse,concrete driveway bradenton,—,—,—,—,—,Sem volume mensurável no plano
+Bradenton,Suncoast,repair,bradenton concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Bradenton,Suncoast,patio,bradenton concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Four Corners,Grande Orlando,core,four corners concrete,50,Low,7,—,—,Dado Google Ads
+Four Corners,Grande Orlando,reverse_core,concrete four corners,—,—,—,—,—,Sem volume mensurável no plano
+Four Corners,Grande Orlando,contractor,four corners concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Four Corners,Grande Orlando,contractors,four corners concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Four Corners,Grande Orlando,reverse_contractor,concrete contractor four corners,0,—,—,—,—,Dado Google Ads
+Four Corners,Grande Orlando,company,four corners concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Four Corners,Grande Orlando,driveway,four corners concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Four Corners,Grande Orlando,driveway_reverse,concrete driveway four corners,—,—,—,—,—,Sem volume mensurável no plano
+Four Corners,Grande Orlando,repair,four corners concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Four Corners,Grande Orlando,patio,four corners concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Winter Garden,Grande Orlando,core,winter garden concrete,—,—,—,—,—,Sem volume mensurável no plano
+Winter Garden,Grande Orlando,reverse_core,concrete winter garden,—,—,—,—,—,Sem volume mensurável no plano
+Winter Garden,Grande Orlando,contractor,winter garden concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Winter Garden,Grande Orlando,contractors,winter garden concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Winter Garden,Grande Orlando,reverse_contractor,concrete contractor winter garden,50,Low,0,—,—,Dado Google Ads
+Winter Garden,Grande Orlando,company,winter garden concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Winter Garden,Grande Orlando,driveway,winter garden concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Winter Garden,Grande Orlando,driveway_reverse,concrete driveway winter garden,—,—,—,—,—,Sem volume mensurável no plano
+Winter Garden,Grande Orlando,repair,winter garden concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Winter Garden,Grande Orlando,patio,winter garden concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Oviedo,Grande Orlando,core,oviedo concrete,50,High,86,—,—,Dado Google Ads
+Oviedo,Grande Orlando,reverse_core,concrete oviedo,—,—,—,—,—,Sem volume mensurável no plano
+Oviedo,Grande Orlando,contractor,oviedo concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Oviedo,Grande Orlando,reverse_contractor,concrete contractor oviedo,—,—,—,—,—,Sem volume mensurável no plano
+Oviedo,Grande Orlando,company,oviedo concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Oviedo,Grande Orlando,driveway,oviedo concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Oviedo,Grande Orlando,driveway_reverse,concrete driveway oviedo,—,—,—,—,—,Sem volume mensurável no plano
+Oviedo,Grande Orlando,repair,oviedo concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Oviedo,Grande Orlando,patio,oviedo concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Maitland,Grande Orlando,core,maitland concrete,50,High,100,—,—,Dado Google Ads
+Maitland,Grande Orlando,contractor,maitland concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Maitland,Grande Orlando,contractors,maitland concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Maitland,Grande Orlando,reverse_contractor,concrete contractor maitland,—,—,—,—,—,Sem volume mensurável no plano
+Maitland,Grande Orlando,company,maitland concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Maitland,Grande Orlando,driveway,maitland concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Maitland,Grande Orlando,driveway_reverse,concrete driveway maitland,—,—,—,—,—,Sem volume mensurável no plano
+Maitland,Grande Orlando,repair,maitland concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Maitland,Grande Orlando,patio,maitland concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Winter Park,Grande Orlando,core,winter park concrete,—,—,—,—,—,Sem volume mensurável no plano
+Winter Park,Grande Orlando,reverse_core,concrete winter park,—,—,—,—,—,Sem volume mensurável no plano
+Winter Park,Grande Orlando,contractor,winter park concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Winter Park,Grande Orlando,contractors,winter park concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Winter Park,Grande Orlando,reverse_contractor,concrete contractor winter park,50,Low,0,—,—,Dado Google Ads
+Winter Park,Grande Orlando,company,winter park concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Winter Park,Grande Orlando,driveway,winter park concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Winter Park,Grande Orlando,driveway_reverse,concrete driveway winter park,—,—,—,—,—,Sem volume mensurável no plano
+Winter Park,Grande Orlando,repair,winter park concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Winter Park,Grande Orlando,patio,winter park concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Lake Mary,Grande Orlando,core,lake mary concrete,50,—,—,—,—,Dado Google Ads
+Lake Mary,Grande Orlando,reverse_core,concrete lake mary,—,—,—,—,—,Sem volume mensurável no plano
+Lake Mary,Grande Orlando,contractor,lake mary concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Lake Mary,Grande Orlando,contractors,lake mary concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Lake Mary,Grande Orlando,reverse_contractor,concrete contractor lake mary,—,—,—,—,—,Sem volume mensurável no plano
+Lake Mary,Grande Orlando,company,lake mary concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Lake Mary,Grande Orlando,driveway,lake mary concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Lake Mary,Grande Orlando,driveway_reverse,concrete driveway lake mary,—,—,—,—,—,Sem volume mensurável no plano
+Lake Mary,Grande Orlando,repair,lake mary concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Lake Mary,Grande Orlando,patio,lake mary concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Davenport,Grande Orlando,core,davenport concrete,50,Low,14,—,—,Dado Google Ads
+Davenport,Grande Orlando,reverse_core,concrete davenport,—,—,—,—,—,Sem volume mensurável no plano
+Davenport,Grande Orlando,contractor,davenport concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Davenport,Grande Orlando,reverse_contractor,concrete contractor davenport,—,—,—,—,—,Sem volume mensurável no plano
+Davenport,Grande Orlando,company,davenport concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Davenport,Grande Orlando,driveway,davenport concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Davenport,Grande Orlando,driveway_reverse,concrete driveway davenport,—,—,—,—,—,Sem volume mensurável no plano
+Davenport,Grande Orlando,repair,davenport concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Davenport,Grande Orlando,patio,davenport concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Palmetto,Suncoast,core,palmetto concrete,50,Low,31,—,—,Dado Google Ads
+Palmetto,Suncoast,reverse_core,concrete palmetto,—,—,—,—,—,Sem volume mensurável no plano
+Palmetto,Suncoast,contractor,palmetto concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Palmetto,Suncoast,contractors,palmetto concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Palmetto,Suncoast,reverse_contractor,concrete contractor palmetto,—,—,—,—,—,Sem volume mensurável no plano
+Palmetto,Suncoast,company,palmetto concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Palmetto,Suncoast,driveway,palmetto concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Palmetto,Suncoast,driveway_reverse,concrete driveway palmetto,—,—,—,—,—,Sem volume mensurável no plano
+Palmetto,Suncoast,repair,palmetto concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Palmetto,Suncoast,patio,palmetto concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Westlake,Palm Beach,core,westlake concrete,50,—,—,—,—,Dado Google Ads
+Westlake,Palm Beach,reverse_core,concrete westlake,0,—,—,—,—,Dado Google Ads
+Westlake,Palm Beach,contractor,westlake concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Westlake,Palm Beach,contractors,westlake concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Westlake,Palm Beach,reverse_contractor,concrete contractor westlake,—,—,—,—,—,Sem volume mensurável no plano
+Westlake,Palm Beach,company,westlake concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Westlake,Palm Beach,driveway,westlake concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Westlake,Palm Beach,driveway_reverse,concrete driveway westlake,—,—,—,—,—,Sem volume mensurável no plano
+Westlake,Palm Beach,repair,westlake concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Westlake,Palm Beach,patio,westlake concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach,Palm Beach,core,palm beach concrete,50,High,71,—,—,Dado Google Ads
+Palm Beach,Palm Beach,reverse_core,concrete palm beach,50,—,—,—,—,Dado Google Ads
+Palm Beach,Palm Beach,contractor,palm beach concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach,Palm Beach,reverse_contractor,concrete contractor palm beach,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach,Palm Beach,company,palm beach concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach,Palm Beach,driveway,palm beach concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach,Palm Beach,driveway_reverse,concrete driveway palm beach,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach,Palm Beach,repair,palm beach concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach,Palm Beach,patio,palm beach concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Nokomis,Suncoast,core,nokomis concrete,50,—,—,—,—,Dado Google Ads
+Nokomis,Suncoast,reverse_core,concrete nokomis,—,—,—,—,—,Sem volume mensurável no plano
+Nokomis,Suncoast,contractor,nokomis concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Nokomis,Suncoast,contractors,nokomis concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Nokomis,Suncoast,reverse_contractor,concrete contractor nokomis,—,—,—,—,—,Sem volume mensurável no plano
+Nokomis,Suncoast,company,nokomis concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Nokomis,Suncoast,driveway,nokomis concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Nokomis,Suncoast,driveway_reverse,concrete driveway nokomis,—,—,—,—,—,Sem volume mensurável no plano
+Nokomis,Suncoast,repair,nokomis concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Nokomis,Suncoast,patio,nokomis concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Windermere,Grande Orlando,core,windermere concrete,50,—,—,—,—,Dado Google Ads
+Windermere,Grande Orlando,reverse_core,concrete windermere,—,—,—,—,—,Sem volume mensurável no plano
+Windermere,Grande Orlando,contractor,windermere concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Windermere,Grande Orlando,contractors,windermere concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Windermere,Grande Orlando,reverse_contractor,concrete contractor windermere,—,—,—,—,—,Sem volume mensurável no plano
+Windermere,Grande Orlando,company,windermere concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Windermere,Grande Orlando,driveway,windermere concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Windermere,Grande Orlando,driveway_reverse,concrete driveway windermere,—,—,—,—,—,Sem volume mensurável no plano
+Windermere,Grande Orlando,repair,windermere concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Windermere,Grande Orlando,patio,windermere concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Silver Springs,Ocala / Marion,core,silver springs concrete,50,Low,0,—,—,Dado Google Ads
+Silver Springs,Ocala / Marion,reverse_core,concrete silver springs,—,—,—,—,—,Sem volume mensurável no plano
+Silver Springs,Ocala / Marion,contractor,silver springs concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Silver Springs,Ocala / Marion,contractors,silver springs concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Silver Springs,Ocala / Marion,reverse_contractor,concrete contractor silver springs,—,—,—,—,—,Sem volume mensurável no plano
+Silver Springs,Ocala / Marion,company,silver springs concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Silver Springs,Ocala / Marion,driveway,silver springs concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Silver Springs,Ocala / Marion,driveway_reverse,concrete driveway silver springs,—,—,—,—,—,Sem volume mensurável no plano
+Silver Springs,Ocala / Marion,repair,silver springs concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Silver Springs,Ocala / Marion,patio,silver springs concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Parrish,Suncoast,core,parrish concrete,50,Low,10,—,—,Dado Google Ads
+Parrish,Suncoast,reverse_core,concrete parrish,—,—,—,—,—,Sem volume mensurável no plano
+Parrish,Suncoast,contractor,parrish concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Parrish,Suncoast,contractors,parrish concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Parrish,Suncoast,reverse_contractor,concrete contractor parrish,—,—,—,—,—,Sem volume mensurável no plano
+Parrish,Suncoast,company,parrish concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Parrish,Suncoast,driveway,parrish concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Parrish,Suncoast,driveway_reverse,concrete driveway parrish,—,—,—,—,—,Sem volume mensurável no plano
+Parrish,Suncoast,repair,parrish concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Parrish,Suncoast,patio,parrish concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Suncoast FL,Regional,core,suncoast concrete,50,Low,10,—,—,Dado Google Ads
+Suncoast FL,Regional,reverse_core,concrete suncoast,—,—,—,—,—,Sem volume mensurável no plano
+Suncoast FL,Regional,contractor,suncoast concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Suncoast FL,Regional,contractors,suncoast concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Suncoast FL,Regional,reverse_contractor,concrete contractor suncoast,—,—,—,—,—,Sem volume mensurável no plano
+Suncoast FL,Regional,company,suncoast concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Suncoast FL,Regional,driveway,suncoast concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Suncoast FL,Regional,driveway_reverse,concrete driveway suncoast,—,—,—,—,—,Sem volume mensurável no plano
+Suncoast FL,Regional,repair,suncoast concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Suncoast FL,Regional,patio,suncoast concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Central Florida,Regional,core,central florida concrete,50,Low,28,4.11,11.07,Dado Google Ads
+Central Florida,Regional,reverse_core,concrete central florida,50,Low,28,4.11,11.07,Dado Google Ads
+Central Florida,Regional,contractor,central florida concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Central Florida,Regional,contractors,central florida concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Central Florida,Regional,reverse_contractor,concrete contractor central florida,—,—,—,—,—,Sem volume mensurável no plano
+Central Florida,Regional,company,central florida concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Central Florida,Regional,driveway,central florida concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Central Florida,Regional,driveway_reverse,concrete driveway central florida,—,—,—,—,—,Sem volume mensurável no plano
+Central Florida,Regional,repair,central florida concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Central Florida,Regional,patio,central florida concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Seminole County FL,Regional,core,seminole county concrete,—,—,—,—,—,Sem volume mensurável no plano
+Seminole County FL,Regional,reverse_core,concrete seminole county,—,—,—,—,—,Sem volume mensurável no plano
+Seminole County FL,Regional,contractor,seminole county concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Seminole County FL,Regional,contractors,seminole county concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Seminole County FL,Regional,reverse_contractor,concrete contractor seminole county,—,—,—,—,—,Sem volume mensurável no plano
+Seminole County FL,Regional,company,seminole county concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Seminole County FL,Regional,driveway,seminole county concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Seminole County FL,Regional,driveway_reverse,concrete driveway seminole county,—,—,—,—,—,Sem volume mensurável no plano
+Seminole County FL,Regional,repair,seminole county concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Seminole County FL,Regional,patio,seminole county concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Osceola County FL,Regional,core,osceola county concrete,—,—,—,—,—,Sem volume mensurável no plano
+Osceola County FL,Regional,reverse_core,concrete osceola county,—,—,—,—,—,Sem volume mensurável no plano
+Osceola County FL,Regional,contractor,osceola county concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Osceola County FL,Regional,contractors,osceola county concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Osceola County FL,Regional,reverse_contractor,concrete contractor osceola county,—,—,—,—,—,Sem volume mensurável no plano
+Osceola County FL,Regional,company,osceola county concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Osceola County FL,Regional,driveway,osceola county concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Osceola County FL,Regional,driveway_reverse,concrete driveway osceola county,—,—,—,—,—,Sem volume mensurável no plano
+Osceola County FL,Regional,repair,osceola county concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Osceola County FL,Regional,patio,osceola county concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Manatee County,Regional,core,manatee county concrete,—,—,—,—,—,Sem volume mensurável no plano
+Manatee County,Regional,reverse_core,concrete manatee county,—,—,—,—,—,Sem volume mensurável no plano
+Manatee County,Regional,contractor,manatee county concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Manatee County,Regional,contractors,manatee county concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Manatee County,Regional,reverse_contractor,concrete contractor manatee county,—,—,—,—,—,Sem volume mensurável no plano
+Manatee County,Regional,company,manatee county concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Manatee County,Regional,driveway,manatee county concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Manatee County,Regional,driveway_reverse,concrete driveway manatee county,—,—,—,—,—,Sem volume mensurável no plano
+Manatee County,Regional,repair,manatee county concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Manatee County,Regional,patio,manatee county concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota County,Regional,core,sarasota county concrete,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota County,Regional,reverse_core,concrete sarasota county,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota County,Regional,contractor,sarasota county concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota County,Regional,contractors,sarasota county concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota County,Regional,reverse_contractor,concrete contractor sarasota county,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota County,Regional,company,sarasota county concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota County,Regional,driveway,sarasota county concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota County,Regional,driveway_reverse,concrete driveway sarasota county,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota County,Regional,repair,sarasota county concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Sarasota County,Regional,patio,sarasota county concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Alafaya,Grande Orlando,core,alafaya concrete,—,—,—,—,—,Sem volume mensurável no plano
+Alafaya,Grande Orlando,reverse_core,concrete alafaya,—,—,—,—,—,Sem volume mensurável no plano
+Alafaya,Grande Orlando,contractor,alafaya concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Alafaya,Grande Orlando,contractors,alafaya concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Alafaya,Grande Orlando,reverse_contractor,concrete contractor alafaya,—,—,—,—,—,Sem volume mensurável no plano
+Alafaya,Grande Orlando,company,alafaya concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Alafaya,Grande Orlando,driveway,alafaya concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Alafaya,Grande Orlando,driveway_reverse,concrete driveway alafaya,—,—,—,—,—,Sem volume mensurável no plano
+Alafaya,Grande Orlando,repair,alafaya concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Alafaya,Grande Orlando,patio,alafaya concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach Gardens,Palm Beach,core,palm beach gardens concrete,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach Gardens,Palm Beach,reverse_core,concrete palm beach gardens,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach Gardens,Palm Beach,contractor,palm beach gardens concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach Gardens,Palm Beach,contractors,palm beach gardens concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach Gardens,Palm Beach,reverse_contractor,concrete contractor palm beach gardens,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach Gardens,Palm Beach,company,palm beach gardens concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach Gardens,Palm Beach,driveway,palm beach gardens concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach Gardens,Palm Beach,driveway_reverse,concrete driveway palm beach gardens,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach Gardens,Palm Beach,repair,palm beach gardens concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Palm Beach Gardens,Palm Beach,patio,palm beach gardens concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Deltona,Grande Orlando,core,deltona concrete,—,—,—,—,—,Sem volume mensurável no plano
+Deltona,Grande Orlando,reverse_core,concrete deltona,—,—,—,—,—,Sem volume mensurável no plano
+Deltona,Grande Orlando,contractor,deltona concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Deltona,Grande Orlando,contractors,deltona concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Deltona,Grande Orlando,reverse_contractor,concrete contractor deltona,—,—,—,—,—,Sem volume mensurável no plano
+Deltona,Grande Orlando,company,deltona concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Deltona,Grande Orlando,driveway,deltona concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Deltona,Grande Orlando,driveway_reverse,concrete driveway deltona,—,—,—,—,—,Sem volume mensurável no plano
+Deltona,Grande Orlando,repair,deltona concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Deltona,Grande Orlando,patio,deltona concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Boynton Beach,Palm Beach,core,boynton beach concrete,—,—,—,—,—,Sem volume mensurável no plano
+Boynton Beach,Palm Beach,reverse_core,concrete boynton beach,—,—,—,—,—,Sem volume mensurável no plano
+Boynton Beach,Palm Beach,contractor,boynton beach concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Boynton Beach,Palm Beach,contractors,boynton beach concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Boynton Beach,Palm Beach,reverse_contractor,concrete contractor boynton beach,—,—,—,—,—,Sem volume mensurável no plano
+Boynton Beach,Palm Beach,company,boynton beach concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Boynton Beach,Palm Beach,driveway,boynton beach concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Boynton Beach,Palm Beach,driveway_reverse,concrete driveway boynton beach,—,—,—,—,—,Sem volume mensurável no plano
+Boynton Beach,Palm Beach,repair,boynton beach concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Boynton Beach,Palm Beach,patio,boynton beach concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+The Villages,Ocala / Marion,core,the villages concrete,—,—,—,—,—,Sem volume mensurável no plano
+The Villages,Ocala / Marion,reverse_core,concrete the villages,—,—,—,—,—,Sem volume mensurável no plano
+The Villages,Ocala / Marion,contractor,the villages concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+The Villages,Ocala / Marion,contractors,the villages concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+The Villages,Ocala / Marion,reverse_contractor,concrete contractor the villages,—,—,—,—,—,Sem volume mensurável no plano
+The Villages,Ocala / Marion,company,the villages concrete company,—,—,—,—,—,Sem volume mensurável no plano
+The Villages,Ocala / Marion,driveway,the villages concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+The Villages,Ocala / Marion,driveway_reverse,concrete driveway the villages,—,—,—,—,—,Sem volume mensurável no plano
+The Villages,Ocala / Marion,repair,the villages concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+The Villages,Ocala / Marion,patio,the villages concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Altamonte Springs,Grande Orlando,core,altamonte springs concrete,—,—,—,—,—,Sem volume mensurável no plano
+Altamonte Springs,Grande Orlando,reverse_core,concrete altamonte springs,—,—,—,—,—,Sem volume mensurável no plano
+Altamonte Springs,Grande Orlando,contractor,altamonte springs concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Altamonte Springs,Grande Orlando,contractors,altamonte springs concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Altamonte Springs,Grande Orlando,reverse_contractor,concrete contractor altamonte springs,—,—,—,—,—,Sem volume mensurável no plano
+Altamonte Springs,Grande Orlando,company,altamonte springs concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Altamonte Springs,Grande Orlando,driveway,altamonte springs concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Altamonte Springs,Grande Orlando,driveway_reverse,concrete driveway altamonte springs,—,—,—,—,—,Sem volume mensurável no plano
+Altamonte Springs,Grande Orlando,repair,altamonte springs concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Altamonte Springs,Grande Orlando,patio,altamonte springs concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Poinciana,Grande Orlando,core,poinciana concrete,—,—,—,—,—,Sem volume mensurável no plano
+Poinciana,Grande Orlando,reverse_core,concrete poinciana,—,—,—,—,—,Sem volume mensurável no plano
+Poinciana,Grande Orlando,contractor,poinciana concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Poinciana,Grande Orlando,contractors,poinciana concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Poinciana,Grande Orlando,reverse_contractor,concrete contractor poinciana,—,—,—,—,—,Sem volume mensurável no plano
+Poinciana,Grande Orlando,company,poinciana concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Poinciana,Grande Orlando,driveway,poinciana concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Poinciana,Grande Orlando,driveway_reverse,concrete driveway poinciana,—,—,—,—,—,Sem volume mensurável no plano
+Poinciana,Grande Orlando,repair,poinciana concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Poinciana,Grande Orlando,patio,poinciana concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Royal Palm Beach,Palm Beach,core,royal palm beach concrete,—,—,—,—,—,Sem volume mensurável no plano
+Royal Palm Beach,Palm Beach,reverse_core,concrete royal palm beach,—,—,—,—,—,Sem volume mensurável no plano
+Royal Palm Beach,Palm Beach,contractor,royal palm beach concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Royal Palm Beach,Palm Beach,contractors,royal palm beach concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Royal Palm Beach,Palm Beach,reverse_contractor,concrete contractor royal palm beach,—,—,—,—,—,Sem volume mensurável no plano
+Royal Palm Beach,Palm Beach,company,royal palm beach concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Royal Palm Beach,Palm Beach,driveway,royal palm beach concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Royal Palm Beach,Palm Beach,driveway_reverse,concrete driveway royal palm beach,—,—,—,—,—,Sem volume mensurável no plano
+Royal Palm Beach,Palm Beach,repair,royal palm beach concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Royal Palm Beach,Palm Beach,patio,royal palm beach concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Winter Springs,Grande Orlando,core,winter springs concrete,—,—,—,—,—,Sem volume mensurável no plano
+Winter Springs,Grande Orlando,reverse_core,concrete winter springs,—,—,—,—,—,Sem volume mensurável no plano
+Winter Springs,Grande Orlando,contractor,winter springs concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Winter Springs,Grande Orlando,contractors,winter springs concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Winter Springs,Grande Orlando,reverse_contractor,concrete contractor winter springs,—,—,—,—,—,Sem volume mensurável no plano
+Winter Springs,Grande Orlando,company,winter springs concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Winter Springs,Grande Orlando,driveway,winter springs concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Winter Springs,Grande Orlando,driveway_reverse,concrete driveway winter springs,—,—,—,—,—,Sem volume mensurável no plano
+Winter Springs,Grande Orlando,repair,winter springs concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Winter Springs,Grande Orlando,patio,winter springs concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Winter Haven,Polk / I-4,core,winter haven concrete,—,—,—,—,—,Sem volume mensurável no plano
+Winter Haven,Polk / I-4,reverse_core,concrete winter haven,—,—,—,—,—,Sem volume mensurável no plano
+Winter Haven,Polk / I-4,contractor,winter haven concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Winter Haven,Polk / I-4,reverse_contractor,concrete contractor winter haven,—,—,—,—,—,Sem volume mensurável no plano
+Winter Haven,Polk / I-4,company,winter haven concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Winter Haven,Polk / I-4,driveway,winter haven concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Winter Haven,Polk / I-4,driveway_reverse,concrete driveway winter haven,—,—,—,—,—,Sem volume mensurável no plano
+Winter Haven,Polk / I-4,repair,winter haven concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Winter Haven,Polk / I-4,patio,winter haven concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Horizon West,Grande Orlando,core,horizon west concrete,—,—,—,—,—,Sem volume mensurável no plano
+Horizon West,Grande Orlando,reverse_core,concrete horizon west,—,—,—,—,—,Sem volume mensurável no plano
+Horizon West,Grande Orlando,contractor,horizon west concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Horizon West,Grande Orlando,contractors,horizon west concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Horizon West,Grande Orlando,reverse_contractor,concrete contractor horizon west,—,—,—,—,—,Sem volume mensurável no plano
+Horizon West,Grande Orlando,company,horizon west concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Horizon West,Grande Orlando,driveway,horizon west concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Horizon West,Grande Orlando,driveway_reverse,concrete driveway horizon west,—,—,—,—,—,Sem volume mensurável no plano
+Horizon West,Grande Orlando,repair,horizon west concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Horizon West,Grande Orlando,patio,horizon west concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Ocoee,Grande Orlando,core,ocoee concrete,—,—,—,—,—,Sem volume mensurável no plano
+Ocoee,Grande Orlando,reverse_core,concrete ocoee,—,—,—,—,—,Sem volume mensurável no plano
+Ocoee,Grande Orlando,contractor,ocoee concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Ocoee,Grande Orlando,contractors,ocoee concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Ocoee,Grande Orlando,reverse_contractor,concrete contractor ocoee,—,—,—,—,—,Sem volume mensurável no plano
+Ocoee,Grande Orlando,company,ocoee concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Ocoee,Grande Orlando,driveway,ocoee concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Ocoee,Grande Orlando,driveway_reverse,concrete driveway ocoee,—,—,—,—,—,Sem volume mensurável no plano
+Ocoee,Grande Orlando,repair,ocoee concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Ocoee,Grande Orlando,patio,ocoee concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Casselberry,Grande Orlando,core,casselberry concrete,—,—,—,—,—,Sem volume mensurável no plano
+Casselberry,Grande Orlando,reverse_core,concrete casselberry,—,—,—,—,—,Sem volume mensurável no plano
+Casselberry,Grande Orlando,contractor,casselberry concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Casselberry,Grande Orlando,contractors,casselberry concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Casselberry,Grande Orlando,reverse_contractor,concrete contractor casselberry,—,—,—,—,—,Sem volume mensurável no plano
+Casselberry,Grande Orlando,company,casselberry concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Casselberry,Grande Orlando,driveway,casselberry concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Casselberry,Grande Orlando,driveway_reverse,concrete driveway casselberry,—,—,—,—,—,Sem volume mensurável no plano
+Casselberry,Grande Orlando,repair,casselberry concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Casselberry,Grande Orlando,patio,casselberry concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Greenacres,Palm Beach,core,greenacres concrete,—,—,—,—,—,Sem volume mensurável no plano
+Greenacres,Palm Beach,reverse_core,concrete greenacres,—,—,—,—,—,Sem volume mensurável no plano
+Greenacres,Palm Beach,contractor,greenacres concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Greenacres,Palm Beach,contractors,greenacres concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Greenacres,Palm Beach,reverse_contractor,concrete contractor greenacres,—,—,—,—,—,Sem volume mensurável no plano
+Greenacres,Palm Beach,company,greenacres concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Greenacres,Palm Beach,driveway,greenacres concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Greenacres,Palm Beach,driveway_reverse,concrete driveway greenacres,—,—,—,—,—,Sem volume mensurável no plano
+Greenacres,Palm Beach,repair,greenacres concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Greenacres,Palm Beach,patio,greenacres concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+DeLand,Grande Orlando,core,deland concrete,—,—,—,—,—,Sem volume mensurável no plano
+DeLand,Grande Orlando,contractor,deland concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+DeLand,Grande Orlando,reverse_contractor,concrete contractor deland,—,—,—,—,—,Sem volume mensurável no plano
+DeLand,Grande Orlando,company,deland concrete company,—,—,—,—,—,Sem volume mensurável no plano
+DeLand,Grande Orlando,driveway,deland concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+DeLand,Grande Orlando,driveway_reverse,concrete driveway deland,—,—,—,—,—,Sem volume mensurável no plano
+DeLand,Grande Orlando,repair,deland concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+DeLand,Grande Orlando,patio,deland concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Haines City,Grande Orlando,core,haines city concrete,—,—,—,—,—,Sem volume mensurável no plano
+Haines City,Grande Orlando,reverse_core,concrete haines city,—,—,—,—,—,Sem volume mensurável no plano
+Haines City,Grande Orlando,contractor,haines city concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Haines City,Grande Orlando,contractors,haines city concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Haines City,Grande Orlando,reverse_contractor,concrete contractor haines city,—,—,—,—,—,Sem volume mensurável no plano
+Haines City,Grande Orlando,company,haines city concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Haines City,Grande Orlando,driveway,haines city concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Haines City,Grande Orlando,driveway_reverse,concrete driveway haines city,—,—,—,—,—,Sem volume mensurável no plano
+Haines City,Grande Orlando,repair,haines city concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Haines City,Grande Orlando,patio,haines city concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Lake Worth Beach,Palm Beach,core,lake worth beach concrete,—,—,—,—,—,Sem volume mensurável no plano
+Lake Worth Beach,Palm Beach,reverse_core,concrete lake worth beach,—,—,—,—,—,Sem volume mensurável no plano
+Lake Worth Beach,Palm Beach,contractor,lake worth beach concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Lake Worth Beach,Palm Beach,contractors,lake worth beach concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Lake Worth Beach,Palm Beach,reverse_contractor,concrete contractor lake worth beach,—,—,—,—,—,Sem volume mensurável no plano
+Lake Worth Beach,Palm Beach,company,lake worth beach concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Lake Worth Beach,Palm Beach,driveway,lake worth beach concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Lake Worth Beach,Palm Beach,driveway_reverse,concrete driveway lake worth beach,—,—,—,—,—,Sem volume mensurável no plano
+Lake Worth Beach,Palm Beach,repair,lake worth beach concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Lake Worth Beach,Palm Beach,patio,lake worth beach concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Riviera Beach,Palm Beach,core,riviera beach concrete,—,—,—,—,—,Sem volume mensurável no plano
+Riviera Beach,Palm Beach,reverse_core,concrete riviera beach,—,—,—,—,—,Sem volume mensurável no plano
+Riviera Beach,Palm Beach,contractor,riviera beach concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Riviera Beach,Palm Beach,contractors,riviera beach concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Riviera Beach,Palm Beach,reverse_contractor,concrete contractor riviera beach,—,—,—,—,—,Sem volume mensurável no plano
+Riviera Beach,Palm Beach,company,riviera beach concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Riviera Beach,Palm Beach,driveway,riviera beach concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Riviera Beach,Palm Beach,driveway_reverse,concrete driveway riviera beach,—,—,—,—,—,Sem volume mensurável no plano
+Riviera Beach,Palm Beach,repair,riviera beach concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Riviera Beach,Palm Beach,patio,riviera beach concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Eustis,Grande Orlando,core,eustis concrete,—,—,—,—,—,Sem volume mensurável no plano
+Eustis,Grande Orlando,reverse_core,concrete eustis,—,—,—,—,—,Sem volume mensurável no plano
+Eustis,Grande Orlando,contractor,eustis concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Eustis,Grande Orlando,contractors,eustis concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Eustis,Grande Orlando,reverse_contractor,concrete contractor eustis,—,—,—,—,—,Sem volume mensurável no plano
+Eustis,Grande Orlando,company,eustis concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Eustis,Grande Orlando,driveway,eustis concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Eustis,Grande Orlando,driveway_reverse,concrete driveway eustis,—,—,—,—,—,Sem volume mensurável no plano
+Eustis,Grande Orlando,repair,eustis concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Eustis,Grande Orlando,patio,eustis concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Hunters Creek,Grande Orlando,core,hunters creek concrete,—,—,—,—,—,Sem volume mensurável no plano
+Hunters Creek,Grande Orlando,reverse_core,concrete hunters creek,—,—,—,—,—,Sem volume mensurável no plano
+Hunters Creek,Grande Orlando,contractor,hunters creek concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Hunters Creek,Grande Orlando,contractors,hunters creek concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Hunters Creek,Grande Orlando,reverse_contractor,concrete contractor hunters creek,—,—,—,—,—,Sem volume mensurável no plano
+Hunters Creek,Grande Orlando,company,hunters creek concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Hunters Creek,Grande Orlando,driveway,hunters creek concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Hunters Creek,Grande Orlando,driveway_reverse,concrete driveway hunters creek,—,—,—,—,—,Sem volume mensurável no plano
+Hunters Creek,Grande Orlando,repair,hunters creek concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Hunters Creek,Grande Orlando,patio,hunters creek concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Auburndale,Polk / I-4,core,auburndale concrete,—,—,—,—,—,Sem volume mensurável no plano
+Auburndale,Polk / I-4,reverse_core,concrete auburndale,—,—,—,—,—,Sem volume mensurável no plano
+Auburndale,Polk / I-4,contractor,auburndale concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Auburndale,Polk / I-4,contractors,auburndale concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Auburndale,Polk / I-4,reverse_contractor,concrete contractor auburndale,—,—,—,—,—,Sem volume mensurável no plano
+Auburndale,Polk / I-4,company,auburndale concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Auburndale,Polk / I-4,driveway,auburndale concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Auburndale,Polk / I-4,driveway_reverse,concrete driveway auburndale,—,—,—,—,—,Sem volume mensurável no plano
+Auburndale,Polk / I-4,repair,auburndale concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Auburndale,Polk / I-4,patio,auburndale concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Minneola,Grande Orlando,core,minneola concrete,—,—,—,—,—,Sem volume mensurável no plano
+Minneola,Grande Orlando,reverse_core,concrete minneola,—,—,—,—,—,Sem volume mensurável no plano
+Minneola,Grande Orlando,contractor,minneola concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Minneola,Grande Orlando,contractors,minneola concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Minneola,Grande Orlando,reverse_contractor,concrete contractor minneola,—,—,—,—,—,Sem volume mensurável no plano
+Minneola,Grande Orlando,company,minneola concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Minneola,Grande Orlando,driveway,minneola concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Minneola,Grande Orlando,driveway_reverse,concrete driveway minneola,—,—,—,—,—,Sem volume mensurável no plano
+Minneola,Grande Orlando,repair,minneola concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Minneola,Grande Orlando,patio,minneola concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Marion Oaks,Ocala / Marion,core,marion oaks concrete,—,—,—,—,—,Sem volume mensurável no plano
+Marion Oaks,Ocala / Marion,reverse_core,concrete marion oaks,—,—,—,—,—,Sem volume mensurável no plano
+Marion Oaks,Ocala / Marion,contractor,marion oaks concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Marion Oaks,Ocala / Marion,contractors,marion oaks concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Marion Oaks,Ocala / Marion,reverse_contractor,concrete contractor marion oaks,—,—,—,—,—,Sem volume mensurável no plano
+Marion Oaks,Ocala / Marion,company,marion oaks concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Marion Oaks,Ocala / Marion,driveway,marion oaks concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Marion Oaks,Ocala / Marion,driveway_reverse,concrete driveway marion oaks,—,—,—,—,—,Sem volume mensurável no plano
+Marion Oaks,Ocala / Marion,repair,marion oaks concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Marion Oaks,Ocala / Marion,patio,marion oaks concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Mount Dora,Grande Orlando,core,mount dora concrete,—,—,—,—,—,Sem volume mensurável no plano
+Mount Dora,Grande Orlando,reverse_core,concrete mount dora,—,—,—,—,—,Sem volume mensurável no plano
+Mount Dora,Grande Orlando,contractor,mount dora concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Mount Dora,Grande Orlando,contractors,mount dora concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Mount Dora,Grande Orlando,reverse_contractor,concrete contractor mount dora,—,—,—,—,—,Sem volume mensurável no plano
+Mount Dora,Grande Orlando,company,mount dora concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Mount Dora,Grande Orlando,driveway,mount dora concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Mount Dora,Grande Orlando,driveway_reverse,concrete driveway mount dora,—,—,—,—,—,Sem volume mensurável no plano
+Mount Dora,Grande Orlando,repair,mount dora concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Mount Dora,Grande Orlando,patio,mount dora concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Lakewood Ranch,Suncoast,core,lakewood ranch concrete,—,—,—,—,—,Sem volume mensurável no plano
+Lakewood Ranch,Suncoast,reverse_core,concrete lakewood ranch,—,—,—,—,—,Sem volume mensurável no plano
+Lakewood Ranch,Suncoast,contractor,lakewood ranch concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Lakewood Ranch,Suncoast,contractors,lakewood ranch concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Lakewood Ranch,Suncoast,reverse_contractor,concrete contractor lakewood ranch,—,—,—,—,—,Sem volume mensurável no plano
+Lakewood Ranch,Suncoast,company,lakewood ranch concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Lakewood Ranch,Suncoast,driveway,lakewood ranch concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Lakewood Ranch,Suncoast,driveway_reverse,concrete driveway lakewood ranch,—,—,—,—,—,Sem volume mensurável no plano
+Lakewood Ranch,Suncoast,repair,lakewood ranch concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Lakewood Ranch,Suncoast,patio,lakewood ranch concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Longwood,Grande Orlando,core,longwood concrete,—,—,—,—,—,Sem volume mensurável no plano
+Longwood,Grande Orlando,reverse_core,concrete longwood,—,—,—,—,—,Sem volume mensurável no plano
+Longwood,Grande Orlando,contractor,longwood concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Longwood,Grande Orlando,contractors,longwood concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Longwood,Grande Orlando,reverse_contractor,concrete contractor longwood,—,—,—,—,—,Sem volume mensurável no plano
+Longwood,Grande Orlando,company,longwood concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Longwood,Grande Orlando,driveway,longwood concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Longwood,Grande Orlando,driveway_reverse,concrete driveway longwood,—,—,—,—,—,Sem volume mensurável no plano
+Longwood,Grande Orlando,repair,longwood concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Longwood,Grande Orlando,patio,longwood concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+DeBary,Grande Orlando,core,debary concrete,—,—,—,—,—,Sem volume mensurável no plano
+DeBary,Grande Orlando,reverse_core,concrete debary,—,—,—,—,—,Sem volume mensurável no plano
+DeBary,Grande Orlando,contractor,debary concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+DeBary,Grande Orlando,contractors,debary concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+DeBary,Grande Orlando,reverse_contractor,concrete contractor debary,—,—,—,—,—,Sem volume mensurável no plano
+DeBary,Grande Orlando,company,debary concrete company,—,—,—,—,—,Sem volume mensurável no plano
+DeBary,Grande Orlando,driveway,debary concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+DeBary,Grande Orlando,driveway_reverse,concrete driveway debary,—,—,—,—,—,Sem volume mensurável no plano
+DeBary,Grande Orlando,repair,debary concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+DeBary,Grande Orlando,patio,debary concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Groveland,Grande Orlando,core,groveland concrete,—,—,—,—,—,Sem volume mensurável no plano
+Groveland,Grande Orlando,reverse_core,concrete groveland,—,—,—,—,—,Sem volume mensurável no plano
+Groveland,Grande Orlando,contractor,groveland concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Groveland,Grande Orlando,contractors,groveland concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Groveland,Grande Orlando,reverse_contractor,concrete contractor groveland,—,—,—,—,—,Sem volume mensurável no plano
+Groveland,Grande Orlando,company,groveland concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Groveland,Grande Orlando,driveway,groveland concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Groveland,Grande Orlando,driveway_reverse,concrete driveway groveland,—,—,—,—,—,Sem volume mensurável no plano
+Groveland,Grande Orlando,repair,groveland concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Groveland,Grande Orlando,patio,groveland concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+North Palm Beach,Palm Beach,core,north palm beach concrete,—,—,—,—,—,Sem volume mensurável no plano
+North Palm Beach,Palm Beach,reverse_core,concrete north palm beach,—,—,—,—,—,Sem volume mensurável no plano
+North Palm Beach,Palm Beach,contractor,north palm beach concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+North Palm Beach,Palm Beach,contractors,north palm beach concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+North Palm Beach,Palm Beach,reverse_contractor,concrete contractor north palm beach,—,—,—,—,—,Sem volume mensurável no plano
+North Palm Beach,Palm Beach,company,north palm beach concrete company,—,—,—,—,—,Sem volume mensurável no plano
+North Palm Beach,Palm Beach,driveway,north palm beach concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+North Palm Beach,Palm Beach,driveway_reverse,concrete driveway north palm beach,—,—,—,—,—,Sem volume mensurável no plano
+North Palm Beach,Palm Beach,repair,north palm beach concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+North Palm Beach,Palm Beach,patio,north palm beach concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Englewood,Suncoast,core,englewood concrete,—,—,—,—,—,Sem volume mensurável no plano
+Englewood,Suncoast,reverse_core,concrete englewood,—,—,—,—,—,Sem volume mensurável no plano
+Englewood,Suncoast,contractor,englewood concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Englewood,Suncoast,contractors,englewood concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Englewood,Suncoast,reverse_contractor,concrete contractor englewood,—,—,—,—,—,Sem volume mensurável no plano
+Englewood,Suncoast,company,englewood concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Englewood,Suncoast,driveway,englewood concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Englewood,Suncoast,driveway_reverse,concrete driveway englewood,—,—,—,—,—,Sem volume mensurável no plano
+Englewood,Suncoast,repair,englewood concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Englewood,Suncoast,patio,englewood concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Punta Gorda,Suncoast,core,punta gorda concrete,—,—,—,—,—,Sem volume mensurável no plano
+Punta Gorda,Suncoast,reverse_core,concrete punta gorda,—,—,—,—,—,Sem volume mensurável no plano
+Punta Gorda,Suncoast,contractor,punta gorda concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Punta Gorda,Suncoast,reverse_contractor,concrete contractor punta gorda,—,—,—,—,—,Sem volume mensurável no plano
+Punta Gorda,Suncoast,company,punta gorda concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Punta Gorda,Suncoast,driveway,punta gorda concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Punta Gorda,Suncoast,driveway_reverse,concrete driveway punta gorda,—,—,—,—,—,Sem volume mensurável no plano
+Punta Gorda,Suncoast,repair,punta gorda concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Punta Gorda,Suncoast,patio,punta gorda concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Dr Phillips,Grande Orlando,core,dr phillips concrete,—,—,—,—,—,Sem volume mensurável no plano
+Dr Phillips,Grande Orlando,reverse_core,concrete dr phillips,—,—,—,—,—,Sem volume mensurável no plano
+Dr Phillips,Grande Orlando,contractor,dr phillips concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Dr Phillips,Grande Orlando,contractors,dr phillips concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Dr Phillips,Grande Orlando,reverse_contractor,concrete contractor dr phillips,—,—,—,—,—,Sem volume mensurável no plano
+Dr Phillips,Grande Orlando,company,dr phillips concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Dr Phillips,Grande Orlando,driveway,dr phillips concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Dr Phillips,Grande Orlando,driveway_reverse,concrete driveway dr phillips,—,—,—,—,—,Sem volume mensurável no plano
+Dr Phillips,Grande Orlando,repair,dr phillips concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Dr Phillips,Grande Orlando,patio,dr phillips concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Celebration,Grande Orlando,core,celebration concrete,—,—,—,—,—,Sem volume mensurável no plano
+Celebration,Grande Orlando,reverse_core,concrete celebration,—,—,—,—,—,Sem volume mensurável no plano
+Celebration,Grande Orlando,contractor,celebration concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Celebration,Grande Orlando,contractors,celebration concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Celebration,Grande Orlando,reverse_contractor,concrete contractor celebration,—,—,—,—,—,Sem volume mensurável no plano
+Celebration,Grande Orlando,company,celebration concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Celebration,Grande Orlando,driveway,celebration concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Celebration,Grande Orlando,driveway_reverse,concrete driveway celebration,—,—,—,—,—,Sem volume mensurável no plano
+Celebration,Grande Orlando,repair,celebration concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Celebration,Grande Orlando,patio,celebration concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Osprey,Suncoast,core,osprey concrete,—,—,—,—,—,Sem volume mensurável no plano
+Osprey,Suncoast,reverse_core,concrete osprey,—,—,—,—,—,Sem volume mensurável no plano
+Osprey,Suncoast,contractor,osprey concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Osprey,Suncoast,contractors,osprey concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Osprey,Suncoast,reverse_contractor,concrete contractor osprey,—,—,—,—,—,Sem volume mensurável no plano
+Osprey,Suncoast,company,osprey concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Osprey,Suncoast,driveway,osprey concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Osprey,Suncoast,driveway_reverse,concrete driveway osprey,—,—,—,—,—,Sem volume mensurável no plano
+Osprey,Suncoast,repair,osprey concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Osprey,Suncoast,patio,osprey concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Belleview,Ocala / Marion,core,belleview concrete,—,—,—,—,—,Sem volume mensurável no plano
+Belleview,Ocala / Marion,reverse_core,concrete belleview,—,—,—,—,—,Sem volume mensurável no plano
+Belleview,Ocala / Marion,contractor,belleview concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Belleview,Ocala / Marion,contractors,belleview concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Belleview,Ocala / Marion,reverse_contractor,concrete contractor belleview,—,—,—,—,—,Sem volume mensurável no plano
+Belleview,Ocala / Marion,company,belleview concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Belleview,Ocala / Marion,driveway,belleview concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Belleview,Ocala / Marion,driveway_reverse,concrete driveway belleview,—,—,—,—,—,Sem volume mensurável no plano
+Belleview,Ocala / Marion,repair,belleview concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Belleview,Ocala / Marion,patio,belleview concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Siesta Key,Suncoast,core,siesta key concrete,—,—,—,—,—,Sem volume mensurável no plano
+Siesta Key,Suncoast,reverse_core,concrete siesta key,—,—,—,—,—,Sem volume mensurável no plano
+Siesta Key,Suncoast,contractor,siesta key concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Siesta Key,Suncoast,contractors,siesta key concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Siesta Key,Suncoast,reverse_contractor,concrete contractor siesta key,—,—,—,—,—,Sem volume mensurável no plano
+Siesta Key,Suncoast,company,siesta key concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Siesta Key,Suncoast,driveway,siesta key concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Siesta Key,Suncoast,driveway_reverse,concrete driveway siesta key,—,—,—,—,—,Sem volume mensurável no plano
+Siesta Key,Suncoast,repair,siesta key concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Siesta Key,Suncoast,patio,siesta key concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Ellenton,Suncoast,core,ellenton concrete,—,—,—,—,—,Sem volume mensurável no plano
+Ellenton,Suncoast,reverse_core,concrete ellenton,—,—,—,—,—,Sem volume mensurável no plano
+Ellenton,Suncoast,contractor,ellenton concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Ellenton,Suncoast,contractors,ellenton concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Ellenton,Suncoast,reverse_contractor,concrete contractor ellenton,—,—,—,—,—,Sem volume mensurável no plano
+Ellenton,Suncoast,company,ellenton concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Ellenton,Suncoast,driveway,ellenton concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Ellenton,Suncoast,driveway_reverse,concrete driveway ellenton,—,—,—,—,—,Sem volume mensurável no plano
+Ellenton,Suncoast,repair,ellenton concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Ellenton,Suncoast,patio,ellenton concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Loxahatchee Groves,Palm Beach,core,loxahatchee groves concrete,—,—,—,—,—,Sem volume mensurável no plano
+Loxahatchee Groves,Palm Beach,reverse_core,concrete loxahatchee groves,—,—,—,—,—,Sem volume mensurável no plano
+Loxahatchee Groves,Palm Beach,contractor,loxahatchee groves concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Loxahatchee Groves,Palm Beach,contractors,loxahatchee groves concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Loxahatchee Groves,Palm Beach,reverse_contractor,concrete contractor loxahatchee groves,—,—,—,—,—,Sem volume mensurável no plano
+Loxahatchee Groves,Palm Beach,company,loxahatchee groves concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Loxahatchee Groves,Palm Beach,driveway,loxahatchee groves concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Loxahatchee Groves,Palm Beach,driveway_reverse,concrete driveway loxahatchee groves,—,—,—,—,—,Sem volume mensurável no plano
+Loxahatchee Groves,Palm Beach,repair,loxahatchee groves concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Loxahatchee Groves,Palm Beach,patio,loxahatchee groves concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Dunnellon,Ocala / Marion,core,dunnellon concrete,—,—,—,—,—,Sem volume mensurável no plano
+Dunnellon,Ocala / Marion,reverse_core,concrete dunnellon,—,—,—,—,—,Sem volume mensurável no plano
+Dunnellon,Ocala / Marion,contractor,dunnellon concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Dunnellon,Ocala / Marion,contractors,dunnellon concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Dunnellon,Ocala / Marion,reverse_contractor,concrete contractor dunnellon,—,—,—,—,—,Sem volume mensurável no plano
+Dunnellon,Ocala / Marion,company,dunnellon concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Dunnellon,Ocala / Marion,driveway,dunnellon concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Dunnellon,Ocala / Marion,driveway_reverse,concrete driveway dunnellon,—,—,—,—,—,Sem volume mensurável no plano
+Dunnellon,Ocala / Marion,repair,dunnellon concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Dunnellon,Ocala / Marion,patio,dunnellon concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Myakka City,Suncoast,core,myakka city concrete,—,—,—,—,—,Sem volume mensurável no plano
+Myakka City,Suncoast,reverse_core,concrete myakka city,—,—,—,—,—,Sem volume mensurável no plano
+Myakka City,Suncoast,contractor,myakka city concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Myakka City,Suncoast,contractors,myakka city concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Myakka City,Suncoast,reverse_contractor,concrete contractor myakka city,—,—,—,—,—,Sem volume mensurável no plano
+Myakka City,Suncoast,company,myakka city concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Myakka City,Suncoast,driveway,myakka city concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Myakka City,Suncoast,driveway_reverse,concrete driveway myakka city,—,—,—,—,—,Sem volume mensurável no plano
+Myakka City,Suncoast,repair,myakka city concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Myakka City,Suncoast,patio,myakka city concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Greater Orlando,Regional,core,greater orlando concrete,—,—,—,—,—,Sem volume mensurável no plano
+Greater Orlando,Regional,reverse_core,concrete greater orlando,—,—,—,—,—,Sem volume mensurável no plano
+Greater Orlando,Regional,contractor,greater orlando concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Greater Orlando,Regional,contractors,greater orlando concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Greater Orlando,Regional,reverse_contractor,concrete contractor greater orlando,—,—,—,—,—,Sem volume mensurável no plano
+Greater Orlando,Regional,company,greater orlando concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Greater Orlando,Regional,driveway,greater orlando concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Greater Orlando,Regional,driveway_reverse,concrete driveway greater orlando,—,—,—,—,—,Sem volume mensurável no plano
+Greater Orlando,Regional,repair,greater orlando concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Greater Orlando,Regional,patio,greater orlando concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Lake Nona,Grande Orlando,core,lake nona concrete,—,—,—,—,—,Sem volume mensurável no plano
+Lake Nona,Grande Orlando,reverse_core,concrete lake nona,—,—,—,—,—,Sem volume mensurável no plano
+Lake Nona,Grande Orlando,contractor,lake nona concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Lake Nona,Grande Orlando,contractors,lake nona concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Lake Nona,Grande Orlando,reverse_contractor,concrete contractor lake nona,—,—,—,—,—,Sem volume mensurável no plano
+Lake Nona,Grande Orlando,company,lake nona concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Lake Nona,Grande Orlando,driveway,lake nona concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Lake Nona,Grande Orlando,driveway_reverse,concrete driveway lake nona,—,—,—,—,—,Sem volume mensurável no plano
+Lake Nona,Grande Orlando,repair,lake nona concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Lake Nona,Grande Orlando,patio,lake nona concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+University Park,Suncoast,core,university park concrete,—,—,—,—,—,Sem volume mensurável no plano
+University Park,Suncoast,reverse_core,concrete university park,—,—,—,—,—,Sem volume mensurável no plano
+University Park,Suncoast,contractor,university park concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+University Park,Suncoast,contractors,university park concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+University Park,Suncoast,reverse_contractor,concrete contractor university park,—,—,—,—,—,Sem volume mensurável no plano
+University Park,Suncoast,company,university park concrete company,—,—,—,—,—,Sem volume mensurável no plano
+University Park,Suncoast,driveway,university park concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+University Park,Suncoast,driveway_reverse,concrete driveway university park,—,—,—,—,—,Sem volume mensurável no plano
+University Park,Suncoast,repair,university park concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+University Park,Suncoast,patio,university park concrete patio,—,—,—,—,—,Sem volume mensurável no plano
+Summerfield,Ocala / Marion,core,summerfield concrete,—,—,—,—,—,Sem volume mensurável no plano
+Summerfield,Ocala / Marion,reverse_core,concrete summerfield,—,—,—,—,—,Sem volume mensurável no plano
+Summerfield,Ocala / Marion,contractor,summerfield concrete contractor,—,—,—,—,—,Sem volume mensurável no plano
+Summerfield,Ocala / Marion,contractors,summerfield concrete contractors,—,—,—,—,—,Sem volume mensurável no plano
+Summerfield,Ocala / Marion,reverse_contractor,concrete contractor summerfield,—,—,—,—,—,Sem volume mensurável no plano
+Summerfield,Ocala / Marion,company,summerfield concrete company,—,—,—,—,—,Sem volume mensurável no plano
+Summerfield,Ocala / Marion,driveway,summerfield concrete driveway,—,—,—,—,—,Sem volume mensurável no plano
+Summerfield,Ocala / Marion,driveway_reverse,concrete driveway summerfield,—,—,—,—,—,Sem volume mensurável no plano
+Summerfield,Ocala / Marion,repair,summerfield concrete repair,—,—,—,—,—,Sem volume mensurável no plano
+Summerfield,Ocala / Marion,patio,summerfield concrete patio,—,—,—,—,—,Sem volume mensurável no plano

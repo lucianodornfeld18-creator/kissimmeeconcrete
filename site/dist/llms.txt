@@ -1,0 +1,103 @@
+# Kissimmee Concrete
+
+> Kissimmee Concrete installs and repairs concrete driveways, patios, pool decks, slabs and walkways, and builds paver driveways, pool decks, patios and outdoor living spaces across Kissimmee, St. Cloud, Celebration, Poinciana, Harmony, the Four Corners resort corridor and the Polk County ridge from Davenport to Lake Wales. Insured, free on-site estimates, written workmanship warranty.
+
+Website: https://kissimmeeconcrete.com
+Email: hello@kissimmeeconcrete.com
+Service area: Kissimmee, St. Cloud, Celebration, Poinciana, Buenaventura Lakes, Harmony, Four Corners, ChampionsGate, Reunion, Davenport, Haines City and the Polk County ridge (about 40 miles around Kissimmee).
+Facts we publish with sources: Osceola County driveway width rule (§22-50.6, 24 ft max, permit required), City of Kissimmee driveway/sidewalk permit process, St. Cloud paver rule (refer to Public Works), Polk County slab/driveway permit rules and the Concrete Driveway Paver Release Form, Florida s. 489.117(4)(a) (no state or local license for driveway, paver or stucco work), NOAA 1991-2020 normals for Kissimmee 2 (June-September average 15-18 rain days a month), USDA soils (Smyrna, Myakka, Immokalee, Basinger fine sands in Osceola; Candler sand on the Polk ridge).
+Cost Index: Q3 2026 release, planning ranges only, machine-readable at https://kissimmeeconcrete.com/api/cost-index.json (CC BY 4.0).
+
+## Services
+
+- [Concrete Driveways](https://kissimmeeconcrete.com/concrete/driveways/): New, replacement, widening, extensions, aprons and turnarounds
+- [Concrete Patios](https://kissimmeeconcrete.com/concrete/patios/): Broom, smooth, exposed-aggregate and colored patio slabs
+- [Concrete Pool Decks](https://kissimmeeconcrete.com/concrete/pool-decks/): Textured and cool-deck finishes, deck resurfacing
+- [Stamped & Decorative Concrete](https://kissimmeeconcrete.com/concrete/stamped/): Patterns, integral color, release colors and sealers
+- [Concrete Slabs & Pads](https://kissimmeeconcrete.com/concrete/slabs/): Shed, AC, generator, RV, boat, hot-tub, workshop and dumpster pads
+- [Sidewalks & Walkways](https://kissimmeeconcrete.com/concrete/sidewalks-walkways/): Front walks, side yards, right-of-way sidewalk sections
+- [Concrete Repair](https://kissimmeeconcrete.com/concrete/repair/): Cracks, spalling, sunken sections, trip hazards, lifting decisions
+- [Concrete Resurfacing & Overlays](https://kissimmeeconcrete.com/concrete/resurfacing/): Polymer-modified overlays, textured and knock-down finishes
+- [Architectural Concrete](https://kissimmeeconcrete.com/concrete/architectural/): Honed, board-formed and custom finishes
+- [Commercial Concrete & Parking Lots](https://kissimmeeconcrete.com/concrete/commercial/): Flatwork, dumpster pads, sidewalks, small parking areas
+- [Paver Driveways](https://kissimmeeconcrete.com/pavers/driveways/): Concrete pavers, clay brick and permeable systems
+- [Paver Patios](https://kissimmeeconcrete.com/pavers/patios/): Lanai extensions, backyard patios, fire-pit areas
+- [Paver Pool Decks](https://kissimmeeconcrete.com/pavers/pool-decks/): Paver decks and remodels over existing concrete
+- [Travertine](https://kissimmeeconcrete.com/pavers/travertine/): Travertine pool decks, patios and driveways
+- [Marble & Large-Format Porcelain](https://kissimmeeconcrete.com/pavers/marble-porcelain/): Marble decks and 24x24 and larger porcelain pavers
+- [Paver Walkways & Steps](https://kissimmeeconcrete.com/pavers/walkways-steps/): Front walks, side paths, entry steps and stoops
+- [Paver Sealing & Cleaning](https://kissimmeeconcrete.com/pavers/sealing/): Clean, re-sand with polymeric sand, seal or re-seal
+- [Paver Repair](https://kissimmeeconcrete.com/pavers/repair/): Sunken areas, edge failure, weeds, ants, replacement pieces
+- [Retaining Walls & Outdoor Living](https://kissimmeeconcrete.com/pavers/retaining-walls-outdoor-living/): Decorative segmental walls, seat walls, fire pits, summer kitchens
+- [Artificial Turf](https://kissimmeeconcrete.com/pavers/artificial-turf/): Turf strips, side yards and putting-green areas tied into hardscape
+- [Outdoor Lighting](https://kissimmeeconcrete.com/pavers/outdoor-lighting/): Low-voltage lighting built into pavers, steps and pillars
+- [Epoxy & Polyaspartic Garage Floors](https://kissimmeeconcrete.com/coatings/garage-floors/): Flake and solid-color garage floor coatings
+
+## Service areas
+
+- [Kissimmee](https://kissimmeeconcrete.com/areas/kissimmee/): Osceola County
+- [St. Cloud](https://kissimmeeconcrete.com/areas/st-cloud/): Osceola County
+- [Celebration](https://kissimmeeconcrete.com/areas/celebration/): Osceola County
+- [Poinciana](https://kissimmeeconcrete.com/areas/poinciana/): Osceola / Polk County
+- [Buenaventura Lakes](https://kissimmeeconcrete.com/areas/buenaventura-lakes/): Osceola County
+- [Four Corners](https://kissimmeeconcrete.com/areas/four-corners/): Osceola / Polk / Lake / Orange County
+- [ChampionsGate](https://kissimmeeconcrete.com/areas/champions-gate/): Osceola County
+- [Reunion](https://kissimmeeconcrete.com/areas/reunion/): Osceola County
+- [Davenport](https://kissimmeeconcrete.com/areas/davenport/): Polk County
+- [Haines City](https://kissimmeeconcrete.com/areas/haines-city/): Polk County
+- [Harmony & Narcoossee](https://kissimmeeconcrete.com/areas/harmony/): Osceola County
+- [Winter Haven](https://kissimmeeconcrete.com/areas/winter-haven/): Polk County
+- [Auburndale](https://kissimmeeconcrete.com/areas/auburndale/): Polk County
+- [Lake Alfred](https://kissimmeeconcrete.com/areas/lake-alfred/): Polk County
+- [Dundee](https://kissimmeeconcrete.com/areas/dundee/): Polk County
+- [Lake Wales](https://kissimmeeconcrete.com/areas/lake-wales/): Polk County
+- [Polk City](https://kissimmeeconcrete.com/areas/polk-city/): Polk County
+
+## Tools
+
+- [Permit & Jurisdiction Finder](https://kissimmeeconcrete.com/tools/permit-finder/): Type an address; see whether it is City of Kissimmee, St. Cloud, unincorporated Osceola, Polk or Orange, and what that means for a driveway, patio, slab or pavers
+- [Concrete & Paver Calculator](https://kissimmeeconcrete.com/tools/concrete-paver-calculator/): Cubic yards, bags, base depth, paver count, polymeric sand and a dated planning range
+- [Concrete vs. Pavers Decision Tool](https://kissimmeeconcrete.com/tools/concrete-vs-pavers/): Answer eight questions about use, budget, HOA, heat and resale; get a recommendation with reasons
+- [HOA / ARC Packet Checklist](https://kissimmeeconcrete.com/tools/hoa-packet-checklist/): What APV, Solivita, Celebration, Bellalago and Solterra ask for before they approve pavers or a driveway change
+- [Pour Calendar](https://kissimmeeconcrete.com/tools/pour-calendar/): Rain days, highs and lows by month from the Kissimmee 2 NOAA station, with the pour window we recommend
+- [Ask the Estimator](https://kissimmeeconcrete.com/tools/ask-the-estimator/): Short answers to real questions we get by phone and form, added as they come in
+- [Project Brief Generator](https://kissimmeeconcrete.com/tools/project-brief/): Build a one-page brief with size, material, finish, drainage, access and HOA notes so three contractors quote the same job
+
+## Guides
+
+- [Why Concrete Cracks in Osceola County (and Which Cracks Matter)](https://kissimmeeconcrete.com/guides/why-concrete-cracks-osceola/)
+- [Rust Stains From Well-Water Irrigation: Identify, Remove, Prevent](https://kissimmeeconcrete.com/guides/rust-stains-irrigation-well-water/)
+- [Driveway Widening Rules: Osceola County, Kissimmee and St. Cloud](https://kissimmeeconcrete.com/guides/driveway-widening-rules-osceola/)
+- [Pouring Concrete in the Rainy Season: How We Schedule Around Afternoon Storms](https://kissimmeeconcrete.com/guides/rainy-season-concrete-scheduling/)
+- [How to Verify a Concrete or Paver Contractor in Florida When There Is No License to Check](https://kissimmeeconcrete.com/guides/how-to-verify-a-concrete-contractor-florida/)
+- [Pool Decks and Driveways for Vacation Rental Owners in Four Corners, ChampionsGate and Reunion](https://kissimmeeconcrete.com/guides/vacation-rental-owner-hardscape-guide/)
+- [Live Oak Roots and Driveways: What Lifts a Slab and What to Do](https://kissimmeeconcrete.com/guides/tree-roots-driveways-central-florida/)
+- [Paver Base on Flatwoods Sand vs. Ridge Sand: Osceola and Polk Are Not the Same](https://kissimmeeconcrete.com/guides/paver-base-flatwoods-vs-ridge/)
+- [Replacing a 1980s Driveway in Buenaventura Lakes: What We Find Under the Old Slab](https://kissimmeeconcrete.com/guides/buenaventura-lakes-driveway-replacement/)
+- [Septic Drainfields and Driveways on Rural St. Cloud and Harmony Lots](https://kissimmeeconcrete.com/guides/septic-drainfield-concrete-driveway/)
+- [Polymeric Sand: When It Works, When It Fails, and How We Install It](https://kissimmeeconcrete.com/guides/polymeric-sand-guide/)
+- [Curing Concrete in Central Florida Heat: 7 Days, 28 Days and What Happens In Between](https://kissimmeeconcrete.com/guides/concrete-curing-florida-heat/)
+- [How Hot Does a Pool Deck Get? Surface Temperatures by Material](https://kissimmeeconcrete.com/guides/surface-temperature-pool-decks/)
+- [Florida's $7,500 Permit Exemption (HB 803) and Small Concrete Jobs](https://kissimmeeconcrete.com/guides/hb-803-permit-exemption/)
+
+## Comparisons
+
+- [Concrete vs. Pavers](https://kissimmeeconcrete.com/compare/concrete-vs-pavers/)
+- [Travertine vs. Concrete Pavers](https://kissimmeeconcrete.com/compare/travertine-vs-concrete-pavers/)
+- [Stamped Concrete vs. Pavers](https://kissimmeeconcrete.com/compare/stamped-vs-pavers/)
+- [Resurface vs. Replace](https://kissimmeeconcrete.com/compare/resurface-vs-replace/)
+- [4-Inch vs. 6-Inch Concrete](https://kissimmeeconcrete.com/compare/4-inch-vs-6-inch/)
+- [Rebar vs. Fiber vs. Wire Mesh](https://kissimmeeconcrete.com/compare/rebar-vs-fiber-vs-mesh/)
+- [Cool Deck vs. Pavers](https://kissimmeeconcrete.com/compare/cool-deck-vs-pavers/)
+- [Sealer Types Compared](https://kissimmeeconcrete.com/compare/sealer-types/)
+
+## Other
+
+- [Pricing hub](https://kissimmeeconcrete.com/pricing/)
+- [Permits hub](https://kissimmeeconcrete.com/permits/)
+- [HOA / ARC guides](https://kissimmeeconcrete.com/hoa/)
+- [FAQ](https://kissimmeeconcrete.com/faq/)
+- [About](https://kissimmeeconcrete.com/about/)
+- [Editorial standards](https://kissimmeeconcrete.com/editorial-standards/)
+- [Data & methods](https://kissimmeeconcrete.com/data-and-methods/)
+- [Contact](https://kissimmeeconcrete.com/contact/)

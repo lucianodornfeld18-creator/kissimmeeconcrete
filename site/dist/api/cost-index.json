@@ -1,0 +1,160 @@
+{
+ "name": "Kissimmee Concrete Cost Index",
+ "release": {
+  "label": "Q3 2026",
+  "date": "2026-09-10",
+  "next": "2026-12-10",
+  "version": "1.0"
+ },
+ "license": "CC BY 4.0",
+ "publisher": "Kissimmee Concrete",
+ "url": "https://kissimmeeconcrete.com/pricing/kissimmee-concrete-cost-index/",
+ "scope": "Installed planning ranges for residential concrete, paver and coating work in Kissimmee, Osceola County and the Polk County ridge, Florida. Not quotes.",
+ "method": "https://kissimmeeconcrete.com/data-and-methods/",
+ "items": [
+  {
+   "key": "concrete-driveway-broom",
+   "item": "Concrete driveway, broom finish, 4 in, 3,000 psi, fiber + rebar at edges",
+   "unit": "sq ft",
+   "low_usd": 8.5,
+   "high_usd": 13.5,
+   "notes": "New pour on prepared base; demolition of an old slab adds $2.00\u2013$4.00"
+  },
+  {
+   "key": "concrete-driveway-6in",
+   "item": "Concrete driveway, 6 in, 4,000 psi with #4 rebar grid (RV/boat loads)",
+   "unit": "sq ft",
+   "low_usd": 11.5,
+   "high_usd": 17.0,
+   "notes": "Thicker slab, more steel, same forming and finishing labor"
+  },
+  {
+   "key": "concrete-patio",
+   "item": "Concrete patio, 4 in, broom or smooth",
+   "unit": "sq ft",
+   "low_usd": 8.0,
+   "high_usd": 12.5,
+   "notes": "Small pours cost more per foot; under 200 sq ft expect the top of the range"
+  },
+  {
+   "key": "stamped-concrete",
+   "item": "Stamped concrete, integral color + release + sealer",
+   "unit": "sq ft",
+   "low_usd": 14.0,
+   "high_usd": 22.0,
+   "notes": "Pattern complexity and two-color work push toward the top"
+  },
+  {
+   "key": "concrete-slab-pad",
+   "item": "Concrete pad (shed, AC, generator, hot tub), 4 in",
+   "unit": "sq ft",
+   "low_usd": 9.0,
+   "high_usd": 15.0,
+   "notes": "Minimum-charge jobs; a 10x12 pad typically lands at $1,200\u2013$1,900"
+  },
+  {
+   "key": "concrete-sidewalk",
+   "item": "Concrete walkway, 4 in, broom",
+   "unit": "lin ft (4 ft wide)",
+   "low_usd": 34.0,
+   "high_usd": 52.0,
+   "notes": "About $8.50\u2013$13.00 per sq ft"
+  },
+  {
+   "key": "concrete-removal",
+   "item": "Demolition and haul-off of existing concrete",
+   "unit": "sq ft",
+   "low_usd": 2.0,
+   "high_usd": 4.0,
+   "notes": "Thicker slabs and limited access cost more"
+  },
+  {
+   "key": "concrete-resurfacing",
+   "item": "Polymer overlay / resurfacing over sound concrete",
+   "unit": "sq ft",
+   "low_usd": 5.0,
+   "high_usd": 9.5,
+   "notes": "Only over slabs with a stable base"
+  },
+  {
+   "key": "paver-driveway-concrete",
+   "item": "Paver driveway, concrete pavers (60\u201380 mm), 6 in limerock base",
+   "unit": "sq ft",
+   "low_usd": 14.0,
+   "high_usd": 22.0,
+   "notes": "Borders, bands and cuts add; removal of old concrete adds $2.00\u2013$4.00"
+  },
+  {
+   "key": "paver-driveway-premium",
+   "item": "Paver driveway, premium line (Belgard Luxury, large format)",
+   "unit": "sq ft",
+   "low_usd": 20.0,
+   "high_usd": 34.0,
+   "notes": "Material-driven"
+  },
+  {
+   "key": "paver-patio",
+   "item": "Paver patio, concrete pavers, 4\u20135 in base",
+   "unit": "sq ft",
+   "low_usd": 13.0,
+   "high_usd": 21.0,
+   "notes": ""
+  },
+  {
+   "key": "paver-pool-deck",
+   "item": "Paver pool deck over existing deck (thin pavers, coping)",
+   "unit": "sq ft",
+   "low_usd": 15.0,
+   "high_usd": 24.0,
+   "notes": "Coping and drain work priced separately"
+  },
+  {
+   "key": "travertine-pool-deck",
+   "item": "Travertine pool deck, tumbled, sand-set or thin-set",
+   "unit": "sq ft",
+   "low_usd": 20.0,
+   "high_usd": 36.0,
+   "notes": "Marble and large-format porcelain run higher"
+  },
+  {
+   "key": "paver-walkway",
+   "item": "Paver walkway",
+   "unit": "sq ft",
+   "low_usd": 14.0,
+   "high_usd": 24.0,
+   "notes": "Narrow runs cost more per foot"
+  },
+  {
+   "key": "paver-sealing",
+   "item": "Paver clean, re-sand (polymeric) and seal",
+   "unit": "sq ft",
+   "low_usd": 1.75,
+   "high_usd": 3.25,
+   "notes": "Stripping an old failed sealer adds $0.75\u2013$1.50"
+  },
+  {
+   "key": "paver-repair",
+   "item": "Paver lift-and-relay of a sunken area",
+   "unit": "sq ft",
+   "low_usd": 9.0,
+   "high_usd": 16.0,
+   "notes": "Minimum charge applies to small areas"
+  },
+  {
+   "key": "epoxy-garage",
+   "item": "Garage floor coating, flake system with polyaspartic top coat",
+   "unit": "sq ft",
+   "low_usd": 6.0,
+   "high_usd": 10.0,
+   "notes": "2-car garage (400\u2013480 sq ft): $2,600\u2013$4,600"
+  },
+  {
+   "key": "ready-mix",
+   "item": "Ready-mix concrete, 3,000\u20134,000 psi, delivered (Orlando market)",
+   "unit": "cu yd",
+   "low_usd": 175.0,
+   "high_usd": 280.0,
+   "notes": "Supplier public price lists, Sept 2026; short-load and fuel surcharges extra"
+  }
+ ]
+}

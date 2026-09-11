@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kissimmeeconcrete-contact",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "send_email": [{ "name": "SEND_EMAIL" }],
+  "observability": { "enabled": true }
+  // secrets (wrangler secret put): CONTACT_DESTINATION, RESEND_API_KEY (optional)
+}

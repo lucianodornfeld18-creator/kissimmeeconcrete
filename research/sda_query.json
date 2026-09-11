@@ -1,0 +1,1 @@
+{"query":"SELECT TOP 25 mu.muname, ROUND(SUM(mu.muacres),0) AS acres FROM legend l INNER JOIN mapunit mu ON mu.lkey=l.lkey WHERE l.areasymbol='FL097' GROUP BY mu.muname ORDER BY acres DESC","format":"JSON+COLUMNNAME"}

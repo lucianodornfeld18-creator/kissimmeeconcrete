@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kissimmeeconcrete",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-09-01",
+  "services": [
+    { "binding": "CONTACT_EMAIL", "service": "kissimmeeconcrete-contact" }
+  ],
+  "kv_namespaces": [
+    { "binding": "RATE_LIMIT_KV", "id": "{{RATE_LIMIT_KV_ID}}" }
+  ]
+  // Pages Function secrets: TURNSTILE_SECRET_KEY (see OWNER-INPUTS.md)
+}

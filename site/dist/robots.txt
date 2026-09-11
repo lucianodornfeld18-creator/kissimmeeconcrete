@@ -1,0 +1,29 @@
+# kissimmeeconcrete.com — search and answer-engine crawlers are welcome.
+User-agent: *
+Allow: /
+Disallow: /thank-you/
+Disallow: /api/contact
+
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+# Training crawlers: allowed by default; owner may flip these to Disallow.
+User-agent: GPTBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://kissimmeeconcrete.com/sitemap.xml

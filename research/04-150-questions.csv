@@ -1,0 +1,151 @@
+id,question,intent,lead_stage,area,pillar,evidence,source,volume,url,format
+1,How much does a concrete driveway cost in Kissimmee?,cost,consider,Kissimmee,concrete,AUTOCOMPLETE;TRENDS,"google: concrete driveway cost florida / how much does a driveway concrete cost; trends top: concrete driveway cost (100)",—,/pricing/concrete/,cost guide table
+2,How much does a 2-car concrete driveway cost?,cost,consider,Osceola,concrete,AUTOCOMPLETE,"google: how much does a 2 car concrete driveway cost; how much to pour a 2 car driveway",—,/pricing/concrete/,cost guide table
+3,How much does a paver driveway cost in Kissimmee?,cost,consider,Kissimmee,pavers,AUTOCOMPLETE,"bing: how much does a paver driveway cost; paver driveway cost per square foot",—,/pricing/pavers/,cost guide table
+4,What do pavers cost per square foot installed in Central Florida?,cost,consider,Osceola,pavers,AUTOCOMPLETE,"bing: driveway pavers cost per square foot; paver stone driveway cost",—,/pricing/pavers/,table
+5,How much does a 12x12 concrete patio cost?,cost,consider,Osceola,concrete,EXPERT-GAP,"typical project size used by homeowners; no city volume",—,/pricing/concrete/,cost guide section
+6,How much does a 600 sq ft paver pool deck cost?,cost,consider,Osceola,pavers,EXPERT-GAP,"resort-home pool deck size; competitor gap",—,/pricing/pavers/,cost guide section
+7,How much does a travertine pool deck cost?,cost,consider,Osceola,pavers,AUTOCOMPLETE,"google: travertine pavers pool deck cost; bing: cost of travertine pool deck",—,/pavers/travertine/,capsule + table
+8,How much does stamped concrete cost compared with plain broom finish?,cost,consider,Osceola,concrete,AUTOCOMPLETE;TRENDS,"google: stamped concrete vs pavers cost; trends top: stamped concrete cost (58)",—,/concrete/stamped/,capsule + table
+9,How much does a concrete slab for a shed cost?,cost,consider,Osceola,concrete,AUTOCOMPLETE,"seed: concrete slab for shed cost",—,/concrete/slabs/,capsule + calculator link
+10,How much does concrete driveway replacement cost?,cost,consider,Osceola,concrete,AUTOCOMPLETE,"google: concrete driveway replacement cost; ...cost per square foot; ...cost calculator",—,/pricing/concrete/,cost guide section
+11,How much does it cost to remove an old concrete driveway?,cost,consider,Osceola,concrete,COMPETITOR,"concretenetwork/homeadvisor demolition $2-4/sq ft",—,/pricing/concrete/,table row
+12,How much does paver sealing cost?,cost,consider,Osceola,pavers,AUTOCOMPLETE,"google: paver sealing cost",—,/pavers/sealing/,capsule
+13,How much does paver driveway repair cost?,cost,consider,Osceola,pavers,AUTOCOMPLETE,"google: paver driveway repair cost",—,/pavers/repair/,capsule
+14,How much does concrete driveway repair cost?,cost,consider,Osceola,concrete,TRENDS,"trends rising: concrete driveway repair cost",—,/concrete/repair/,capsule
+15,How much does concrete resurfacing cost versus replacement?,cost,consider,Osceola,concrete,EXPERT-GAP,"competitor gap; seed resurfacing vs replacement",—,/compare/resurface-vs-replace/,comparison table
+16,How much does an epoxy or polyaspartic garage floor cost?,cost,consider,Osceola,coatings,AUTOCOMPLETE;TRENDS,"google: how much does a garage epoxy floor cost; trends rising: how much does it cost to epoxy a garage floor",—,/coatings/garage-floors/,capsule + table
+17,How much do concrete contractors charge?,cost,consider,Osceola,concrete,AUTOCOMPLETE,"google: how much do concrete contractors charge; concrete contractor cost",—,/faq/cost/,short FAQ
+18,What is the price of ready-mix concrete per cubic yard in Central Florida?,cost,research,Osceola,concrete,COMPETITOR,"supplier pages: $175-280/yd3 Orlando market 2026",—,/pricing/kissimmee-concrete-cost-index/,index table
+19,Why is a paver driveway more expensive than concrete up front?,cost,consider,Osceola,pavers,AUTOCOMPLETE,"google: is a paver driveway cheaper than concrete; which is cheaper pavers or concrete driveway",—,/compare/concrete-vs-pavers/,comparison
+20,Is asphalt cheaper than pavers or concrete for a driveway?,cost,research,Osceola,concrete,AUTOCOMPLETE,"google: is asphalt cheaper than pavers",—,/faq/cost/,short FAQ
+21,How much does a driveway extension or widening cost?,cost,consider,Osceola,concrete,EXPERT-GAP,"§22-50.6 width rule creates the question",—,/pricing/concrete/,cost guide section
+22,What deposit is normal for a concrete or paver job?,cost,decide,Osceola,both,EXPERT-GAP,"owner-call pattern (unverified); competitor gap",—,/faq/cost/,short FAQ
+23,Do you offer financing?,cost,decide,Osceola,both,AUTOCOMPLETE,"google: concrete contractors near me that offer financing options; ...with financing",—,/faq/cost/,short FAQ (OWNER INPUT partner)
+24,What changes the price of a paver pool deck in a resort community?,cost,consider,Four Corners,pavers,EXPERT-GAP,"STR/HOA context",—,/pavers/pool-decks/four-corners/,capsule
+25,How is the Kissimmee Concrete Cost Index calculated?,cost,research,Osceola,both,EXPERT-GAP,"own asset",—,/pricing/kissimmee-concrete-cost-index/,methodology section
+26,Do I need a permit for a driveway in Osceola County?,permit,research,Osceola,concrete,AUTOCOMPLETE,"google: osceola county driveway permit; bing: osceola county right of way permit",—,/permits/osceola-county/,capsule + steps
+27,Do you need a permit for a driveway in Florida?,permit,research,Florida,concrete,AUTOCOMPLETE,"google: do you need a permit for a driveway in florida; ...to replace a driveway in florida",—,/permits/,capsule
+28,Do I need a permit for a concrete patio in Florida?,permit,research,Florida,concrete,AUTOCOMPLETE,"google: do i need a permit for a concrete patio in florida",—,/permits/,capsule
+29,Do I need a permit for a concrete slab in Florida?,permit,research,Florida,concrete,AUTOCOMPLETE,"google: do i need a permit for a concrete slab in florida",—,/permits/,capsule
+30,Do you need a license to pour concrete in Florida?,permit,research,Florida,concrete,AUTOCOMPLETE,"google: do you need a license to pour concrete in florida",—,/faq/permits-hoa/,short FAQ (FS 489.117)
+31,Is my address in the City of Kissimmee or unincorporated Osceola County?,permit,research,Kissimmee,both,EXPERT-GAP,"jurisdiction confusion; competitor gap",—,/tools/permit-finder/,tool
+32,How wide can a residential driveway be in unincorporated Osceola County?,permit,research,Osceola,concrete,EXPERT-GAP,"§22-50.6: 24 ft max",—,/permits/osceola-county/,capsule
+33,How do I get a driveway or sidewalk permit inside Kissimmee city limits?,permit,research,Kissimmee,concrete,EXPERT-GAP,"kissimmee.gov Energov process",—,/permits/city-of-kissimmee/,steps
+34,Do pavers on a driveway need a permit in St. Cloud?,permit,research,St. Cloud,pavers,EXPERT-GAP,"stcloudfl.gov: pavers refer to Public Works",—,/permits/city-of-st-cloud/,capsule
+35,What does Florida HB 803 ($7,500 exemption) change for small concrete jobs?,permit,research,Florida,both,EXPERT-GAP,"2026 law; St. Cloud adoption",—,/permits/,capsule
+36,Does Polk County require a permit for a concrete slab or driveway?,permit,research,Polk,concrete,EXPERT-GAP,"polkfl.gov FAQ text",—,/permits/polk-county/,capsule
+37,What is the Polk County Concrete Driveway Paver Release Form?,permit,research,Polk,pavers,EXPERT-GAP,"PD BLD 40 form",—,/permits/polk-county/,capsule
+38,Who pulls the permit — the contractor or the homeowner?,permit,decide,Osceola,both,EXPERT-GAP,"Osceola FAQ: owner, licensed contractor or agent may apply",—,/faq/permits-hoa/,short FAQ
+39,What is a Notice of Commencement and when do I need one?,permit,decide,Osceola,both,EXPERT-GAP,"Osceola FAQ: NOC at $5,000+",—,/permits/osceola-county/,capsule
+40,How long does plan review take in Osceola County?,permit,decide,Osceola,both,EXPERT-GAP,"Osceola FAQ: 3-5 days residential",—,/permits/osceola-county/,capsule
+41,Does a driveway apron in the right-of-way need a separate approval?,permit,research,Osceola,concrete,EXPERT-GAP,"ROW permit; LDC 4.12.2; Kissimmee Public Works",—,/permits/,capsule
+42,Do I need a permit for a shed pad or AC pad?,permit,research,Osceola,concrete,EXPERT-GAP,"Polk FAQ (slabs supporting structures) + Osceola shed requirements",—,/concrete/slabs/,capsule
+43,What does Orange County require for a driveway or pavers?,permit,research,Orange,both,EXPERT-GAP,"ocfl 'Do I Need a Permit'",—,/permits/orange-county/,capsule
+44,Can I widen my driveway onto the grass strip by the street?,permit,research,Osceola,concrete,EXPERT-GAP,"ROW rules",—,/guides/driveway-widening-rules-osceola/,guide
+45,Which building code edition does Osceola County enforce?,permit,research,Osceola,concrete,EXPERT-GAP,"FBC 8th ed. (2023) effective 2023-12-31",—,/permits/osceola-county/,capsule
+46,Does my HOA have to approve pavers or a driveway extension?,hoa,research,Osceola,both,AUTOCOMPLETE,"seed: hoa approval for pavers",—,/hoa/,capsule
+47,What does the Poinciana (APV) Design Control Board require for driveways?,hoa,research,Poinciana,both,EXPERT-GAP,"DCB Criteria 9.1.1",—,/hoa/poinciana-apv/,checklist
+48,Can I replace my Solivita driveway with pavers?,hoa,research,Poinciana,pavers,EXPERT-GAP,"Solivita 6.14",—,/hoa/solivita/,capsule
+49,How does the Celebration ARC review a paver driveway or pool deck?,hoa,research,Celebration,pavers,EXPERT-GAP,"celebration.fl.us ARC 3rd Monday",—,/hoa/celebration/,checklist
+50,How do I submit an architectural review request in Bellalago?,hoa,research,Kissimmee,both,EXPERT-GAP,"bellalagohoa.com ConnectResident",—,/hoa/bellalago/,steps
+51,How wide can a driveway be in Solterra Resort?,hoa,research,Davenport,both,EXPERT-GAP,"Solterra guidelines: three cars wide",—,/hoa/solterra/,capsule
+52,Can I paint or stain my concrete driveway in an HOA community?,hoa,research,Davenport,concrete,EXPERT-GAP,"Solterra: prohibited; clear matte sealer allowed with request",—,/hoa/solterra/,capsule
+53,What goes in an HOA/ARC packet for a paver job?,hoa,decide,Osceola,pavers,EXPERT-GAP,"Solterra/Solivita/APV requirements",—,/tools/hoa-packet-checklist/,tool
+54,Does the HOA need a building permit before it reviews my project?,hoa,research,Florida,both,EXPERT-GAP,"HB 803 prohibits requiring permit as ARC precondition",—,/hoa/,capsule
+55,Will the HOA require my contractor's insurance certificate?,hoa,decide,Davenport,both,EXPERT-GAP,"Solterra: COI naming the association",—,/hoa/solterra/,capsule
+56,How long does ARC approval take?,hoa,decide,Osceola,both,EXPERT-GAP,"APV 30-day deemed disapproved; Bellalago twice monthly; Celebration monthly",—,/hoa/,table
+57,What happens if I install pavers without ARC approval?,hoa,research,Poinciana,pavers,EXPERT-GAP,"APV violation/remediation language",—,/faq/permits-hoa/,short FAQ
+58,How thick should a concrete driveway be in Florida?,spec,research,Florida,concrete,AUTOCOMPLETE,"google: how thick should a concrete driveway be in florida",—,/concrete/driveways/,capsule + table
+59,4-inch or 6-inch concrete for a driveway?,spec,decide,Osceola,concrete,AUTOCOMPLETE,"seed: thickness; compare",—,/compare/4-inch-vs-6-inch/,comparison
+60,3,000 or 4,000 PSI for a driveway?,spec,decide,Osceola,concrete,EXPERT-GAP,"FBC R506/ACI 332 context",—,/concrete/driveways/,capsule
+61,Rebar, wire mesh or fiber mesh for a driveway?,spec,decide,Osceola,concrete,AUTOCOMPLETE,"seed: rebar or wire mesh for driveway",—,/compare/rebar-vs-fiber-vs-mesh/,comparison
+62,How thick should a concrete slab be for a shed, generator or hot tub?,spec,research,Osceola,concrete,EXPERT-GAP,"FBC R506 3.5 in minimum",—,/concrete/slabs/,table
+63,How much base do pavers need in Florida sand?,spec,research,Osceola,pavers,EXPERT-GAP,"ICPI/CMHA; Celebration pattern book 6 in limerock",—,/pavers/driveways/,capsule
+64,What is polymeric sand and when is it used?,spec,research,Osceola,pavers,AUTOCOMPLETE;TRENDS,"google: polymeric sand vs paver sand; trends rising: polymeric sand for pavers",—,/pavers/sealing/,capsule
+65,How long before I can walk or drive on new concrete?,spec,decide,Osceola,concrete,COMPETITOR;AUTOCOMPLETE,"competitor FAQs; seed: how long before you can drive on new concrete",—,/concrete/driveways/,capsule
+66,What slope should a driveway or patio have for drainage?,spec,research,Osceola,concrete,EXPERT-GAP,"1/8 in per ft standard; flatwoods water table",—,/concrete/patios/,capsule
+67,Should a pool deck drain toward the pool or away from it?,spec,research,Osceola,both,EXPERT-GAP,"lanai drain channel photos",—,/pavers/pool-decks/,capsule
+68,What are control joints and why does my driveway need them?,spec,research,Osceola,concrete,EXPERT-GAP,"ACI 332 R506.2.4.2",—,/guides/why-concrete-cracks-osceola/,guide section
+69,Does a concrete pad for an RV or boat need to be thicker?,spec,research,St. Cloud,concrete,EXPERT-GAP,"rural St. Cloud/Harmony lots",—,/concrete/slabs/st-cloud/,capsule
+70,What PSI and thickness does a driveway apron need in the right-of-way?,spec,research,Orange,concrete,EXPERT-GAP,"Orange County 6 in / 3,000 psi",—,/permits/orange-county/,capsule
+71,What is a soldier course and a sailor course?,spec,research,Osceola,pavers,EXPERT-GAP,"glossary need",—,/faq/pavers/,short FAQ
+72,What paver thickness is right for a driveway versus a patio?,spec,research,Osceola,pavers,EXPERT-GAP,"60 mm vs 80 mm",—,/pavers/driveways/,capsule
+73,Do you need edge restraint on pavers in sandy soil?,spec,research,Osceola,pavers,EXPERT-GAP,"edge failure photos",—,/pavers/repair/,capsule
+74,How is a stamped concrete patio sealed and recoated?,spec,research,Osceola,concrete,EXPERT-GAP,"sealer types",—,/concrete/stamped/,capsule
+75,What is the difference between cement and concrete?,spec,research,Osceola,concrete,COMPETITOR,"kissimmeeconcrete.net FAQ",—,/faq/concrete/,short FAQ
+76,What is cool deck and how is it different from pavers?,spec,research,Osceola,both,AUTOCOMPLETE,"seed: cool deck vs pavers",—,/compare/cool-deck-vs-pavers/,comparison
+77,Why does concrete crack in Florida?,failure,research,Florida,concrete,AUTOCOMPLETE,"bing: why does concrete crack; why do concrete driveways crack; what causes cracks in concrete driveway",—,/guides/why-concrete-cracks-osceola/,guide
+78,Which driveway cracks are normal and which mean a problem?,failure,research,Osceola,concrete,EXPERT-GAP,"shrinkage vs structural",—,/concrete/repair/,capsule + table
+79,Why does new concrete look blotchy or discolored?,failure,research,Osceola,concrete,COMPETITOR,"kissimmeeconcrete.net FAQ",—,/faq/concrete/,short FAQ
+80,Why is my driveway sinking near the garage or the street?,failure,research,Osceola,concrete,TRENDS;COMPETITOR,"leveling companies rank; sandy subgrade washout",—,/concrete/repair/,capsule
+81,Is polyurethane lifting worth it or should I replace the slab?,failure,decide,Osceola,concrete,COMPETITOR,"groundworks/alpha foundations dominate",—,/compare/resurface-vs-replace/,comparison
+82,What causes rust stains on my driveway and how do I remove them?,failure,research,Osceola,both,AUTOCOMPLETE,"bing: what causes rust stains on concrete driveway; how to remove rust from concrete driveway",—,/guides/rust-stains-irrigation-well-water/,guide + identifier
+83,How do I stop irrigation rust stains from coming back?,failure,research,Osceola,both,COMPETITOR,"rust-control services",—,/guides/rust-stains-irrigation-well-water/,guide section
+84,What is efflorescence on pavers and does it go away?,failure,research,Osceola,pavers,EXPERT-GAP,"white haze after rainy season",—,/faq/pavers/,short FAQ
+85,How do I get rid of weeds and ants in paver joints?,failure,research,Osceola,pavers,EXPERT-GAP,"re-sanding with polymeric sand",—,/pavers/sealing/,capsule
+86,Why are my pavers sinking or shifting?,failure,research,Osceola,pavers,EXPERT-GAP,"base washout, edge restraint, ants",—,/pavers/repair/,capsule
+87,Can sunken pavers be lifted and relaid without buying new ones?,failure,decide,Osceola,pavers,EXPERT-GAP,"repair scope",—,/pavers/repair/,capsule
+88,What is spalling and can it be fixed?,failure,research,Osceola,concrete,EXPERT-GAP,"resurfacing",—,/concrete/resurfacing/,capsule
+89,Can a cracked pool deck be resurfaced instead of replaced?,failure,decide,Osceola,concrete,TRENDS,"trends top: pool deck resurfacing (39)",—,/concrete/pool-decks/,capsule
+90,Why is my pool deck slippery and what fixes it?,failure,research,Osceola,both,EXPERT-GAP,"texture/sealer choice",—,/concrete/pool-decks/,capsule
+91,How do live oak roots damage driveways and what can be done?,failure,research,Osceola,both,EXPERT-GAP,"mature-oak neighborhoods",—,/guides/tree-roots-driveways-central-florida/,guide
+92,Can concrete be poured over a septic drainfield?,failure,research,St. Cloud,concrete,EXPERT-GAP,"rural St. Cloud lots; FAC 64E-6 (verify)",—,/concrete/driveways/st-cloud/,capsule
+93,How often should pavers be sealed in Florida?,maintenance,research,Florida,pavers,AUTOCOMPLETE,"google: should you seal pavers in florida",—,/pavers/sealing/,capsule
+94,Should I seal a new concrete driveway?,maintenance,research,Osceola,concrete,COMPETITOR,"legendary FAQ",—,/faq/concrete/,short FAQ
+95,What is the difference between film-forming and penetrating sealers?,maintenance,research,Osceola,both,EXPERT-GAP,"sealer types",—,/compare/sealer-types/,comparison
+96,How do I remove oil stains from a driveway?,maintenance,research,Osceola,both,EXPERT-GAP,"stain identifier",—,/guides/rust-stains-irrigation-well-water/,guide section
+97,Can I pressure wash pavers and concrete safely?,maintenance,research,Osceola,both,EXPERT-GAP,"joint sand loss",—,/faq/pavers/,short FAQ
+98,How do I clean and re-sand pavers before sealing?,maintenance,research,Osceola,pavers,AUTOCOMPLETE,"google: paver cleaning and sealing (trends top 91)",—,/pavers/sealing/,process
+99,How long does a concrete driveway last in Central Florida?,maintenance,research,Osceola,concrete,EXPERT-GAP,"BVL 1980s driveways",—,/faq/concrete/,short FAQ
+100,How long do pavers last and can they be reused?,maintenance,research,Osceola,pavers,EXPERT-GAP,"lifecycle",—,/faq/pavers/,short FAQ
+101,How do I maintain a travertine pool deck?,maintenance,research,Osceola,pavers,TRENDS,"trends rising: how to clean travertine tiles",—,/pavers/travertine/,capsule
+102,Pavers or concrete for a driveway in Florida?,compare,decide,Florida,both,AUTOCOMPLETE,"google: pavers vs concrete driveway florida; is a paver driveway better than concrete",—,/compare/concrete-vs-pavers/,comparison
+103,Stamped concrete or pavers for a patio or pool deck?,compare,decide,Osceola,both,AUTOCOMPLETE,"google: stamped concrete vs pavers patio/pool deck/pros and cons",—,/compare/stamped-vs-pavers/,comparison
+104,Travertine or concrete pavers for a pool deck?,compare,decide,Osceola,pavers,AUTOCOMPLETE,"google: travertine vs concrete pavers pool deck; is travertine better than pavers",—,/compare/travertine-vs-concrete-pavers/,comparison
+105,Porcelain pavers or travertine for a pool deck?,compare,decide,Osceola,pavers,AUTOCOMPLETE,"google: porcelain pavers vs travertine for pool deck",—,/pavers/marble-porcelain/,capsule
+106,Which pool deck surface stays coolest barefoot in July?,compare,decide,Osceola,both,COMPETITOR,"temperature claims across competitor blogs",—,/compare/travertine-vs-concrete-pavers/,table
+107,Resurface or replace my driveway?,compare,decide,Osceola,concrete,EXPERT-GAP,"resurfacing vs replacement",—,/compare/resurface-vs-replace/,decision tree
+108,Concrete pavers or brick pavers?,compare,research,Osceola,pavers,AUTOCOMPLETE,"google: difference between a brick and a paver",—,/faq/pavers/,short FAQ
+109,Is travertine good for pool decks in Florida?,compare,research,Florida,pavers,AUTOCOMPLETE,"google: is travertine good for pool decks",—,/pavers/travertine/,capsule
+110,Marble or travertine for a pool deck?,compare,decide,Osceola,pavers,AUTOCOMPLETE,"bing: travertine vs marble for pool decks",—,/pavers/marble-porcelain/,capsule
+111,Concrete patio or paver patio?,compare,decide,Osceola,both,AUTOCOMPLETE,"bing: concrete vs pavers patio",—,/compare/concrete-vs-pavers/,comparison section
+112,Epoxy or polyaspartic for a garage floor?,compare,decide,Osceola,coatings,TRENDS,"trends rising: polyaspartic vs epoxy (+75,250%)",—,/coatings/garage-floors/,comparison table
+113,Concrete or gravel for a long rural driveway?,compare,research,St. Cloud,concrete,EXPERT-GAP,"Harmony/Narcoossee lots",—,/concrete/driveways/harmony/,capsule
+114,Asphalt or concrete driveway in Florida heat?,compare,research,Florida,concrete,TRENDS,"trends rising: asphalt vs concrete driveway",—,/faq/concrete/,short FAQ
+115,Which is better for resale: pavers or concrete?,compare,decide,Osceola,both,EXPERT-GAP,"Realtor angle",—,/tools/concrete-vs-pavers/,tool
+116,Artificial turf or grass strips between driveway ribbons?,compare,research,Osceola,pavers,EXPERT-GAP,"turf in catalog",—,/pavers/artificial-turf/,capsule
+117,Sealer: wet look or natural finish?,compare,decide,Osceola,pavers,EXPERT-GAP,"sealer types",—,/compare/sealer-types/,comparison
+118,Large-format porcelain or standard concrete pavers for a lanai?,compare,decide,Osceola,pavers,EXPERT-GAP,"GCM luxury catalog",—,/pavers/marble-porcelain/,capsule
+119,Can you pour concrete in the rain in Florida?,schedule,decide,Osceola,concrete,AUTOCOMPLETE,"seed: can you pour concrete in the rain",—,/tools/pour-calendar/,tool + capsule
+120,What is the best month to pour a driveway in Kissimmee?,schedule,decide,Kissimmee,concrete,TRENDS,"seasonality: May peak; Jun-Sep 15-18 rain days",—,/tools/pour-calendar/,tool
+121,How does hurricane season affect scheduling?,schedule,decide,Osceola,both,EXPERT-GAP,"Jun 1-Nov 30",—,/guides/rainy-season-concrete-scheduling/,guide
+122,How long does a paver driveway take to install?,schedule,decide,Osceola,pavers,COMPETITOR,"competitor: 3-5 days",—,/pavers/driveways/,capsule
+123,How long does a concrete driveway take from demo to drive-on?,schedule,decide,Osceola,concrete,EXPERT-GAP,"7/28-day cure",—,/concrete/driveways/,capsule
+124,What time of day should concrete be poured in summer?,schedule,research,Osceola,concrete,EXPERT-GAP,"afternoon storms; NOAA rain days",—,/tools/pour-calendar/,capsule
+125,Can a pool deck be done between short-term rental guests?,schedule,decide,Four Corners,pavers,EXPERT-GAP,"STR owner need",—,/guides/vacation-rental-owner-hardscape-guide/,guide
+126,Does hot weather make concrete cure faster or worse?,schedule,research,Osceola,concrete,EXPERT-GAP,"hot-weather concreting",—,/guides/rainy-season-concrete-scheduling/,guide section
+127,How far ahead should I book before the spring rush?,schedule,decide,Osceola,both,TRENDS,"pavers peak Apr-May",—,/faq/cost/,short FAQ
+128,Do you work in Kissimmee and St. Cloud, or the whole 40-mile area?,commercial,decide,Osceola,both,COMPETITOR,"legendary/GCM FAQ pattern",—,/areas/,capsule
+129,How do I verify a concrete contractor in Florida if there is no license?,hiring,decide,Florida,both,EXPERT-GAP,"FS 489.117(4)(a); Sunbiz; COI",—,/guides/how-to-verify-a-concrete-contractor-florida/,guide
+130,What should be in a written concrete or paver estimate?,hiring,decide,Osceola,both,EXPERT-GAP,"bid comparison",—,/tools/project-brief/,tool
+131,What questions should I ask three contractors before choosing?,hiring,decide,Osceola,both,EXPERT-GAP,"project brief",—,/tools/project-brief/,checklist
+132,Are you insured and can I see the certificate?,hiring,decide,Osceola,both,EXPERT-GAP,"Solterra COI requirement",—,/about/,capsule
+133,What does the workmanship warranty cover?,hiring,decide,Osceola,both,COMPETITOR,"warranty pages on sibling sites",—,/warranty/,page
+134,Who owns kissimmeeconcrete.com and who does the work?,hiring,decide,Osceola,both,EXPERT-GAP,"disclosure",—,/about/,page
+135,Do you do commercial concrete or parking lots?,commercial,decide,Osceola,concrete,COMPETITOR,"legendary commercial list",—,/concrete/commercial/,page
+136,Can you match my existing driveway when adding a section?,commercial,decide,Osceola,concrete,EXPERT-GAP,"extension jobs",—,/concrete/driveways/,capsule
+137,Do you install Belgard or Tremron pavers?,commercial,decide,Osceola,pavers,EXPERT-GAP,"manufacturers in region",—,/pavers/,capsule
+138,Can you add lighting to a paver driveway or steps?,commercial,decide,Osceola,pavers,EXPERT-GAP,"GCM lighting",—,/pavers/outdoor-lighting/,capsule
+139,Do you build decorative retaining walls and seat walls?,commercial,decide,Osceola,pavers,EXPERT-GAP,"GCM retaining walls (decorative only)",—,/pavers/retaining-walls-outdoor-living/,capsule
+140,Does homeowners insurance cover a cracked or sunken driveway?,hiring,research,Florida,concrete,EXPERT-GAP,"common call",—,/faq/concrete/,short FAQ
+141,What happens to my Buenaventura Lakes 1980s driveway if I only patch it?,city,decide,Buenaventura Lakes,concrete,EXPERT-GAP,"Landstar-era stock",—,/concrete/repair/buenaventura-lakes/,capsule
+142,Which permit office covers a driveway in Poinciana — Osceola or Polk?,city,research,Poinciana,concrete,EXPERT-GAP,"two-county community",—,/areas/poinciana/,capsule
+143,Can I widen my driveway in Celebration?,city,research,Celebration,pavers,EXPERT-GAP,"CROA pattern book",—,/pavers/driveways/celebration/,capsule
+144,What base do pavers need on the Davenport ridge sand?,city,research,Davenport,pavers,EXPERT-GAP,"Candler sand",—,/pavers/driveways/davenport/,capsule
+145,Do Harmony and Sunbridge lots have drainage issues for driveways?,city,research,Harmony,concrete,EXPERT-GAP,"EauGallie/Basinger",—,/concrete/driveways/harmony/,capsule
+146,Who approves a pool deck change in Reunion?,city,research,Reunion,pavers,EXPERT-GAP,"three management companies",—,/pavers/pool-decks/reunion/,capsule
+147,What is different about pool decks for ChampionsGate vacation homes?,city,research,ChampionsGate,pavers,EXPERT-GAP,"STR turnover",—,/pavers/pool-decks/champions-gate/,capsule
+148,Does Haines City have its own building department?,city,research,Haines City,concrete,EXPERT-GAP,"city vs Polk",—,/areas/haines-city/,capsule
+149,Where can I see photos of real jobs, not renderings?,commercial,decide,Osceola,both,EXPERT-GAP,"labelled gallery",—,/gallery/,page
+150,How do I send a photo and measurements for a quick range?,commercial,decide,Osceola,both,EXPERT-GAP,"form with photo upload",—,/contact/,form
