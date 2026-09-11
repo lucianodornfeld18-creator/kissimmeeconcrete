@@ -7,7 +7,7 @@
     { "binding": "CONTACT_EMAIL", "service": "kissimmeeconcrete-contact" }
   ],
   "kv_namespaces": [
-    { "binding": "RATE_LIMIT_KV", "id": "{{RATE_LIMIT_KV_ID}}" }
+    { "binding": "RATE_LIMIT_KV", "id": "22a498d04def41df81fb7b04124eb2b7" }
   ]
   // Pages Function secrets: TURNSTILE_SECRET_KEY (see OWNER-INPUTS.md)
 }

@@ -1,0 +1,9 @@
+# build tooling
+__pycache__/
+*.pyc
+node_modules/
+.wrangler/
+site/.wrangler/
+
+# scratch
+research/photos-inspect/
