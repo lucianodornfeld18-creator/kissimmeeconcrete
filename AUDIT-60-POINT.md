@@ -11,7 +11,10 @@ Total de palavras de conteúdo: 200.928
 Blocked items: 9 (teste de citação por IA), 54 (matriz de canibalização sem GSC)
 Owner inputs still required: 1, 11(parcial), 24(parcial), 25(parcial), 27(parcial), 45, 46, 49, 57, 58, 60 — consolidados em OWNER-INPUTS.md
 Cannibalization decisions pending: todas as URLs de Ocoee e Windermere (nenhuma alterada; matriz condicional registrada)
-Deployment status: READY FOR APPROVAL (preview publicado; domínio custom não conectado)
+Deployment status: DEPLOYED (preview) — https://kissimmeeconcrete.pages.dev, build automático a partir de
+                   github.com/lucianodornfeld18-creator/kissimmeeconcrete (branch main, `python build.py`).
+                   O domínio kissimmeeconcrete.com ainda NÃO está conectado e o host de preview envia
+                   X-Robots-Tag: noindex, então nada é indexado antes da sua aprovação.
 ```
 
 ## Ferramentas de auditoria (reexecutáveis)
