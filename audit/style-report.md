@@ -69,7 +69,7 @@ Pages: 154 · hard failures: 0
 | /concrete/slabs/ | 1636 | none | none |
 | /concrete/slabs/st-cloud/ | 1470 | none | none |
 | /concrete/stamped/ | 1634 | none | none |
-| /contact/ | 627 | none | none |
+| /contact/ | 620 | none | none |
 | /data-and-methods/ | 854 | none | none |
 | /editorial-standards/ | 797 | none | fact density 0.75 per 150 words (target >= 1) |
 | /faq/concrete/ | 1167 | none | none |

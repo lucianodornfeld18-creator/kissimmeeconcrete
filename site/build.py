@@ -210,7 +210,7 @@ def write_headers_and_redirects():
         "font-src 'self'",
         "connect-src 'self' https://cloudflareinsights.com https://challenges.cloudflare.com https://geocoding.geo.census.gov",
         "frame-src https://challenges.cloudflare.com",
-        "form-action 'self'",
+        "form-action 'self' https://api.web3forms.com",
         "base-uri 'self'",
         "object-src 'none'",
         "frame-ancestors 'self'",

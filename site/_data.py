@@ -27,7 +27,10 @@ LAUNCH_DATE = "2026-09-10"   # first build; git commit dates take over once the 
 PHONE_DISPLAY = "(689) 263-6255"
 PHONE_E164 = "+16892636255"
 EMAIL = "hello@kissimmeeconcrete.com"
-TURNSTILE_SITE_KEY = None     # public Turnstile key for this domain (OWNER-INPUTS.md)
+TURNSTILE_SITE_KEY = None
+# Web3Forms delivers the lead email. The access key is public by design:
+# it identifies the destination inbox, it is not a credential.
+WEB3FORMS_KEY = "b8ce0919-eef0-4c33-8ffc-421a98e9e410"     # public Turnstile key for this domain (OWNER-INPUTS.md)
 
 BUSINESS = {
     "public_name": PUBLIC_NAME,

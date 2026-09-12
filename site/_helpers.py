@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """HTML helpers shared by the content modules."""
 from _data import (SERVICES, CITIES, TOOLS, GUIDES, COMPARISONS, JURISDICTIONS, HOAS, CONCRETE_SERVICES, PAVER_SERVICES, COATING_SERVICES,
-                   PHONE_E164, PHONE_DISPLAY, BUSINESS, TURNSTILE_SITE_KEY, COST_INDEX, COST_INDEX_RELEASE, drive_estimate, city_service_route, CITY_SERVICES, src)
+                   PHONE_E164, PHONE_DISPLAY, BUSINESS, TURNSTILE_SITE_KEY, COST_INDEX, COST_INDEX_RELEASE, WEB3FORMS_KEY, drive_estimate, city_service_route, CITY_SERVICES, src)
 
 
 def esc(s):
@@ -123,10 +123,13 @@ def lead_form(heading="Request a free on-site estimate", service_default=None, c
       <div class="row-2">
         <div class="field"><label for="f-prop">Property type</label><select id="f-prop" name="property_type"><option value="">Select</option><option>Primary home</option><option>Vacation rental / second home</option><option>Rental I manage</option><option>Commercial / HOA / business</option><option>New construction</option></select></div>
         <div class="field"><label for="f-time">Timeline</label><select id="f-time" name="timeline"><option value="">Select</option><option>As soon as possible</option><option>Within 1–3 months</option><option>3–6 months</option><option>Planning ahead / just pricing</option></select></div>
-      </div>
-      <div class="field"><label for="f-photo">Photo of the area (optional, under 6 MB)</label><input id="f-photo" type="file" name="photo" accept="image/*"></div>'''
+      </div>'''
     return f'''
-<form class="lead" method="post" action="/api/contact" enctype="multipart/form-data" novalidate>
+<form class="lead" method="post" action="https://api.web3forms.com/submit" novalidate>
+  <input type="hidden" name="access_key" value="{esc(WEB3FORMS_KEY)}">
+  <input type="hidden" name="subject" value="New estimate request from kissimmeeconcrete.com">
+  <input type="hidden" name="from_name" value="Kissimmee Concrete website">
+  <input type="hidden" name="redirect" value="https://kissimmeeconcrete.com/thank-you/">
   <h2 style="margin-top:0;font-size:1.25rem">{esc(heading)}</h2>
   <div class="row-2">
     <div class="field"><label for="f-name">Name</label><input id="f-name" type="text" name="name" autocomplete="name" required maxlength="100"></div>
@@ -138,7 +141,7 @@ def lead_form(heading="Request a free on-site estimate", service_default=None, c
   </div>
   <div class="field"><label for="f-service">Service</label><select id="f-service" name="service">{service_opts}</select></div>{extra}
   <div class="field"><label for="f-msg">Project notes (size, current surface, HOA, anything else)</label><textarea id="f-msg" name="message" maxlength="3000"></textarea></div>
-  <div class="hp" aria-hidden="true"><label for="f-company">Company</label><input id="f-company" type="text" name="company" tabindex="-1" autocomplete="off"></div>
+  <label class="hp" aria-hidden="true">Company<input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label>
   {hidden}
   {turnstile}
   <button class="btn btn-primary" type="submit">Send my request</button>

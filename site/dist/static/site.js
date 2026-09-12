@@ -43,6 +43,11 @@
     f.addEventListener("submit", function (e) {
       var file = f.querySelector('input[type="file"]');
       if (file && file.files && file.files[0] && file.files[0].size > 6 * 1024 * 1024) { e.preventDefault(); alert("Please attach a photo under 6 MB."); track("form_error", { reason: "file_size" }); return; }
+      try {
+        var v = function (n) { var e = f.querySelector('[name="' + n + '"]'); return (e && e.value) || ""; };
+        var subj = f.querySelector('[name="subject"]');
+        if (subj) subj.value = "[Kissimmee Concrete] " + (v("service") || "Estimate request") + " — " + (v("zip") || "no ZIP") + " — " + v("name");
+      } catch (e) {}
       track("form_submit", { page: location.pathname, service: (f.querySelector('[name="service"]') || {}).value || "", zip: (f.querySelector('[name="zip"]') || {}).value || "" });
       var b = f.querySelector('button[type="submit"]'); if (b) { b.disabled = true; b.textContent = "Sending…"; }
     });
