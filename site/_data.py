@@ -18,12 +18,14 @@ BUILD_DATE = datetime.date.today().isoformat()
 LAUNCH_DATE = "2026-09-10"   # first build; git commit dates take over once the repo has history
 
 # ---------------------------------------------------------------------------
-# Business facts. PHONE stays None until the exclusive Twilio number exists
-# (OWNER-INPUTS.md). While None the site renders form-first CTAs and never a
-# placeholder string.
+# Business facts. The number is the site's own tracked Twilio line, which
+# screens robocalls, whispers "press any key to accept" on the owner's leg and
+# falls through to a transcribed voicemail. See twilio/README.md. Setting
+# PHONE_DISPLAY to None removes every call-to-action rather than showing a
+# placeholder.
 # ---------------------------------------------------------------------------
-PHONE_DISPLAY = None          # e.g. "(407) 555-0123"
-PHONE_E164 = None             # e.g. "+14075550123"
+PHONE_DISPLAY = "(689) 263-6255"
+PHONE_E164 = "+16892636255"
 EMAIL = "hello@kissimmeeconcrete.com"
 TURNSTILE_SITE_KEY = None     # public Turnstile key for this domain (OWNER-INPUTS.md)
 

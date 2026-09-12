@@ -19,26 +19,22 @@ Atualizado em 2026-09-11. Tudo abaixo bloqueia **publicação** ou **precisão**
 
 Sunbiz respondeu 403 às consultas automatizadas nesta sessão; a verificação tem de ser manual em `search.sunbiz.org`.
 
-### A2. Telefone Twilio
+### A2. Telefone Twilio — **FEITO** (2026-09-11)
 | Campo | Estado |
 |---|---|
-| `{{KISSIMMEE_TWILIO_NUMBER}}` | **pendente** |
+| Número | **(689) 263-6255**, ativo e já exibido no site |
 
-O site hoje roda **sem telefone**: todos os CTAs são o formulário e o e-mail, e não há placeholder falso em lugar nenhum. Assim que o número existir, é uma linha em `site/_data.py` (`PHONE_DISPLAY` e `PHONE_E164`) e o build reintroduz o botão de ligar, o `tel:` no rodapé, o CTA móvel e o `telephone` no schema `Organization`.
+Serviço `kissimmee-voice` criado espelhando `ocoee-voice` e `windermere-voice`, encaminhando para **(689) 242-7487**: triagem do chamador, whisper "press any key to accept" no seu aparelho e correio de voz transcrito se ninguém aceitar. Domínio `kissimmee-voice-9865-prod.twil.io`. Detalhes em `twilio/README.md`.
 
-Passo a passo, seguindo o padrão já usado na sua conta Twilio:
-1. Comprar um número local 407 ou 321.
-2. Criar o serviço Functions `kissimmee-voice` (mesmo modelo dos outros sites).
-3. Definir `FORWARD_TO` = seu telefone.
-4. Apontar o Voice webhook do número para a função.
-5. Testar ligando do celular e confirmando o encaminhamento.
+**O que falta:** uma ligação real sua para (689) 263-6255, confirmando que o celular toca, que o áudio do whisper abre a tempo e que a tecla conecta. Testei os quatro endpoints com assinatura válida e o TwiML está correto, mas só a chamada real valida a operadora.
 
 ### A3. DNS, e-mail e Cloudflare
 | Item | Estado | Ação |
 |---|---|---|
-| Nameservers | **Afternic** | Mover `kissimmeeconcrete.com` para a Cloudflare (a zona precisa existir na conta para Pages + Email Routing). O domínio está registrado desde 2026-01-01 na GoDaddy e foi comprado por você em 2026-09-10. |
-| `hello@kissimmeeconcrete.com` | **pendente** | Cloudflare Email Routing → `{{MAIN_DESTINATION_EMAIL}}`. O e-mail já está publicado no site como canal principal de contato. |
-| `{{MAIN_DESTINATION_EMAIL}}` | **pendente** | Para onde os leads vão. Vai como secret `CONTACT_DESTINATION` no Worker. |
+| Nameservers | **feito** | Zona ativa na Cloudflare. Removi 46 registros que o estacionamento do Afternic tinha deixado: wildcards, MX nulo, SPF `-all` e 34 delegações NS de subdomínio. |
+| Domínio no site | **feito** | `kissimmeeconcrete.com` e `www` ativos no Pages, certificados emitidos. |
+| `hello@kissimmeeconcrete.com` | **feito** | Email Routing ativo, regra + catch-all para `opusdigitalmarketingflorida@gmail.com`, igual ao Windermere. MX, SPF e DMARC publicados. Falta um envio de teste. |
+| `CONTACT_DESTINATION` no Worker | **pendente** | O Worker que manda o e-mail do formulário ainda não tem o destino configurado. Comando: `wrangler secret put CONTACT_DESTINATION` dentro de `site/workers/contact-email`. Sem isso o formulário responde que o serviço não está configurado. |
 | Turnstile | **pendente** | Criar um widget Turnstile para o domínio. A chave pública vai em `_data.TURNSTILE_SITE_KEY`, a secreta como `TURNSTILE_SECRET_KEY` na Pages Function. Sem ela o formulário funciona, mas só com honeypot e rate limit. |
 | Repositório GitHub | **feito** | `github.com/lucianodornfeld18-creator/kissimmeeconcrete`, ligado ao projeto Pages; cada push para `main` gera um build automático. |
 

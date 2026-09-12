@@ -22,9 +22,9 @@ Pages: 154 · hard: 0 · warnings: 1
 |---|---|
 | 69 | / |
 | 52 | /pavers/driveways/ |
-| 45 | /pavers/patios/ |
+| 46 | /pavers/patios/ |
 | 45 | /pavers/pool-decks/ |
-| 44 | /concrete/ |
+| 45 | /concrete/ |
 | 44 | /gallery/ |
 | 44 | /pavers/walkways-steps/ |
 | 44 | /pavers/ |

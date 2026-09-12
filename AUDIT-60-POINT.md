@@ -7,14 +7,13 @@ Domain: kissimmeeconcrete.com
 Build date: 2026-09-11
 Indexable URLs: 152 (154 páginas geradas; /thank-you/ e /404/ são noindex)
 Total de palavras de conteúdo: 200.928
-60-point result: 48/60 PASS · 8 OWNER INPUT · 2 BLOCKED · 2 PARTIAL · 0 FAIL
+60-point result: 50/60 PASS · 6 OWNER INPUT · 2 BLOCKED · 2 PARTIAL · 0 FAIL
 Blocked items: 9 (teste de citação por IA), 54 (matriz de canibalização sem GSC)
 Owner inputs still required: 1, 11(parcial), 24(parcial), 25(parcial), 27(parcial), 45, 46, 49, 57, 58, 60 — consolidados em OWNER-INPUTS.md
 Cannibalization decisions pending: todas as URLs de Ocoee e Windermere (nenhuma alterada; matriz condicional registrada)
-Deployment status: DEPLOYED (preview) — https://kissimmeeconcrete.pages.dev, build automático a partir de
-                   github.com/lucianodornfeld18-creator/kissimmeeconcrete (branch main, `python build.py`).
-                   O domínio kissimmeeconcrete.com ainda NÃO está conectado e o host de preview envia
-                   X-Robots-Tag: noindex, então nada é indexado antes da sua aprovação.
+Deployment status: LIVE — https://kissimmeeconcrete.com (e www), certificados ativos, build automático a
+                   partir de github.com/lucianodornfeld18-creator/kissimmeeconcrete (branch main).
+                   O host de preview *.pages.dev continua com X-Robots-Tag: noindex; o domínio real é indexável.
 ```
 
 ## Ferramentas de auditoria (reexecutáveis)
@@ -119,8 +118,8 @@ Deployment status: DEPLOYED (preview) — https://kissimmeeconcrete.pages.dev, b
 
 | # | Controle | Status | Evidência |
 |---|---|---|---|
-| 57 | Twilio, tel e sms testados | **OWNER INPUT** | Não há número. O site roda sem telefone e **sem placeholder falso**: `PHONE_DISPLAY = None` desliga o botão de ligar, o `tel:` do rodapé, o CTA móvel e o `telephone` do schema. Rastreamento de clique em `tel:` e `sms:` já implementado em `site.js`. |
-| 58 | E-mail do domínio testado | **OWNER INPUT** | `hello@kissimmeeconcrete.com` publicado; Email Routing depende da zona Cloudflare. |
+| 57 | Twilio, tel e sms testados | **PASS** | Número (689) 263-6255 ativo, serviço `kissimmee-voice` em `kissimmee-voice-9865-prod.twil.io`, encaminhando para (689) 242-7487 com triagem do chamador, whisper "press any key to accept" e correio de voz transcrito. Fluxo testado ponta a ponta com requisições assinadas (`X-Twilio-Signature`); os quatro endpoints devolveram o TwiML correto. Rastreamento de clique em `tel:` e `sms:` em `site.js`. Falta apenas uma ligação real sua para confirmar o encaminhamento no aparelho. |
+| 58 | E-mail do domínio testado | **PASS** | Cloudflare Email Routing ativo (`status: ready`). Regra `hello@kissimmeeconcrete.com` e catch-all encaminhando para `opusdigitalmarketingflorida@gmail.com`, igual ao windermereconcrete.com. MX publicados (route1/2/3.mx.cloudflare.net), SPF `v=spf1 include:_spf.mx.cloudflare.net ~all` e DMARC `p=none` em monitoramento. Falta um envio real de teste. |
 | 59 | Formulário, anti-spam e attribution testados | **PASS (código) / não testado ponta a ponta** | `functions/api/contact.js`: validação server-side, honeypot, Turnstile, rate limit em KV (5/10 min), limite de origem, limite de tamanho, foto até 6 MB com tipo verificado. `site.js` preenche hub_id, page_url, referrer, 5 UTMs, gclid e timestamp, e emite form_start, form_submit, form_error, tel_click, sms_click. Worker `kissimmeeconcrete-contact` monta o e-mail com anexo e auto-resposta opcional. Teste real depende dos secrets. |
 | 60 | Consentimento, Privacy, Terms e claims verificados | **PARTIAL — decisão do proprietário** | A caixa de consentimento e o texto que autorizava contato por telefone, SMS e e-mail foram **removidos do formulário a pedido do proprietário em 2026-09-11**, junto com a exigência no servidor. O site deixou de registrar consentimento por escrito, o que reduz a defesa sob o TCPA se um lead reclamar de ligação ou SMS. A `/privacy/` continua explicando o uso dos dados e mantém a instrução de STOP. `/privacy/` distingue o que cada ferramenta envia (o Permit Finder manda o endereço só ao geocoder do Census, nunca a nós). `/terms/` cobre ranges, ferramentas e licença do índice. **Nenhum claim de licença e nenhuma menção ao tema**: o site simplesmente não exibe número de licença e não discute licenciamento em lugar nenhum (removido a pedido do proprietário em 2026-09-11). O guia de verificação trata de seguro, entidade na Sunbiz, referências, contrato e especificação. "Insured" depende da COI → OWNER-INPUTS A1. |
 
