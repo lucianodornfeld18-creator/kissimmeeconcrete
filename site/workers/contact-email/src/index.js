@@ -19,11 +19,11 @@ export default {
     try { p = await request.json(); } catch { return new Response("Bad JSON", { status: 400 }); }
     if (!env.CONTACT_DESTINATION) return new Response("CONTACT_DESTINATION not set", { status: 503 });
 
-    const subject = `[Kissimmee Concrete] ${p.service || "Estimate request"} — ${p.city || "city not given"} — ${p.name}`;
+    const subject = `[Kissimmee Concrete] ${p.service || "Estimate request"} — ${p.zip || "ZIP not given"} — ${p.name}`;
     const body =
       `New estimate request from kissimmeeconcrete.com (hub_id=${p.hub_id})\n\n` +
-      line("Name", p.name) + line("Phone", p.phone) + line("Email", p.email) + line("Preferred language", p.language) +
-      line("City / community", p.city) + line("Service", p.service) + line("Property type", p.property_type) + line("Timeline", p.timeline) +
+      line("Name", p.name) + line("Phone", p.phone) + line("Email", p.email) +
+      line("ZIP code", p.zip) + line("Service", p.service) + line("Property type", p.property_type) + line("Timeline", p.timeline) +
       `\nProject notes:\n${p.message || "(none)"}\n\n` +
       `--- attribution ---\n` + line("Page", p.page_url) + line("Referrer", p.referrer) + line("utm_source", p.utm_source) + line("utm_medium", p.utm_medium) +
       line("utm_campaign", p.utm_campaign) + line("utm_term", p.utm_term) + line("utm_content", p.utm_content) + line("gclid", p.gclid) +
@@ -53,7 +53,7 @@ export default {
           body: JSON.stringify({
             from: `${FROM_NAME} <${FROM}>`, to: [p.email], reply_to: env.CONTACT_DESTINATION,
             subject: "We received your estimate request — Kissimmee Concrete",
-            text: `Hi ${p.name},\n\nThanks for reaching out to Kissimmee Concrete about ${p.service || "your project"}${p.city ? " in " + p.city : ""}. We'll call or text you during business hours (Mon–Fri 7:30–6, Sat 8–1) to set up a site visit and a written estimate.\n\nIf you'd like to add photos or measurements, just reply to this email.\n\nKissimmee Concrete\n${FROM}\n`,
+            text: `Hi ${p.name},\n\nThanks for reaching out to Kissimmee Concrete about ${p.service || "your project"}${p.zip ? " in " + p.zip : ""}. We'll call or text you during business hours (Mon–Fri 7:30–6, Sat 8–1) to set up a site visit and a written estimate.\n\nIf you'd like to add photos or measurements, just reply to this email.\n\nKissimmee Concrete\n${FROM}\n`,
           }),
         });
       } catch (e) { /* auto-reply is best effort */ }

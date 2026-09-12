@@ -21,7 +21,7 @@ Pages: 154 · hard failures: 0
 | /areas/lake-alfred/ | 1155 | none | none |
 | /areas/lake-wales/ | 1252 | none | none |
 | /areas/orange-county-south/ | 1648 | none | none |
-| /areas/osceola-county/ | 2163 | none | 7 em dashes |
+| /areas/osceola-county/ | 2176 | none | 7 em dashes |
 | /areas/poinciana/ | 1382 | none | none |
 | /areas/polk-city/ | 1260 | none | none |
 | /areas/polk-county/ | 2084 | none | none |
@@ -69,7 +69,7 @@ Pages: 154 · hard failures: 0
 | /concrete/slabs/ | 1636 | none | none |
 | /concrete/slabs/st-cloud/ | 1470 | none | none |
 | /concrete/stamped/ | 1634 | none | none |
-| /contact/ | 684 | none | none |
+| /contact/ | 627 | none | none |
 | /data-and-methods/ | 854 | none | none |
 | /editorial-standards/ | 797 | none | fact density 0.75 per 150 words (target >= 1) |
 | /faq/concrete/ | 1167 | none | none |
@@ -99,7 +99,7 @@ Pages: 154 · hard failures: 0
 | /hoa/poinciana-apv/ | 947 | none | none |
 | /hoa/solivita/ | 870 | none | none |
 | /hoa/solterra/ | 1008 | none | none |
-| / | 3372 | none | none |
+| / | 3315 | none | none |
 | /pavers/artificial-turf/ | 1481 | none | none |
 | /pavers/driveways/buenaventura-lakes/ | 1315 | none | none |
 | /pavers/driveways/celebration/ | 1474 | none | none |
@@ -146,7 +146,7 @@ Pages: 154 · hard failures: 0
 | /pricing/ | 1778 | none | none |
 | /pricing/kissimmee-concrete-cost-index/ | 1948 | none | none |
 | /pricing/pavers/ | 1881 | none | none |
-| /privacy/ | 540 | none | fact density 0.00 per 150 words (target >= 1) |
+| /privacy/ | 539 | none | fact density 0.00 per 150 words (target >= 1) |
 | /terms/ | 495 | none | fact density 0.00 per 150 words (target >= 1) |
 | /thank-you/ | 138 | none | none |
 | /tools/ask-the-estimator/ | 802 | none | none |

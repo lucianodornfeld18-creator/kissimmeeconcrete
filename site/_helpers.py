@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """HTML helpers shared by the content modules."""
 from _data import (SERVICES, CITIES, TOOLS, GUIDES, COMPARISONS, JURISDICTIONS, HOAS, CONCRETE_SERVICES, PAVER_SERVICES, COATING_SERVICES,
-                   TIER1, TIER2, PHONE_E164, PHONE_DISPLAY, BUSINESS, TURNSTILE_SITE_KEY, COST_INDEX, COST_INDEX_RELEASE, drive_estimate, city_service_route, CITY_SERVICES, src)
+                   PHONE_E164, PHONE_DISPLAY, BUSINESS, TURNSTILE_SITE_KEY, COST_INDEX, COST_INDEX_RELEASE, drive_estimate, city_service_route, CITY_SERVICES, src)
 
 
 def esc(s):
@@ -111,13 +111,7 @@ def phone_cta(text="Call"):
     return ""
 
 
-def lead_form(heading="Request a free on-site estimate", city_default=None, service_default=None, compact=False):
-    city_opts = ['<option value="">Select a city or community</option>']
-    for k in TIER1 + TIER2:
-        sel = ' selected' if k == city_default else ''
-        city_opts.append(f'<option value="{esc(CITIES[k]["name"])}"{sel}>{esc(CITIES[k]["name"])}</option>')
-    for extra in ["Loughman", "Intercession City", "Campbell", "Lake Nona / Hunters Creek", "Meadow Woods / Southchase", "Orlando", "Winter Haven area", "Other (tell us in the notes)"]:
-        city_opts.append(f'<option value="{esc(extra)}">{esc(extra)}</option>')
+def lead_form(heading="Request a free on-site estimate", service_default=None, compact=False):
     def opts(keys):
         return "".join(f'<option value="{esc(SERVICES[k]["name"])}"{" selected" if k == service_default else ""}>{esc(SERVICES[k]["name"])}</option>' for k in keys)
     service_opts = (f'<option value="">Select a service</option><optgroup label="Concrete">{opts(CONCRETE_SERVICES)}</optgroup>'
@@ -140,12 +134,9 @@ def lead_form(heading="Request a free on-site estimate", city_default=None, serv
   </div>
   <div class="row-2">
     <div class="field"><label for="f-email">Email</label><input id="f-email" type="email" name="email" autocomplete="email" required maxlength="254"></div>
-    <div class="field"><label for="f-lang">Preferred language</label><select id="f-lang" name="language"><option value="EN">English</option><option value="ES">Español</option></select></div>
+    <div class="field"><label for="f-zip">ZIP code of the project</label><input id="f-zip" type="text" name="zip" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{{5}}" maxlength="5" placeholder="34741" required></div>
   </div>
-  <div class="row-2">
-    <div class="field"><label for="f-city">City or community</label><select id="f-city" name="city">{"".join(city_opts)}</select></div>
-    <div class="field"><label for="f-service">Service</label><select id="f-service" name="service">{service_opts}</select></div>
-  </div>{extra}
+  <div class="field"><label for="f-service">Service</label><select id="f-service" name="service">{service_opts}</select></div>{extra}
   <div class="field"><label for="f-msg">Project notes (size, current surface, HOA, anything else)</label><textarea id="f-msg" name="message" maxlength="3000"></textarea></div>
   <div class="hp" aria-hidden="true"><label for="f-company">Company</label><input id="f-company" type="text" name="company" tabindex="-1" autocomplete="off"></div>
   {hidden}

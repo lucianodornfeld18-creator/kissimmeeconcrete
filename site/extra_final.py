@@ -151,7 +151,7 @@ _s("/areas/polk-county/", "Two offices, and which one to use",
 
 _s("/areas/osceola-county/", "Growth, and what it means for flatwork",
    """<p>Osceola County has been among the faster-growing counties in Florida for two decades, with an estimated population around 481,700 in 2025 and more than half of residents identifying as Hispanic or Latino according to Census data. For a flatwork contractor that shows up in two ways. The housing stock is bifurcated between subdivisions of the 1970s to 1990s whose original driveways are now failing, and subdivisions of the last decade whose owners are adding patios, pads and pool decks to new houses.</p>
-<p>It also shows up in language. A meaningful share of the homeowners we quote prefer to discuss the work in Spanish, which is why the estimate form asks for a language preference and why a Spanish section of this site is under consideration rather than dismissed.</p>""",
+<p>It also shows up in language. A meaningful share of the homeowners we quote prefer to discuss the work in Spanish, which is why a Spanish section of this site is under consideration rather than dismissed. Until it exists, the notes field on the estimate form takes Spanish as readily as English, and so do we on the phone.</p>""",
    eyebrow="Context", cls="alt")
 
 _s("/areas/lake-alfred/", "What a typical job here looks like",

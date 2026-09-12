@@ -6,7 +6,7 @@
 const HUB_ID = "kissimmee";
 const MAX_FORM_BYTES = 7_000_000; // allows one photo up to ~6 MB
 const MAX_PHOTO_BYTES = 6 * 1024 * 1024;
-const LIMITS = { name: 100, phone: 40, email: 254, city: 120, service: 120, property_type: 60, timeline: 60, language: 10, message: 3000, page_url: 300, referrer: 300, utm_source: 120, utm_medium: 120, utm_campaign: 120, utm_term: 120, utm_content: 120, gclid: 200, client_ts: 40 };
+const LIMITS = { name: 100, phone: 40, email: 254, zip: 5, service: 120, property_type: 60, timeline: 60, message: 3000, page_url: 300, referrer: 300, utm_source: 120, utm_medium: 120, utm_campaign: 120, utm_term: 120, utm_content: 120, gclid: 200, client_ts: 40 };
 
 function isAllowedOrigin(origin) {
   if (!origin) return true;
@@ -23,6 +23,7 @@ function validate(p) {
   if (!p.name || p.name.length > LIMITS.name) return "Please enter your name.";
   if (!p.phone || p.phone.length > LIMITS.phone || !/\d{7,}/.test(p.phone.replace(/\D/g, ""))) return "Please enter a phone number we can reach you at.";
   if (!p.email || p.email.length > LIMITS.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(p.email)) return "Please enter a valid email address.";
+  if (!/^\d{5}$/.test(p.zip)) return "Please enter the 5-digit ZIP code of the project address.";
   for (const k of Object.keys(LIMITS)) if ((p[k] || "").length > LIMITS[k]) return "One of the fields is too long.";
   return null;
 }
