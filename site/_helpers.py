@@ -133,7 +133,7 @@ def lead_form(heading="Request a free on-site estimate", service_default=None, c
     <div class="field"><label for="f-phone">Phone</label><input id="f-phone" type="tel" name="phone" autocomplete="tel" required maxlength="40" inputmode="tel"></div>
   </div>
   <div class="row-2">
-    <div class="field"><label for="f-email">Email</label><input id="f-email" type="email" name="email" autocomplete="email" required maxlength="254"></div>
+    <div class="field"><label for="f-email">Email <span class="opt">(optional)</span></label><input id="f-email" type="email" name="email" autocomplete="email" maxlength="254"></div>
     <div class="field"><label for="f-zip">ZIP code of the project</label><input id="f-zip" type="text" name="zip" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{{5}}" maxlength="5" placeholder="34741" required></div>
   </div>
   <div class="field"><label for="f-service">Service</label><select id="f-service" name="service">{service_opts}</select></div>{extra}

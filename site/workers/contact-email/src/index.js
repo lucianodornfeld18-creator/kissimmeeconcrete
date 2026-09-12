@@ -11,6 +11,9 @@ const FROM = "hello@kissimmeeconcrete.com";
 const FROM_NAME = "Kissimmee Concrete";
 
 function line(k, v) { return v ? `${k}: ${v}\n` : ""; }
+// The form accepts anything in the email field. Treat it as an address only when
+// it parses, so a typo cannot break the MIME headers and cost us the whole lead.
+const usable = (e) => typeof e === "string" && e.length <= 254 && /^[^\s@,;<>"]+@[^\s@,;<>"]+\.[^\s@,;<>"]+$/.test(e);
 
 export default {
   async fetch(request, env) {
@@ -33,7 +36,7 @@ export default {
     msg.setSender({ name: FROM_NAME, addr: FROM });
     msg.setRecipient(env.CONTACT_DESTINATION);
     msg.setSubject(subject);
-    if (p.email) msg.setHeader("Reply-To", p.email);
+    if (usable(p.email)) msg.setHeader("Reply-To", p.email);
     msg.addMessage({ contentType: "text/plain", data: body });
     if (p.photo && p.photo.base64) {
       msg.addAttachment({ filename: p.photo.name, contentType: p.photo.type, data: p.photo.base64, encoding: "base64" });
@@ -45,7 +48,7 @@ export default {
     }
 
     // Optional auto-reply to the homeowner (needs RESEND_API_KEY + verified domain at Resend)
-    if (env.RESEND_API_KEY && p.email) {
+    if (env.RESEND_API_KEY && usable(p.email)) {
       try {
         await fetch("https://api.resend.com/emails", {
           method: "POST",

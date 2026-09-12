@@ -19,10 +19,12 @@ function isAllowedOrigin(origin) {
 function field(form, name) { const v = form.get(name); return typeof v === "string" ? v.trim() : ""; }
 function text(message, status) { return new Response(message, { status, headers: { "content-type": "text/plain; charset=utf-8", "cache-control": "no-store" } }); }
 
+// A lead is never turned away over the email field: the phone number is how we
+// answer, and a typo in an address the homeowner will never read is not worth
+// a lost job. Whatever they typed travels through to the lead email as text.
 function validate(p) {
   if (!p.name || p.name.length > LIMITS.name) return "Please enter your name.";
   if (!p.phone || p.phone.length > LIMITS.phone || !/\d{7,}/.test(p.phone.replace(/\D/g, ""))) return "Please enter a phone number we can reach you at.";
-  if (!p.email || p.email.length > LIMITS.email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(p.email)) return "Please enter a valid email address.";
   if (!/^\d{5}$/.test(p.zip)) return "Please enter the 5-digit ZIP code of the project address.";
   for (const k of Object.keys(LIMITS)) if ((p[k] || "").length > LIMITS[k]) return "One of the fields is too long.";
   return null;
