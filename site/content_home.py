@@ -131,7 +131,7 @@ def get_pages():
 
     return [{
         "route": "/",
-        "title": "Kissimmee Concrete | Concrete & Paver Contractor, Kissimmee FL",
+        "title": "Kissimmee Concrete | Concrete & Paver Contractor, Osceola",
         "meta_description": "Concrete driveways, patios, pool decks and slabs plus paver driveways, travertine decks, sealing and repair across Kissimmee, St. Cloud, Osceola County and the Polk ridge. Free estimates.",
         "h1": "Concrete and paver contractor for Kissimmee, St. Cloud and the 40 miles around them",
         "body_html": body,
