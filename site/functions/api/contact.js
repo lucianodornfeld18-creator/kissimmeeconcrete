@@ -88,7 +88,14 @@ export async function onRequestPost(context) {
   payload.photo = photo;
 
   if (!env.CONTACT_EMAIL) return text("The contact service is not configured yet. Please email hello@kissimmeeconcrete.com.", 503);
-  const res = await env.CONTACT_EMAIL.fetch("https://contact-email.internal/send", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(payload) });
+  let res;
+  try {
+    res = await env.CONTACT_EMAIL.fetch("https://contact-email.internal/send", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(payload) });
+  } catch {
+    // An unreachable binding used to throw here, and the homeowner got
+    // Cloudflare's Error 1101 page: no explanation, no lead, no way back.
+    return text("We could not send your request right now. Please call (689) 263-6255 or email hello@kissimmeeconcrete.com.", 502);
+  }
   if (!res.ok) return text("We could not send your request right now. Please email hello@kissimmeeconcrete.com or try again in a few minutes.", 502);
   return Response.redirect(new URL("/thank-you/", request.url), 303);
 }
