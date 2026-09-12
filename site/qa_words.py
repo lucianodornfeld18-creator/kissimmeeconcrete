@@ -29,6 +29,8 @@ TARGET = {
 
 def visible(html):
     t = re.sub(r"<script.*?</script>|<style.*?</style>|<header.*?</header>|<footer.*?</footer>|<nav[^>]*>.*?</nav>", " ", html, flags=re.S)
+    # click-to-call chrome repeats on every page; it is not editorial word count
+    t = re.sub(r'<div class="topbar">.*?</div></div>|<div class="svc-call">.*?</div>|<div class="mobile-cta">.*?</div>|<p class="cta-phone">.*?</p>', " ", t, flags=re.S)
     t = re.sub(r"<[^>]+>", " ", t)
     return htmlmod.unescape(re.sub(r"\s+", " ", t)).strip()
 

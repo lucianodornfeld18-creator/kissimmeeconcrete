@@ -20,16 +20,16 @@ Pages: 154 · hard: 0 · warnings: 1
 
 | KB | Route |
 |---|---|
-| 69 | / |
-| 52 | /pavers/driveways/ |
-| 46 | /pavers/patios/ |
-| 45 | /pavers/pool-decks/ |
-| 45 | /concrete/ |
-| 44 | /gallery/ |
-| 44 | /pavers/walkways-steps/ |
-| 44 | /pavers/ |
-| 44 | /areas/osceola-county/ |
-| 43 | /concrete/patios/ |
+| 71 | / |
+| 54 | /pavers/driveways/ |
+| 48 | /pavers/patios/ |
+| 48 | /pavers/pool-decks/ |
+| 47 | /concrete/ |
+| 46 | /pavers/walkways-steps/ |
+| 46 | /pavers/ |
+| 46 | /areas/osceola-county/ |
+| 46 | /gallery/ |
+| 45 | /concrete/patios/ |
 
 Images rendered across the site: 447
 

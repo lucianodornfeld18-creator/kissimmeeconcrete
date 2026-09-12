@@ -5,6 +5,9 @@ from _photos import home_strip
 
 
 def get_pages():
+    from _data import PHONE_DISPLAY, PHONE_E164
+    call_btn = (f'<a class="btn btn-primary" href="tel:{PHONE_E164}">Call {PHONE_DISPLAY}</a>'
+                if PHONE_E164 else '<a class="btn btn-primary" href="/contact/">Request a free estimate</a>')
     hero = f'''
 <section class="hero">
   <div class="wrap hero-grid">
@@ -12,7 +15,7 @@ def get_pages():
       <span class="eyebrow" style="color:#D3A64A">Kissimmee · Osceola County · Polk ridge</span>
       <h1>Concrete and paver contractor for Kissimmee, St. Cloud and the 40 miles around them</h1>
       <p class="lede">Driveways, patios, pool decks, slabs and walkways in poured concrete. Paver driveways, travertine and marble pool decks, walkways, sealing and repair. Built on Osceola's wet flatwoods sand and Polk's dry ridge sand by a crew that knows which one your lot sits on, which office issues your permit, and what your HOA will ask for.</p>
-      <div class="cta-row"><a class="btn btn-primary" href="/contact/">Request a free estimate</a><a class="btn btn-outline" href="/pricing/">See current price ranges</a></div>
+      <div class="cta-row">{call_btn}<a class="btn btn-outline" href="/contact/">Request a free estimate</a><a class="btn btn-outline" href="/pricing/">See current price ranges</a></div>
       <p class="small" style="color:#D8D5CC;margin-top:14px">Insured. Free on-site estimates with a written proposal. Workmanship warranty in writing. Every quote states thickness, mix, reinforcement, base depth and drainage, so you can compare it line by line with anyone else's.</p>
     </div>
     <div>{lead_form(heading="Free estimate in two business days", compact=True)}</div>

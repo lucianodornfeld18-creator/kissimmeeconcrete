@@ -63,10 +63,11 @@ Our pages sharing any prose 8-gram: 2. Above threshold: 0.
 
 ## vs lakewoodranchconcretefl.com (445 pages)
 
-Our pages sharing any prose 8-gram: 1. Above threshold: 0.
+Our pages sharing any prose 8-gram: 2. Above threshold: 0.
 
 | Our page | shared | %% of our page | sample |
 |---|---|---|---|
+| privacy/index.html | 1 | 0.21% | you can reply stop at any time to |
 | concrete/stamped/index.html | 1 | 0.10% | a re seal every two to three years |
 
 ## vs grovelandconcrete.com (50 pages)

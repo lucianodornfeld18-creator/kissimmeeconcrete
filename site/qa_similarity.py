@@ -9,7 +9,7 @@ prompt excludes legal and structural boilerplate from the editorial comparison
 and because these blocks are *meant* to be identical wherever they appear:
 
   header / nav / footer / breadcrumbs / page head
-  the lead form and the call-to-action block
+  the lead form, the call-to-action block and the click-to-call strip
   tables and their captions (the Cost Index is a published dataset; the permit
       summary tables quote official rules verbatim)
   photo captions (the same photo carries the same alt text everywhere)
@@ -54,6 +54,8 @@ _DROP_BLOCKS = [
     r'<div class="wrap page-head">.*?</div>',
     r'<div class="data-strip">.*?</div>',
     r'<div class="cta-row">.*?</div>',
+    r'<div class="svc-call">.*?</div>',
+    r'<p class="cta-phone">.*?</p>',
 ]
 # Standing sentences that legitimately repeat.
 BOILER = [

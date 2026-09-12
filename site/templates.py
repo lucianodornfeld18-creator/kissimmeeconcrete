@@ -81,25 +81,33 @@ def turnstile_html():
 
 def header_cta():
     if PHONE_E164:
-        return f'<a class="btn btn-primary header-cta" href="tel:{PHONE_E164}">Call {_esc(PHONE_DISPLAY)}</a>'
+        return (f'<a class="btn btn-primary header-cta" href="tel:{PHONE_E164}">'
+                f'<span class="call-long">Call {_esc(PHONE_DISPLAY)}</span>'
+                f'<span class="call-short">Call now</span></a>')
     return '<a class="btn btn-primary header-cta" href="/contact/">Free estimate</a>'
 
 
 def mobile_cta():
-    call = f'<a class="btn btn-outline" href="tel:{PHONE_E164}">Call</a>' if PHONE_E164 else ''
-    return f'<div class="mobile-cta">{call}<a class="btn btn-primary" href="/contact/">Free estimate</a></div>'
+    if PHONE_E164:
+        return (f'<div class="mobile-cta">'
+                f'<a class="btn btn-primary" href="tel:{PHONE_E164}">Call {_esc(PHONE_DISPLAY)}</a>'
+                f'<a class="btn btn-outline" href="/contact/">Free estimate</a></div>')
+    return '<div class="mobile-cta"><a class="btn btn-primary" href="/contact/">Free estimate</a></div>'
 
 
 def cta_block(title="Get a written estimate for your project", text=None, city=None):
     text = text or "Tell us the size, the surface you have now and where the lot is. We visit, measure, check access and drainage, and send a written proposal. No pressure calls."
     where = f" in {city}" if city else ""
-    call = f'<a class="btn btn-outline" href="tel:{PHONE_E164}">Call {_esc(PHONE_DISPLAY)}</a>' if PHONE_E164 else ''
+    call = f'<a class="btn btn-primary" href="tel:{PHONE_E164}">Call {_esc(PHONE_DISPLAY)}</a>' if PHONE_E164 else ''
+    line = (f'<p class="cta-phone">Prefer to talk it through? Call <a href="tel:{PHONE_E164}">{_esc(PHONE_DISPLAY)}</a> '
+            f'and you will reach the estimating desk, {_esc(BUSINESS["hours"])}.</p>') if PHONE_E164 else ''
     return f'''
 <section class="alt">
   <div class="wrap">
     <h2>{_esc(title)}{_esc(where)}</h2>
     <p class="lede">{_esc(text)}</p>
-    <div class="cta-row"><a class="btn btn-primary" href="/contact/">Request a free estimate</a>{call}</div>
+    {line}
+    <div class="cta-row">{call}<a class="btn btn-outline" href="/contact/">Request a free estimate</a></div>
   </div>
 </section>'''
 
@@ -108,8 +116,22 @@ def _nav_html(active_route):
     return "\n".join(f'<a href="{route}"{" class=\"active\"" if route == active_route else ""}>{_esc(label)}</a>' for label, route in NAV_PRIMARY)
 
 
+def topbar_html():
+    """Always-visible click-to-call strip. Hidden only if there is no number."""
+    if not PHONE_E164:
+        return ""
+    return (
+        '<div class="topbar"><div class="wrap topbar-row">'
+        f'<a class="topbar-call" href="tel:{PHONE_E164}"><span aria-hidden="true">☎</span> '
+        f'<strong>{_esc(PHONE_DISPLAY)}</strong></a>'
+        f'<span class="topbar-note">Free on-site estimates &middot; {_esc(BUSINESS["hours"])}</span>'
+        '</div></div>'
+    )
+
+
 def header_html(active_route=""):
     return f"""
+{topbar_html()}
 <header class="site-header">
   <div class="wrap header-row">
     <a class="brand" href="/" aria-label="{PUBLIC_NAME} home">
@@ -300,6 +322,22 @@ def clip_desc(s, n=158):
     return cut[:i].rstrip(",;:") + "."
 
 
+CALL_STRIP_KINDS = ("service", "pillar", "city", "area", "pricing", "compare", "tool", "county")
+
+
+def call_strip(page):
+    """Click-to-call line under the H1 of the pages a homeowner lands on ready to buy."""
+    if not PHONE_E164 or page.get("noindex") or page.get("kind") in ("legal", "home"):
+        return ""
+    if page.get("kind") not in CALL_STRIP_KINDS and not page.get("service_key"):
+        return ""
+    where = " in " + _esc(CITIES[page["city_key"]]["name"]) if page.get("city_key") else ""
+    return (f'<div class="wrap"><div class="svc-call"><p>Want a number for your project{where}? '
+            f'Talk to us on the phone &mdash; no form required.</p>'
+            f'<a class="btn btn-primary" href="tel:{PHONE_E164}">Call {_esc(PHONE_DISPLAY)}</a>'
+            f'<a class="btn btn-outline" href="/contact/">Free estimate</a></div></div>')
+
+
 def render_page(page):
     route = page["route"]
     is_home = page.get("is_home", False)
@@ -347,7 +385,7 @@ def render_page(page):
     if kind not in ("legal", "home") and not page.get("noindex"):
         body += changelog_html(page)
 
-    head_block = "" if is_home else f'<div class="wrap page-head">{breadcrumbs_html(crumbs) if crumbs else ""}<h1>{_esc(h1)}</h1>{meta_line(page) if kind not in ("legal",) else ""}</div>'
+    head_block = "" if is_home else f'<div class="wrap page-head">{breadcrumbs_html(crumbs) if crumbs else ""}<h1>{_esc(h1)}</h1>{meta_line(page) if kind not in ("legal",) else ""}</div>' + call_strip(page)
     preload = "".join(f'<link rel="preload" as="font" type="font/woff2" href="{f}" crossorigin>' for f in PRELOAD_FONTS)
     hero_preload = '<link rel="preload" as="image" href="/static/images/hero-paver-driveway-1200.webp" type="image/webp" media="(min-width: 721px)" fetchpriority="high">' if is_home else ""
 
