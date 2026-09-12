@@ -34,7 +34,7 @@ Serviço `kissimmee-voice` criado espelhando `ocoee-voice` e `windermere-voice`,
 | Nameservers | **feito** | Zona ativa na Cloudflare. Removi 46 registros que o estacionamento do Afternic tinha deixado: wildcards, MX nulo, SPF `-all` e 34 delegações NS de subdomínio. |
 | Domínio no site | **feito** | `kissimmeeconcrete.com` e `www` ativos no Pages, certificados emitidos. |
 | `hello@kissimmeeconcrete.com` | **feito** | Email Routing ativo, regra + catch-all para `opusdigitalmarketingflorida@gmail.com`, igual ao Windermere. MX, SPF e DMARC publicados. Falta um envio de teste. |
-| `CONTACT_DESTINATION` no Worker | **pendente** | O Worker que manda o e-mail do formulário ainda não tem o destino configurado. Comando: `wrangler secret put CONTACT_DESTINATION` dentro de `site/workers/contact-email`. Sem isso o formulário responde que o serviço não está configurado. |
+| `CONTACT_DESTINATION` no Worker | **configurado** | Definido em 11/09/2026 como `opusdigitalmarketingflorida@gmail.com`, o mesmo destino verificado do Email Routing. Para trocar: `wrangler secret put CONTACT_DESTINATION --name kissimmeeconcrete-contact` dentro de `site/workers/contact-email`. Falta apenas enviar um lead de teste pelo formulário para confirmar a entrega. |
 | Turnstile | **pendente** | Criar um widget Turnstile para o domínio. A chave pública vai em `_data.TURNSTILE_SITE_KEY`, a secreta como `TURNSTILE_SECRET_KEY` na Pages Function. Sem ela o formulário funciona, mas só com honeypot e rate limit. |
 | Repositório GitHub | **feito** | `github.com/lucianodornfeld18-creator/kissimmeeconcrete`, ligado ao projeto Pages; cada push para `main` gera um build automático. |
 
